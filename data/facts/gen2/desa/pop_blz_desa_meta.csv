@@ -1,0 +1,9 @@
+key,value
+name,Belize - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Belize from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_blz_desa.csv
+filehash,e442fd2e73a12620160e177398b5608f9bea6279
+category,Demographics
+type,Population
+columns,"year,estimated-population"

@@ -1,0 +1,9 @@
+key,value
+name,Puerto Rico - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Puerto Rico from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_pri_desa.csv
+filehash,7086fc2b025887204d7d0a410d74c25e8fb318f1
+category,Demographics
+type,Population
+columns,"year,estimated-population"

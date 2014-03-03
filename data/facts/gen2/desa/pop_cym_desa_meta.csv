@@ -1,0 +1,9 @@
+key,value
+name,Cayman Islands - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Cayman Islands from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_cym_desa.csv
+filehash,a4372f63ab3f57547008136cdf4eaa74d9d72f4a
+category,Demographics
+type,Population
+columns,"year,estimated-population"

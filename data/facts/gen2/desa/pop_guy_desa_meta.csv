@@ -1,0 +1,9 @@
+key,value
+name,Guyana - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Guyana from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_guy_desa.csv
+filehash,36ea63984ee0b59bd9dd727c811f58e4be4d0b01
+category,Demographics
+type,Population
+columns,"year,estimated-population"

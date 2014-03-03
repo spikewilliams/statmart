@@ -1,0 +1,9 @@
+key,value
+name,Saint Kitts and Nevis - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Saint Kitts and Nevis from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_kna_desa.csv
+filehash,a597e9ac455a4da215236ec0cb7d361074d2398e
+category,Demographics
+type,Population
+columns,"year,estimated-population"

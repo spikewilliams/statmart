@@ -1,0 +1,9 @@
+key,value
+name,Grenada - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Grenada from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_grd_desa.csv
+filehash,f43b3b55930d974175be4da364bb950e9513a6cd
+category,Demographics
+type,Population
+columns,"year,estimated-population"

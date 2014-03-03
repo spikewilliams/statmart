@@ -1,0 +1,9 @@
+key,value
+name,Haiti - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Haiti from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_hti_desa.csv
+filehash,80c63a603e178b51710f274680d60c017079b491
+category,Demographics
+type,Population
+columns,"year,estimated-population"

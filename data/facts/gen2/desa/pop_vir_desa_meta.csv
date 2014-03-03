@@ -1,0 +1,9 @@
+key,value
+name,U.S. Virgin Islands - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for U.S. Virgin Islands from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_vir_desa.csv
+filehash,b96906a3ad8f8caad09e78083863546611e0a507
+category,Demographics
+type,Population
+columns,"year,estimated-population"

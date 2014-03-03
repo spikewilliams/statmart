@@ -1,0 +1,9 @@
+key,value
+name,Jamaica - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Jamaica from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_jam_desa.csv
+filehash,7caf1c290954e3e8a263aff2149ec85e40046ebf
+category,Demographics
+type,Population
+columns,"year,estimated-population"

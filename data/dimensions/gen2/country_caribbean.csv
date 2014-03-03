@@ -1,0 +1,27 @@
+iso2,iso3,isonum,name,cepalid
+AI,AIA,660,Anguilla,213
+AG,ATG,028,Antigua and Barbuda,214
+AW,ABW,533,Aruba,217
+BS,BHS,044,Bahamas,218
+BB,BRB,052,Barbados,219
+BZ,BLZ,084,Belize,220
+BM,BMU,060,Bermuda,31799
+KY,CYM,136,Cayman Islands,20442
+CU,CUB,192,Cuba,249
+DM,DMA,212,Dominica,228
+DO,DOM,214,Dominican Republic,264
+GD,GRD,308,Grenada,234
+GP,GLP,312,Guadeloupe,31800
+GY,GUY,328,Guyana,237
+HT,HTI,332,Haiti,238
+JM,JAM,388,Jamaica,246
+MS,MSR,500,Montserrat,236
+PR,PRI,630,Puerto Rico,261
+KN,KNA,659,Saint Kitts and Nevis,257
+LC,LCA,662,Saint Lucia,262
+VC,VCT,670,Saint Vincent and The Grenadines,260
+SR,SUR,740,Suriname,263
+TT,TTO,780,Trinidad and Tobago,256
+TC,TCA,796,Turks and Caicos Islands,3272
+VG,VGB,092,British Virgin Islands,243
+VI,VIR,850,U.S. Virgin Islands,245

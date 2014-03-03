@@ -1,0 +1,9 @@
+key,value
+name,Saint Vincent and The Grenadines - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for Saint Vincent and The Grenadines from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_vct_desa.csv
+filehash,02ad7d95b88c9299a70ae115716f8d5ad59e12b3
+category,Demographics
+type,Population
+columns,"year,estimated-population"

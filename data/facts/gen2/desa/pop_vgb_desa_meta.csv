@@ -1,0 +1,9 @@
+key,value
+name,British Virgin Islands - Population estimates (1950-2010) [UN DESA]
+dataset,UN DESA world population estimates
+description,"Population estimates for British Virgin Islands from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
+file,pop_vgb_desa.csv
+filehash,24d06374cf1cbeebc218235d877223d9e877ea31
+category,Demographics
+type,Population
+columns,"year,estimated-population"
