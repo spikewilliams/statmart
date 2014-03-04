@@ -3,7 +3,7 @@ name,Suriname - Population estimates (1950-2010) [UN DESA]
 dataset,UN DESA world population estimates
 description,"Population estimates for Suriname from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_sur_desa.csv
-filehash,db1b904b6da9784b10296576f496d47534865d2a
+filehash,d196ff02c69b7b937d97fafefc2520b2d6f670d1
 category,Demographics
 type,Population
 columns,"year,estimated-population"

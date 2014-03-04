@@ -1,0 +1,9 @@
+key,value
+name,Cuba - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Cuba: Hotels and restaurants
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/hr/gdp-sec-hr_cub_cepalstat.csv
+filehash,7cbddcb2caccb0a565f03ef47bd8c6030b345d7a
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

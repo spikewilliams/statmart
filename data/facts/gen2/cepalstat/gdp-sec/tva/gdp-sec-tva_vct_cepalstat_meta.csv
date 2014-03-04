@@ -1,0 +1,9 @@
+key,value
+name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Vincent and The Grenadines: Total value added
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tva/gdp-sec-tva_vct_cepalstat.csv
+filehash,731c2c055804256bb2690513e32cfdee6ef2bb79
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

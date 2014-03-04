@@ -1,0 +1,9 @@
+key,value
+name,Guyana - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Guyana: Mining and quarrying
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_guy_cepalstat.csv
+filehash,11683acd69a1eae83937bb884ddd69c9dccfb125
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

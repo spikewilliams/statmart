@@ -1,0 +1,9 @@
+key,value
+name,"Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Trinidad and Tobago: Agriculture, hunting, forestry and fishing"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufofi/gdp-sec-aghufofi_tto_cepalstat.csv
+filehash,444ed18f73e5a84f2938447b29a0a050165c350f
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

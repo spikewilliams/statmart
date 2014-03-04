@@ -1,0 +1,9 @@
+key,value
+name,"Grenada - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Grenada: Agriculture, hunting, forestry and fishing"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufofi/gdp-sec-aghufofi_grd_cepalstat.csv
+filehash,b31650998e2e849df6dd097494107097da2d2748
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

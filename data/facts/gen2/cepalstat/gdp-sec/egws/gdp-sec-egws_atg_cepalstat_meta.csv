@@ -1,0 +1,9 @@
+key,value
+name,"Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Antigua and Barbuda: Electricity, gas and water supply"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/egws/gdp-sec-egws_atg_cepalstat.csv
+filehash,3e726e51599bbc58b9a7e0d244a7a316af48ceaa
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -1,0 +1,9 @@
+key,value
+name,"Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Trinidad and Tobago: Financial intermediation, real estate, renting and business activities"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/firerba/gdp-sec-firerba_tto_cepalstat.csv
+filehash,c5825722fa26a6d9a59926d0525b17b5b0dca1a9
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -1,0 +1,9 @@
+key,value
+name,Grenada - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Grenada: Manufacturing
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_grd_cepalstat.csv
+filehash,62105c5ee12a7530bf74ad5a4895ab38a08a0e08
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

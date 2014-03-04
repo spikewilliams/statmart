@@ -1,0 +1,9 @@
+key,value
+name,Barbados - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Barbados: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_brb_cepalstat.csv
+filehash,41bd2675affcc40d577b328d2040312c54a261c8
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

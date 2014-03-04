@@ -1,0 +1,9 @@
+key,value
+name,"Jamaica - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Jamaica: Transport, storage and communications"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_jam_cepalstat.csv
+filehash,d9db7fa42a7f11709e001d75fcad94a509e019b4
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

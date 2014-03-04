@@ -1,0 +1,12 @@
+ID,Key,Value
+5000000,indicator-id,764
+5000001,indicator,Core inflation
+5000002,theme,Economic Indicators and Statistics
+5000003,area,Consumer
+5000004,indicator-note,(Translation in progress ...)
+5000005,unit,Indice Subyacente                                                                                                                                                                                        (Translation in progress ...)
+5000006,definition,Indicador que mide el nivel de precios promedio de una canasta de bienes y servicios de el país (Translation in progress ...)
+5000007,data-charactaristics,(Translation in progress ...)
+5000008,methodology,"El cálculo de la inflación subyacente intenta estimar un nivel general de precios que incorpore un suavizamiento de las fluctuaciones de corto plazo. Existen diferentes métodos para obtener el suavizamiento de la serie general de IPC, como por ejemplo, eliminar ciertas series individuales, como los precios de los bienes y servicios considerados volátiles, que es el método utilizado para obtener el índice subyacente para cada uno de los países, la elección de esta metodología se debe a que se cuenta con información desagregada a las grandes agregaciones para los IPCs y es un método estándar y comparable entre todos los países. Para implementar el cálculo se excluyo los índices de alimentos y bebidas, gastos de la vivienda y transporte, siendo estos dos últimos aquellos agregados en que se hallan los combustibles derivados del Petróleo, donde se encuentra los precios de productos considerados volátiles. (Translation in progress ...)"
+5000009,commentary,(Translation in progress ...)
+409,source, Economic Commission for Latin America and the Caribbean : Consumer price index

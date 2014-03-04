@@ -1,0 +1,9 @@
+key,value
+name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Kitts and Nevis: Transport and supporting and auxiliary activities
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsaa/gdp-sec-tsaa_kna_cepalstat.csv
+filehash,4b5ab8cd25f72e7cb203c953c05cdb3d81c4889c
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

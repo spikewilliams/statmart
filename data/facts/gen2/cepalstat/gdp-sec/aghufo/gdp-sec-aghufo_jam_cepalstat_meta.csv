@@ -1,0 +1,9 @@
+key,value
+name,"Jamaica - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting and forestry [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Jamaica: Agriculture, hunting and forestry"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufo/gdp-sec-aghufo_jam_cepalstat.csv
+filehash,915e6329d53048f13ff209b14530785d560a6c19
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

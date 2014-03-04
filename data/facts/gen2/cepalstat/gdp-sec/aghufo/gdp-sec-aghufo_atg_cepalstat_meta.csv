@@ -1,0 +1,9 @@
+key,value
+name,"Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting and forestry [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Antigua and Barbuda: Agriculture, hunting and forestry"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufo/gdp-sec-aghufo_atg_cepalstat.csv
+filehash,f880075539186d07be7e2ec21c3c68199ce95f9a
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

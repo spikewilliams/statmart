@@ -1,0 +1,155 @@
+Country,Year,Value,Source,Notes,ISO3
+Puerto Rico,1992,314,,,PRI
+Trinidad and Tobago,1992,274,,,TTO
+Suriname,1992,308,,,SUR
+Jamaica,1992,177,,,JAM
+Belize,1992,305,,,BLZ
+Dominican Republic,1992,145,,,DOM
+Bermudas,1992,459,,,BMU
+Saint Lucia,1992,204,,,LCA
+Dominica,1992,323,,,DMA
+Aruba,1992,272,,,ABW
+Guyana,1992,194,,,GUY
+Saint Vincent and the Grenadines,1992,300,,,VCT
+Barbados,1993,239,,,BRB
+Bermudas,1994,371,,,BMU
+Haiti,1995,21,,,HTI
+Cayman Islands,1995,546,,,CYM
+Saint Lucia,1995,254,,,LCA
+Antigua and Barbuda,1995,328,,,ATG
+Guyana,1995,210,,,GUY
+Saint Vincent and the Grenadines,1995,331,,,VCT
+Dominican Republic,1995,160,,,DOM
+Belize,1995,286,,,BLZ
+United States Virgin Islands,1995,438,,,VIR
+Jamaica,1995,170,,,JAM
+Saint Kitts and Nevis,1995,281,,,KNA
+Suriname,1995,302,,,SUR
+Puerto Rico,1995,310,,,PRI
+Aruba,1995,220,,,ABW
+Dominica,1995,304,,,DMA
+Trinidad and Tobago,1995,316,,,TTO
+Cuba,1997,297,,,CUB
+Dominica,1997,337,,,DMA
+Jamaica,1998,160,,,JAM
+Cayman Islands,1998,682,,,CYM
+Dominican Republic,1998,165,,,DOM
+Bahamas,1998,478,,,BHS
+Suriname,1998,382,,,SUR
+Antigua and Barbuda,1998,256,,,ATG
+Aruba,1998,224,,,ABW
+Barbados,1998,404,,,BRB
+Guyana,1998,232,,,GUY
+United States Virgin Islands,1998,412,,,VIR
+Guadalupe,1998,159,,,GLP
+Grenada,1998,352,,,GRD
+Saint Vincent and the Grenadines,1998,397,,,VCT
+Haiti,1998,45,,,HTI
+Belize,1998,436,,,BLZ
+Puerto Rico,1998,388,,,PRI
+Trinidad and Tobago,1998,369,,,TTO
+Saint Lucia,1998,208,,,LCA
+Saint Kitts and Nevis,1999,293,,,KNA
+Bermudas,1999,455,,,BMU
+British Virgin Islands,1999,215,,,VGB
+Trinidad and Tobago,2001,370,,,TTO
+Saint Vincent and the Grenadines,2001,280,,,VCT
+Barbados,2001,312,,,BRB
+Dominican Republic,2001,177,,,DOM
+Puerto Rico,2001,377,,,PRI
+United States Virgin Islands,2001,452,,,VIR
+Haiti,2001,41,,,HTI
+Guyana,2001,205,,,GUY
+Saint Lucia,2001,291,,,LCA
+Cayman Islands,2001,539,,,CYM
+Belize,2001,350,,,BLZ
+Dominica,2001,312,,,DMA
+Guadalupe,2001,146,,,GLP
+Grenada,2002,333,,,GRD
+Bahamas,2002,410,,,BHS
+Antigua and Barbuda,2002,192,,,ATG
+Bermudas,2003,512,,,BMU
+Saint Kitts and Nevis,2003,406,,,KNA
+Cuba,2003,487,,,CUB
+Jamaica,2003,179,,,JAM
+United States Virgin Islands,2004,524,,,VIR
+Saint Vincent and the Grenadines,2004,337,,,VCT
+Puerto Rico,2004,369,,,PRI
+Guadalupe,2004,173,,,GLP
+Belize,2004,416,,,BLZ
+Cayman Islands,2004,425,,,CYM
+Saint Lucia,2004,296,,,LCA
+Dominican Republic,2004,150,,,DOM
+Guyana,2004,172,,,GUY
+Barbados,2004,373,,,BRB
+Anguilla,2004,315,,,AIA
+Haiti,2004,21,,,HTI
+Dominica,2004,420,,,DMA
+Trinidad and Tobago,2004,297,,,TTO
+Antigua and Barbuda,2005,231,,,ATG
+Suriname,2005,356,,,SUR
+Bahamas,2005,460,,,BHS
+Grenada,2005,265,,,GRD
+British Virgin Islands,2005,464,,,VGB
+Aruba,2005,231,,,ABW
+Jamaica,2005,179,,,JAM
+Bermudas,2006,475,,,BMU
+Cuba,2006,531,,,CUB
+Cayman Islands,2007,409,,,CYM
+Saint Kitts and Nevis,2007,452,,,KNA
+Guadalupe,2007,174,,,GLP
+Puerto Rico,2007,330,,,PRI
+Anguilla,2007,400,,,AIA
+United States Virgin Islands,2007,507,,,VIR
+Guyana,2007,289,,,GUY
+Trinidad and Tobago,2007,264,,,TTO
+Haiti,2007,66,,,HTI
+Dominican Republic,2007,160,,,DOM
+Saint Vincent and the Grenadines,2007,350,,,VCT
+Dominica,2007,362,,,DMA
+Jamaica,2007,174,,,JAM
+Belize,2007,458,,,BLZ
+Barbados,2007,382,,,BRB
+British Virgin Islands,2008,509,,,VGB
+Bahamas,2008,415,,,BHS
+Saint Lucia,2008,304,,,LCA
+Antigua and Barbuda,2008,262,,,ATG
+Grenada,2008,427,,,GRD
+Suriname,2009,175,,,SUR
+Jamaica,2009,189,,,JAM
+Cayman Islands,2010,382,,,CYM
+Barbados,2010,333,,,BRB
+Saint Lucia,2010,301,,,LCA
+Guyana,2010,281,,,GUY
+United States Virgin Islands,2010,530,,,VIR
+Trinidad and Tobago,2010,274,,,TTO
+Belize,2010,446,,,BLZ
+Saint Kitts and Nevis,2010,529,,,KNA
+Saint Vincent and the Grenadines,2010,379,,,VCT
+Anguilla,2010,387,,,AIA
+Dominica,2010,434,,,DMA
+British Virgin Islands,2010,460,,,VGB
+Puerto Rico,2011,311,,,PRI
+Saint Kitts and Nevis,2011,649,,,KNA
+Saint Vincent and the Grenadines,2011,424,,,VCT
+Antigua and Barbuda,2011,334,,,ATG
+Aruba,2011,228,,,ABW
+Suriname,2011,191,,,SUR
+Guadalupe,2011,169,,,GLP
+Barbados,2011,377,,,BRB
+Dominican Republic,2011,210,,,DOM
+Guyana,2011,260,,,GUY
+Saint Lucia,2011,313,,,LCA
+Haiti,2011,72,,,HTI
+Bahamas,2011,371,,,BHS
+United States Virgin Islands,2011,539,,,VIR
+Jamaica,2011,163,,,JAM
+Belize,2012,407,,,BLZ
+Bermudas,2012,417,,,BMU
+Antigua and Barbuda,2012,397,,,ATG
+Cuba,2012,510,,,CUB
+Dominica,2012,356,,,DMA
+Anguilla,2012,487,,,AIA
+Grenada,2012,402,,,GRD
+Guadalupe,2012,164,,,GLP
+Trinidad and Tobago,2012,259,,,TTO

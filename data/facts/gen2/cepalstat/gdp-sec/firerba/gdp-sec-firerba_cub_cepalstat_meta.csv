@@ -1,0 +1,9 @@
+key,value
+name,"Cuba - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Cuba: Financial intermediation, real estate, renting and business activities"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/firerba/gdp-sec-firerba_cub_cepalstat.csv
+filehash,c73d3ce8ee1851e10bade7ff37b9e7153e532f8b
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

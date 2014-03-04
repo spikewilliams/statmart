@@ -1,0 +1,9 @@
+key,value
+name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Antigua and Barbuda: Gross domestic product (GDP)
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_atg_cepalstat.csv
+filehash,6c55a1b03eacddddb15832f191652e60fc725f54
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -3,7 +3,7 @@ name,Saint Lucia - Population estimates (1950-2010) [UN DESA]
 dataset,UN DESA world population estimates
 description,"Population estimates for Saint Lucia from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_lca_desa.csv
-filehash,7affe0c627dde446976754621d5c6f0eeac14981
+filehash,e413edce565787b3e82a41d37ae0a0360500c8a5
 category,Demographics
 type,Population
 columns,"year,estimated-population"

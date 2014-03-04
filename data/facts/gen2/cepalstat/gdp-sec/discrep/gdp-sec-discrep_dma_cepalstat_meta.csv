@@ -1,0 +1,9 @@
+key,value
+name,Dominica - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Dominica: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_dma_cepalstat.csv
+filehash,97ed0d6399114a022d8168a1c79069e4c9dab71a
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

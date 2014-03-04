@@ -1,0 +1,9 @@
+key,value
+name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Jamaica: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_jam_cepalstat.csv
+filehash,a4c3a184ea5e5e14c88c00d15898a9d37d0cd01e
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

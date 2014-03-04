@@ -1,0 +1,9 @@
+key,value
+name,Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Trinidad and Tobago: Total value added
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tva/gdp-sec-tva_tto_cepalstat.csv
+filehash,3afb33f4ffb29f1fb0f08a4df1cce7e64a43cd87
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

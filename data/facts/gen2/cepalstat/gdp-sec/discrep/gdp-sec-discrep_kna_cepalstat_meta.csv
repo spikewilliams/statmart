@@ -1,0 +1,9 @@
+key,value
+name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Kitts and Nevis: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_kna_cepalstat.csv
+filehash,86daea64a1c51db2370ed007f21ff8dc479e8f52
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

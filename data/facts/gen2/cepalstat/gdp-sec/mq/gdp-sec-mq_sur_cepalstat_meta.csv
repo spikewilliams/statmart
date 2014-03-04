@@ -1,0 +1,9 @@
+key,value
+name,Suriname - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Suriname: Mining and quarrying
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_sur_cepalstat.csv
+filehash,fa1682a5657a4b6c139f2fe7226fe3cca06667d1
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

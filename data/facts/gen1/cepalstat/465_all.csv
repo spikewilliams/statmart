@@ -1,0 +1,90 @@
+Geographical area,Country,Property of the dwelling,Year,Value,Source,Notes,ISO3
+National,Barbados,Owner,1980,47258,206,1005,BRB
+National,Barbados,Dwellings total,1980,67387,206,1005,BRB
+National,Grenada,Tenat,1980,5221,206,,GRD
+National,Dominica,Dwellings total,1980,17343,206,,DMA
+National,Grenada,Dwellings total,1980,21297,206,,GRD
+National,British Virgin Islands,Dwellings total,1980,3382,206,,VGB
+National,Dominica,Tenat,1980,5386,206,,DMA
+National,British Virgin Islands,Other forms of tenancy,1980,76,206,,VGB
+National,Grenada,Other forms of tenancy,1980,468,206,,GRD
+National,Barbados,Tenat,1980,17897,206,1005,BRB
+National,Dominica,Other forms of tenancy,1980,649,206,,DMA
+National,Barbados,Other forms of tenancy,1980,2232,206,1005,BRB
+National,British Virgin Islands,Tenat,1980,1726,206,,VGB
+National,Dominica,Owner,1980,11308,206,,DMA
+National,Grenada,Owner,1980,15608,206,,GRD
+National,British Virgin Islands,Owner,1980,1580,206,,VGB
+National,Trinidad and Tobago,Other forms of tenancy,1982,3324,206,,TTO
+National,Trinidad and Tobago,Owner,1982,150165,206,,TTO
+National,Jamaica,Tenat,1982,211211,206,,JAM
+National,Trinidad and Tobago,Dwellings total,1982,234727,206,,TTO
+National,Jamaica,Dwellings total,1982,517768,206,,JAM
+National,Jamaica,Other forms of tenancy,1982,64898,206,,JAM
+National,Trinidad and Tobago,Tenat,1982,81238,206,,TTO
+National,Jamaica,Owner,1982,241659,206,,JAM
+National,Saint Lucia,Owner,1991,23956,206,,LCA
+National,Saint Lucia,Tenat,1991,8872,206,,LCA
+National,Belize,Dwellings total,1991,37943,206,1005,BLZ
+National,Saint Lucia,Dwellings total,1991,33079,206,,LCA
+National,Saint Lucia,Other forms of tenancy,1991,251,206,,LCA
+Rural,Belize,Tenat,2000,2158,206,1005,BLZ
+National,Trinidad and Tobago,Other forms of tenancy,2000,27435,206,"1007,1005",TTO
+Urban,Belize,Owner,2000,13726,206,1005,BLZ
+National,Trinidad and Tobago,Dwellings total,2000,303871,206,1005,TTO
+National,Trinidad and Tobago,Tenat,2000,46144,206,1005,TTO
+Rural,Belize,Other forms of tenancy,2000,4800,206,"1007,1005",BLZ
+Rural,Belize,Owner,2000,18531,206,1005,BLZ
+Rural,Belize,Dwellings total,2000,25489,206,1005,BLZ
+Urban,Belize,Other forms of tenancy,2000,3191,206,"1007,1005",BLZ
+Urban,Belize,Tenat,2000,8992,206,1005,BLZ
+National,Belize,Dwellings total,2000,51398,206,1005,BLZ
+National,Belize,Owner,2000,32257,206,1005,BLZ
+National,Belize,Tenat,2000,11150,206,1005,BLZ
+National,Belize,Other forms of tenancy,2000,7991,206,"1007,1005",BLZ
+Urban,Belize,Dwellings total,2000,25909,206,1005,BLZ
+National,Trinidad and Tobago,Owner,2000,230292,206,1005,TTO
+National,Antigua and Barbuda,Other forms of tenancy,2001,848,,1007,ATG
+National,Antigua and Barbuda,Tenat,2001,6707,,,ATG
+National,Antigua and Barbuda,Owner,2001,12909,,,ATG
+National,Antigua and Barbuda,Dwellings total,2001,20464,,,ATG
+National,Netherlands Antilles,Other forms of tenancy,2001,1706,206,,ANT
+National,Netherlands Antilles,Tenat,2001,22174,206,,ANT
+National,Netherlands Antilles,Owner,2001,36151,206,,ANT
+National,Netherlands Antilles,Dwellings total,2001,60031,206,,ANT
+Rural,Saint Lucia,Other forms of tenancy,2001,1988,206,,LCA
+Rural,Saint Lucia,Tenat,2001,4350,206,,LCA
+Rural,Saint Lucia,Owner,2001,27065,206,,LCA
+Rural,Saint Lucia,Dwellings total,2001,33403,206,,LCA
+Urban,Saint Lucia,Other forms of tenancy,2001,832,206,,LCA
+Urban,Saint Lucia,Tenat,2001,4586,206,,LCA
+Urban,Saint Lucia,Owner,2001,7996,206,,LCA
+Urban,Saint Lucia,Dwellings total,2001,13414,206,,LCA
+National,Saint Lucia,Other forms of tenancy,2001,2820,206,,LCA
+National,Saint Lucia,Dwellings total,2001,46817,206,,LCA
+National,Saint Lucia,Owner,2001,35061,206,,LCA
+National,Saint Lucia,Tenat,2001,8937,206,,LCA
+Rural,Dominican Republic,Other forms of tenancy,2002,106178,206,,DOM
+Rural,Dominican Republic,Tenat,2002,105154,206,,DOM
+Rural,Dominican Republic,Owner,2002,583902,206,,DOM
+Rural,Dominican Republic,Dwellings total,2002,795234,206,,DOM
+Urban,Dominican Republic,Other forms of tenancy,2002,103282,206,,DOM
+Urban,Dominican Republic,Tenat,2002,512577,206,,DOM
+Urban,Dominican Republic,Owner,2002,782755,206,,DOM
+Urban,Dominican Republic,Dwellings total,2002,1398614,206,,DOM
+National,Dominican Republic,Other forms of tenancy,2002,209460,206,,DOM
+National,Dominican Republic,Tenat,2002,617731,206,,DOM
+National,Dominican Republic,Owner,2002,1366657,206,,DOM
+National,Dominican Republic,Dwellings total,2002,2193848,206,,DOM
+National,Haiti,Dwellings total,2003,153208,206,,HTI
+National,Haiti,Owner,2003,89172,206,,HTI
+National,Haiti,Tenat,2003,33027,206,,HTI
+National,Haiti,Other forms of tenancy,2003,31009,206,,HTI
+Urban,Haiti,Dwellings total,2003,74390,206,,HTI
+Urban,Haiti,Owner,2003,39026,206,,HTI
+Urban,Haiti,Tenat,2003,17776,206,,HTI
+Urban,Haiti,Other forms of tenancy,2003,17588,206,,HTI
+Rural,Haiti,Dwellings total,2003,44076,206,,HTI
+Rural,Haiti,Owner,2003,37174,206,,HTI
+Rural,Haiti,Tenat,2003,1040,206,,HTI
+Rural,Haiti,Other forms of tenancy,2003,5862,206,,HTI

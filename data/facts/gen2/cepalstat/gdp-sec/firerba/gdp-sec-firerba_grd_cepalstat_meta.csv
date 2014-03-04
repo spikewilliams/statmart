@@ -1,0 +1,9 @@
+key,value
+name,"Grenada - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Grenada: Financial intermediation, real estate, renting and business activities"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/firerba/gdp-sec-firerba_grd_cepalstat.csv
+filehash,76c52b84c93bf334fc17f6820c6014a0d8a34b2f
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

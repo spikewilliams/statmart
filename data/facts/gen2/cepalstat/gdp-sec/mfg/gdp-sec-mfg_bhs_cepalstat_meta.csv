@@ -1,0 +1,9 @@
+key,value
+name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Bahamas: Manufacturing
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_bhs_cepalstat.csv
+filehash,c16dd42e52d30fb544df36a9c28db1eeae3e5039
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

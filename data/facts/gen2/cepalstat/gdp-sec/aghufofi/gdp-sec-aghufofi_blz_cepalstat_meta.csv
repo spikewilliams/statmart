@@ -1,0 +1,9 @@
+key,value
+name,"Belize - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Belize: Agriculture, hunting, forestry and fishing"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufofi/gdp-sec-aghufofi_blz_cepalstat.csv
+filehash,f8efec0520fd465d7932f07462cb59755bc98a77
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

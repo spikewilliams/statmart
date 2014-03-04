@@ -1,0 +1,51 @@
+ID,Key,Value
+5000000,indicator-id,365
+5000001,indicator,Consumer price index
+5000002,theme,Economic Indicators and Statistics
+5000003,area,Consumer
+5000004,indicator-note,(Translation in progress ...)
+5000005,unit,Indice General                                                                                                                                                                                           (Translation in progress ...)
+5000006,definition,Indicador que mide el nivel de precios promedio de una canasta de bienes y servicios determinada por el país (Translation in progress ...)
+5000007,data-charactaristics,Cifra oficial del país (Translation in progress ...)
+5000008,methodology,"El índice de precios al consumidor se calcula mediante un promedio ponderado de precios, sobre la base de una determinada canasta de consumo familiar, que es representativa de los consumos habituales del area geográfica al que esta referido el índice, es de un tamaño tal que asegura su representatividad para cada nivel socioeconómico. Existen muchas fórmulas para el cálculo del índice de precios, pero la más aplicada internacionalmente, por su operatividad es la de Laspeyres, que utiliza una estructura con ponderaciones fijas. (Translation in progress ...)"
+5000009,commentary,Años Base:  Argentina : 1999 Bahamas : Octubre/Noviembre1995 Barbados : Julio 2001 Bolivia : 1991 Brasil : Diciembre 1993 Chile : Diciembre 1998 Colombia : Diciembre 1998 Costa Rica : Enero 1995 Ecuador : Septiembre1994-Agosto 1995 El Salvador : Diciembre 1992 Guatemala : Diciembre 2000 Haití : Noviembre 1996 Honduras : Diciembre 1999 Jamaica : Enero 1988 México : Segunda quincena de junio 2002 Nicaragua : 1999 Panamá : 1987 Paraguay : 1992 Perú : Diciembre 2001 República Dominicana : Enero 1999 Trinidad y Tobago : Enero 2003 Uruguay : Marzo 1997 Venezuela : 1997      (Translation in progress ...)
+2822,note,Barbados.
+1011,note,Base 1990=100                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+5937,note,Base 2004=100
+5949,note,Base Abril-Junio 2009=100 (Translation in progress ...)
+5962,note,Base Agosto 2004=100 (Translation in progress ...)
+5941,note,Base Diciembre 2006=100 (Translation in progress ...)
+5938,note,Base Diciembre 2009=100 (Translation in progress ...)
+5947,note,Base Diciembre 2010=100 (Translation in progress ...)
+5910,note,Base January 2001=100
+5950,note,Base Enero 2003=100 (Translation in progress ...)
+5948,note,Base Enero 2008=100 (Translation in progress ...)
+5931,note,Base July 2001=100
+5930,note,Base October/November 1995=100
+5952,note,Belize
+2820,note,Federal capital and Greater Buenos Aires.
+2840,note,Castries.
+2828,note,Ecuador.
+5911,note,"El IPC de Argentina cambio base en Abril 2008, sin embargo se ha mantenido el nivel de la base anterior y sólo se aplicado la variación mensual correspondiente para actualizar la serie (Translation in progress ...)"
+5958,note,Georgetown
+2833,note,Jamaica.
+3775,note,New Providence
+2841,note,Paramaribo.
+2831,note,Port-au-Prince.
+2839,note,Dominican Republic.
+2842,note,Trinidad and Tobago.
+270,source,Central Bank of the Dominican Republic: Consumer price index
+274,source,Central Bank of the Bahamas: Consumer Price Index
+275,source, Central Bank of Barbados : Consumer price index
+276,source, Institut Haïtien de Statistique et Informatique (IHSI) : Consumer price index
+277,source, Bank of Jamaica : Consumer price index
+278,source,Central Bank of Trinidad and Tobago: Retail price index
+925,source,East Caribbean Central Bank:  Consumer Price Index 
+926,source, Bureau of Statistics :  Consumer Price Index 
+931,source,East Caribbean Central Bank: Consumer Price Index of Antigua and Barbuda
+934,source, Statistical Institute of Belize :  Consumer Price Index of Belize 
+936,source,East Caribbean Central Bank:  Indice de precios de Dominica  (Translation in progress ...)
+937,source,East Caribbean Central Bank:  Consumer Price Index of Grenada 
+938,source, Bureau of Statistics :  Urban Consumer Price Index of Guyana 
+939,source,East Caribbean Central Bank: Consumer Price Index of St Kitts and Nevis
+940,source,East Caribbean Central Bank:  Consumer Price Index of St Vincent and the Grenadines 

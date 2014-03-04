@@ -1,0 +1,9 @@
+key,value
+name,"Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Dominican Republic: Agriculture, hunting, forestry and fishing"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufofi/gdp-sec-aghufofi_dom_cepalstat.csv
+filehash,6cd20ceb7524af6bfbb04fdc612b7a7c69534315
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

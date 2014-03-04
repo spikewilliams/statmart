@@ -3,7 +3,7 @@ name,Cuba - Population estimates (1950-2010) [UN DESA]
 dataset,UN DESA world population estimates
 description,"Population estimates for Cuba from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_cub_desa.csv
-filehash,4a65984a908c4bfef6c9899bcdc29176423f9cb2
+filehash,c306720eaf0a636161eee95a038b168611ba98b5
 category,Demographics
 type,Population
 columns,"year,estimated-population"

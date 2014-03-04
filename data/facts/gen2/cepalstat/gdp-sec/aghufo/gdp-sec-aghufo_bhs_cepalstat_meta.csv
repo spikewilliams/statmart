@@ -1,0 +1,9 @@
+key,value
+name,"Bahamas - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting and forestry [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Bahamas: Agriculture, hunting and forestry"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufo/gdp-sec-aghufo_bhs_cepalstat.csv
+filehash,24dc6bad00f1f08564bb287880229afa0eecb4ae
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -1,0 +1,9 @@
+key,value
+name,Cuba - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Cuba: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_cub_cepalstat.csv
+filehash,fec369a3c23dfe50b141e0a9c465e61696adaadd
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

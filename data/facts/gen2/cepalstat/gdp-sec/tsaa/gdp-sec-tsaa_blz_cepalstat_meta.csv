@@ -1,0 +1,9 @@
+key,value
+name,Belize - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Belize: Transport and supporting and auxiliary activities
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsaa/gdp-sec-tsaa_blz_cepalstat.csv
+filehash,38e73ff1b2d8a2bcf489e966fd84b6b05fc11fd8
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -1,0 +1,9 @@
+key,value
+name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Lucia: Hotels and restaurants
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/hr/gdp-sec-hr_lca_cepalstat.csv
+filehash,b71f24b2f2645c49faf9e5c3daa5d6599354d212
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

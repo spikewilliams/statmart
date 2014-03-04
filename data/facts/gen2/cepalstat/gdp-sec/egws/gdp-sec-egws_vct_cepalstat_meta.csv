@@ -1,0 +1,9 @@
+key,value
+name,"Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Saint Vincent and The Grenadines: Electricity, gas and water supply"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/egws/gdp-sec-egws_vct_cepalstat.csv
+filehash,ee3a4f7b47cc04f709214c9c2c8c106316eeed45
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

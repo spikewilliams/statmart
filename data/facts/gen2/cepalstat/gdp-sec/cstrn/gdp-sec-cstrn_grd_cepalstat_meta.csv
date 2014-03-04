@@ -1,0 +1,9 @@
+key,value
+name,Grenada - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Grenada: Construction
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_grd_cepalstat.csv
+filehash,f060b1a86a10035bdb3ce985bb1e634490ba4a15
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

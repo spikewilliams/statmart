@@ -1,0 +1,546 @@
+Country,Year,Value,Source,Notes,ISO3
+Anguilla,1990,24,51,1659,AIA
+Dominica,1990,15,51,1659,DMA
+Cuba,1990,25,51,1659,CUB
+Netherlands Antilles,1990,5.3,51,1659,ANT
+Grenada,1990,4.6,51,1659,GRD
+Guyana,1990,89,51,1659,GUY
+Haiti,1990,247,51,1659,HTI
+Belize,1990,40,51,1659,BLZ
+Trinidad and Tobago,1990,10,51,1659,TTO
+Aruba,1990,6.4,51,1659,ABW
+Cayman Islands,1990,12,51,1659,CYM
+Barbados,1990,2.5,51,1659,BRB
+Suriname,1990,63,51,1659,SUR
+Antigua and Barbuda,1990,2.9,51,1659,ATG
+British Virgin Islands,1990,17,51,1659,VGB
+United States Virgin Islands,1990,4.5,51,1659,VIR
+Jamaica,1990,6.5,51,1659,JAM
+Saint Lucia,1990,15,51,1659,LCA
+Montserrat,1990,6.3,51,1659,MSR
+Bahamas,1990,21,51,1659,BHS
+Saint Vincent and the Grenadines,1990,27,51,1659,VCT
+Puerto Rico,1990,6.2,51,1659,PRI
+Dominican Republic,1990,148,51,1659,DOM
+Saint Kitts and Nevis,1990,0.2,51,1659,KNA
+Netherlands Antilles,1991,5.2,51,1659,ANT
+Haiti,1991,247,51,1659,HTI
+Bahamas,1991,23,51,1659,BHS
+Cayman Islands,1991,10,51,1659,CYM
+Anguilla,1991,24,51,1659,AIA
+Trinidad and Tobago,1991,12,51,1659,TTO
+Suriname,1991,71,51,1659,SUR
+Guyana,1991,89,51,1659,GUY
+British Virgin Islands,1991,17,51,1659,VGB
+Saint Lucia,1991,17,51,1659,LCA
+United States Virgin Islands,1991,5.4,51,1659,VIR
+Barbados,1991,2.3,51,1659,BRB
+Grenada,1991,4.6,51,1659,GRD
+Jamaica,1991,6.5,51,1659,JAM
+Belize,1991,40,51,1659,BLZ
+Aruba,1991,6.4,51,1659,ABW
+Dominica,1991,15,51,1659,DMA
+Montserrat,1991,5.8,51,1659,MSR
+Saint Vincent and the Grenadines,1991,27,51,1659,VCT
+Puerto Rico,1991,7,51,1659,PRI
+Saint Kitts and Nevis,1991,4.7,51,1659,KNA
+Cuba,1991,23,51,1659,CUB
+Dominican Republic,1991,142,51,1659,DOM
+Antigua and Barbuda,1991,3.6,51,1659,ATG
+Antigua and Barbuda,1992,4.1,51,1659,ATG
+Cuba,1992,22,51,1659,CUB
+Saint Kitts and Nevis,1992,8.3,51,1659,KNA
+Belize,1992,40,51,1659,BLZ
+Montserrat,1992,5.7,51,1659,MSR
+Aruba,1992,6.4,51,1659,ABW
+Dominica,1992,15,51,1659,DMA
+Jamaica,1992,6.5,51,1659,JAM
+Barbados,1992,2.1,51,1659,BRB
+Saint Vincent and the Grenadines,1992,27,51,1659,VCT
+Grenada,1992,4.6,51,1659,GRD
+British Virgin Islands,1992,18,51,1659,VGB
+Saint Lucia,1992,18,51,1659,LCA
+Turks and Caicos Islands,1992,11,51,1659,TCA
+Bahamas,1992,25,51,1659,BHS
+Suriname,1992,78,51,1659,SUR
+Puerto Rico,1992,7.5,51,1659,PRI
+Cayman Islands,1992,9,51,1659,CYM
+Trinidad and Tobago,1992,13,51,1659,TTO
+United States Virgin Islands,1992,6.2,51,1659,VIR
+Anguilla,1992,24,51,1659,AIA
+Haiti,1992,247,51,1659,HTI
+Dominican Republic,1992,137,51,1659,DOM
+Guyana,1992,89,51,1659,GUY
+Netherlands Antilles,1992,5.2,51,1659,ANT
+Grenada,1993,4.6,51,1659,GRD
+British Virgin Islands,1993,18,51,1659,VGB
+Montserrat,1993,6.4,51,1659,MSR
+Saint Lucia,1993,18,51,1659,LCA
+Guyana,1993,89,51,1659,GUY
+Belize,1993,40,51,1659,BLZ
+Netherlands Antilles,1993,5.1,51,1659,ANT
+Haiti,1993,247,51,1659,HTI
+Saint Vincent and the Grenadines,1993,27,51,1659,VCT
+Dominica,1993,14,51,1659,DMA
+Aruba,1993,6.4,51,1659,ABW
+Puerto Rico,1993,7.9,51,1659,PRI
+Cuba,1993,21,51,1659,CUB
+Dominican Republic,1993,131,51,1659,DOM
+Anguilla,1993,24,51,1659,AIA
+Suriname,1993,84,51,1659,SUR
+Jamaica,1993,6.5,51,1659,JAM
+Bahamas,1993,27,51,1659,BHS
+Turks and Caicos Islands,1993,25,51,1659,TCA
+Antigua and Barbuda,1993,4.6,51,1659,ATG
+Saint Kitts and Nevis,1993,11,51,1659,KNA
+Trinidad and Tobago,1993,14,51,1659,TTO
+Barbados,1993,1.9,51,1659,BRB
+Cayman Islands,1993,7.8,51,1659,CYM
+United States Virgin Islands,1993,6.8,51,1659,VIR
+Dominican Republic,1994,126,51,1659,DOM
+Trinidad and Tobago,1994,15,51,1659,TTO
+Bahamas,1994,29,51,1659,BHS
+Antigua and Barbuda,1994,4.9,51,1659,ATG
+Turks and Caicos Islands,1994,39,51,1659,TCA
+Barbados,1994,1.8,51,1659,BRB
+Cayman Islands,1994,7,51,1659,CYM
+Suriname,1994,88,51,1659,SUR
+Jamaica,1994,6.5,51,1659,JAM
+Cuba,1994,20,51,1659,CUB
+Puerto Rico,1994,8,51,1659,PRI
+Saint Kitts and Nevis,1994,13,51,1659,KNA
+Aruba,1994,6.4,51,1659,ABW
+Guyana,1994,89,51,1659,GUY
+Saint Vincent and the Grenadines,1994,27,51,1659,VCT
+Netherlands Antilles,1994,5.1,51,1659,ANT
+Belize,1994,40,51,1659,BLZ
+Grenada,1994,4.5,51,1659,GRD
+Montserrat,1994,7.5,51,1659,MSR
+Saint Lucia,1994,19,51,1659,LCA
+Anguilla,1994,23,51,1659,AIA
+Dominica,1994,14,51,1659,DMA
+British Virgin Islands,1994,18,51,1659,VGB
+United States Virgin Islands,1994,7.3,51,1659,VIR
+Haiti,1994,247,51,1659,HTI
+Haiti,1995,247,51,1659,HTI
+Aruba,1995,6.4,51,1659,ABW
+Netherlands Antilles,1995,4.9,51,1659,ANT
+Puerto Rico,1995,7.9,51,1659,PRI
+Cuba,1995,19,51,1659,CUB
+Suriname,1995,92,51,1659,SUR
+United States Virgin Islands,1995,7.7,51,1659,VIR
+Saint Lucia,1995,18,51,1659,LCA
+Belize,1995,40,51,1659,BLZ
+Saint Vincent and the Grenadines,1995,27,51,1659,VCT
+Guyana,1995,89,51,1659,GUY
+Antigua and Barbuda,1995,5.1,51,1659,ATG
+Cayman Islands,1995,6.2,51,1659,CYM
+Jamaica,1995,6.5,51,1659,JAM
+British Virgin Islands,1995,17,51,1659,VGB
+Montserrat,1995,8.5,51,1659,MSR
+Trinidad and Tobago,1995,16,51,1659,TTO
+Dominica,1995,14,51,1659,DMA
+Barbados,1995,1.7,51,1659,BRB
+Dominican Republic,1995,121,51,1659,DOM
+Bahamas,1995,29,51,1659,BHS
+Saint Kitts and Nevis,1995,14,51,1659,KNA
+Grenada,1995,4.5,51,1659,GRD
+Turks and Caicos Islands,1995,50,51,1659,TCA
+Anguilla,1995,23,51,1659,AIA
+Grenada,1996,4.5,51,1659,GRD
+Netherlands Antilles,1996,4.7,51,1659,ANT
+Saint Vincent and the Grenadines,1996,26,51,1659,VCT
+Jamaica,1996,6.5,51,1659,JAM
+Saint Lucia,1996,17,51,1659,LCA
+Saint Kitts and Nevis,1996,14,51,1659,KNA
+Barbados,1996,1.6,51,1659,BRB
+Antigua and Barbuda,1996,5,51,1659,ATG
+Dominican Republic,1996,117,51,1659,DOM
+Dominica,1996,14,51,1659,DMA
+Trinidad and Tobago,1996,17,51,1659,TTO
+Montserrat,1996,10,51,1659,MSR
+British Virgin Islands,1996,16,51,1659,VGB
+Cayman Islands,1996,5.8,51,1659,CYM
+United States Virgin Islands,1996,7.8,51,1659,VIR
+Guyana,1996,89,51,1659,GUY
+Puerto Rico,1996,7.6,51,1659,PRI
+Suriname,1996,94,51,1659,SUR
+Cuba,1996,18,51,1659,CUB
+Belize,1996,40,51,1659,BLZ
+Anguilla,1996,23,51,1659,AIA
+Aruba,1996,6.4,51,1659,ABW
+Turks and Caicos Islands,1996,61,51,1659,TCA
+Haiti,1996,247,51,1659,HTI
+Bahamas,1996,30,51,1659,BHS
+Cuba,1997,16,51,1659,CUB
+Netherlands Antilles,1997,4.6,51,1659,ANT
+British Virgin Islands,1997,14,51,1659,VGB
+Saint Lucia,1997,16,51,1659,LCA
+Jamaica,1997,6.5,51,1659,JAM
+Dominican Republic,1997,112,51,1659,DOM
+Dominica,1997,14,51,1659,DMA
+Saint Vincent and the Grenadines,1997,26,51,1659,VCT
+Anguilla,1997,23,51,1659,AIA
+Barbados,1997,1.5,51,1659,BRB
+Turks and Caicos Islands,1997,71,51,1659,TCA
+Bahamas,1997,30,51,1659,BHS
+Grenada,1997,4.4,51,1659,GRD
+Trinidad and Tobago,1997,18,51,1659,TTO
+Antigua and Barbuda,1997,4.8,51,1659,ATG
+Saint Kitts and Nevis,1997,13,51,1659,KNA
+Cayman Islands,1997,5.7,51,1659,CYM
+Montserrat,1997,13,51,1659,MSR
+Guyana,1997,89,51,1659,GUY
+United States Virgin Islands,1997,7.8,51,1659,VIR
+Suriname,1997,95,51,1659,SUR
+Puerto Rico,1997,7,51,1659,PRI
+Haiti,1997,247,51,1659,HTI
+Belize,1997,40,51,1659,BLZ
+Aruba,1997,6.4,51,1659,ABW
+Belize,1998,40,51,1659,BLZ
+Aruba,1998,6.4,51,1659,ABW
+Suriname,1998,94,51,1659,SUR
+United States Virgin Islands,1998,7.7,51,1659,VIR
+Guyana,1998,95,51,1659,GUY
+Haiti,1998,256,51,1659,HTI
+Puerto Rico,1998,6.4,51,1659,PRI
+Montserrat,1998,14,51,1659,MSR
+Saint Kitts and Nevis,1998,12,51,1659,KNA
+Cayman Islands,1998,5.6,51,1659,CYM
+Barbados,1998,1.5,51,1659,BRB
+Trinidad and Tobago,1998,18,51,1659,TTO
+Grenada,1998,4.4,51,1659,GRD
+Cuba,1998,15,51,1659,CUB
+Anguilla,1998,23,51,1659,AIA
+Saint Lucia,1998,14,51,1659,LCA
+Dominica,1998,14,51,1659,DMA
+Saint Vincent and the Grenadines,1998,26,51,1659,VCT
+Jamaica,1998,6.5,51,1659,JAM
+Dominican Republic,1998,108,51,1659,DOM
+Bahamas,1998,30,51,1659,BHS
+British Virgin Islands,1998,13,51,1659,VGB
+Antigua and Barbuda,1998,4.6,51,1659,ATG
+Netherlands Antilles,1998,4.6,51,1659,ANT
+Turks and Caicos Islands,1998,76,51,1659,TCA
+Cuba,1999,14,51,1659,CUB
+Dominican Republic,1999,104,51,1659,DOM
+Netherlands Antilles,1999,4.8,51,1659,ANT
+Dominica,1999,14,51,1659,DMA
+Anguilla,1999,23,51,1659,AIA
+Grenada,1999,4.4,51,1659,GRD
+Trinidad and Tobago,1999,18,51,1659,TTO
+United States Virgin Islands,1999,7.7,51,1659,VIR
+Saint Kitts and Nevis,1999,10,51,1659,KNA
+Guyana,1999,100,51,1659,GUY
+Suriname,1999,91,51,1659,SUR
+Puerto Rico,1999,5.7,51,1659,PRI
+Aruba,1999,6.4,51,1659,ABW
+Belize,1999,40,51,1659,BLZ
+Haiti,1999,264,51,1659,HTI
+Cayman Islands,1999,5.5,51,1659,CYM
+Barbados,1999,1.8,51,1659,BRB
+Montserrat,1999,14,51,1659,MSR
+Saint Lucia,1999,13,51,1659,LCA
+Turks and Caicos Islands,1999,70,51,1659,TCA
+Jamaica,1999,6.5,51,1659,JAM
+Saint Vincent and the Grenadines,1999,26,51,1659,VCT
+British Virgin Islands,1999,11,51,1659,VGB
+Antigua and Barbuda,1999,4.6,51,1659,ATG
+Bahamas,1999,28,51,1659,BHS
+Antigua and Barbuda,2000,4.6,51,1659,ATG
+Cuba,2000,13,51,1659,CUB
+Bahamas,2000,26,51,1659,BHS
+Aruba,2000,6.4,51,1659,ABW
+British Virgin Islands,2000,8.8,51,1659,VGB
+Saint Vincent and the Grenadines,2000,26,51,1659,VCT
+Dominica,2000,14,51,1659,DMA
+Turks and Caicos Islands,2000,62,51,1659,TCA
+Jamaica,2000,6.5,51,1659,JAM
+Netherlands Antilles,2000,5.2,51,1659,ANT
+Saint Lucia,2000,12,51,1659,LCA
+Anguilla,2000,23,51,1659,AIA
+Trinidad and Tobago,2000,17,51,1659,TTO
+Grenada,2000,4.4,51,1659,GRD
+Cayman Islands,2000,5.5,51,1659,CYM
+Montserrat,2000,13,51,1659,MSR
+Barbados,2000,2.3,51,1659,BRB
+Belize,2000,40,51,1659,BLZ
+United States Virgin Islands,2000,7.7,51,1659,VIR
+Haiti,2000,271,51,1659,HTI
+Puerto Rico,2000,5,51,1659,PRI
+Saint Kitts and Nevis,2000,8.1,51,1659,KNA
+Guyana,2000,104,51,1659,GUY
+Suriname,2000,86,51,1659,SUR
+Dominican Republic,2000,100,51,1659,DOM
+Guyana,2001,108,51,1659,GUY
+Saint Kitts and Nevis,2001,6,51,1659,KNA
+Aruba,2001,6.4,51,1659,ABW
+Montserrat,2001,11,51,1659,MSR
+Haiti,2001,276,51,1659,HTI
+United States Virgin Islands,2001,7.7,51,1659,VIR
+Barbados,2001,3,51,1659,BRB
+Belize,2001,40,51,1659,BLZ
+Grenada,2001,4.3,51,1659,GRD
+Cayman Islands,2001,4.5,51,1659,CYM
+Puerto Rico,2001,4.5,51,1659,PRI
+Antigua and Barbuda,2001,4.6,51,1659,ATG
+Trinidad and Tobago,2001,16,51,1659,TTO
+Anguilla,2001,22,51,1659,AIA
+Saint Lucia,2001,11,51,1659,LCA
+Netherlands Antilles,2001,5.7,51,1659,ANT
+Bahamas,2001,24,51,1659,BHS
+Jamaica,2001,6.5,51,1659,JAM
+Dominica,2001,14,51,1659,DMA
+Turks and Caicos Islands,2001,52,51,1659,TCA
+British Virgin Islands,2001,7.3,51,1659,VGB
+Cuba,2001,12,51,1659,CUB
+Saint Vincent and the Grenadines,2001,26,51,1659,VCT
+Suriname,2001,82,51,1659,SUR
+Dominican Republic,2001,96,51,1659,DOM
+Cayman Islands,2002,3.1,51,1659,CYM
+Montserrat,2002,9.1,51,1659,MSR
+Belize,2002,40,51,1659,BLZ
+Netherlands Antilles,2002,6,51,1659,ANT
+Bahamas,2002,21,51,1659,BHS
+Grenada,2002,4.3,51,1659,GRD
+Puerto Rico,2002,4.1,51,1659,PRI
+Trinidad and Tobago,2002,15,51,1659,TTO
+Jamaica,2002,6.5,51,1659,JAM
+Dominican Republic,2002,92,51,1659,DOM
+Cuba,2002,11,51,1659,CUB
+Guyana,2002,111,51,1659,GUY
+British Virgin Islands,2002,5.8,51,1659,VGB
+United States Virgin Islands,2002,7.7,51,1659,VIR
+Suriname,2002,76,51,1659,SUR
+Barbados,2002,3.8,51,1659,BRB
+Antigua and Barbuda,2002,4.5,51,1659,ATG
+Haiti,2002,279,51,1659,HTI
+Saint Kitts and Nevis,2002,3.7,51,1659,KNA
+Turks and Caicos Islands,2002,37,51,1659,TCA
+Saint Lucia,2002,10,51,1659,LCA
+Anguilla,2002,22,51,1659,AIA
+Aruba,2002,6.4,51,1659,ABW
+Saint Vincent and the Grenadines,2002,25,51,1659,VCT
+Dominica,2002,14,51,1659,DMA
+Saint Vincent and the Grenadines,2003,25,51,1659,VCT
+Aruba,2003,6.4,51,1659,ABW
+Haiti,2003,280,51,1659,HTI
+Saint Lucia,2003,10,51,1659,LCA
+Turks and Caicos Islands,2003,26,51,1659,TCA
+Antigua and Barbuda,2003,4.4,51,1659,ATG
+Saint Kitts and Nevis,2003,2.4,51,1659,KNA
+Barbados,2003,4.4,51,1659,BRB
+Anguilla,2003,22,51,1659,AIA
+Guyana,2003,114,51,1659,GUY
+Suriname,2003,71,51,1659,SUR
+British Virgin Islands,2003,4.5,51,1659,VGB
+Dominican Republic,2003,89,51,1659,DOM
+Bahamas,2003,19,51,1659,BHS
+United States Virgin Islands,2003,7.7,51,1659,VIR
+Cuba,2003,10,51,1659,CUB
+Dominica,2003,14,51,1659,DMA
+Grenada,2003,4.3,51,1659,GRD
+Jamaica,2003,6.5,51,1659,JAM
+Puerto Rico,2003,3.7,51,1659,PRI
+Trinidad and Tobago,2003,15,51,1659,TTO
+Belize,2003,40,51,1659,BLZ
+Cayman Islands,2003,2,51,1659,CYM
+Montserrat,2003,8.2,51,1659,MSR
+Netherlands Antilles,2003,6,51,1659,ANT
+Netherlands Antilles,2004,5.8,51,1659,ANT
+Anguilla,2004,22,51,1659,AIA
+Trinidad and Tobago,2004,15,51,1659,TTO
+Antigua and Barbuda,2004,4.3,51,1659,ATG
+United States Virgin Islands,2004,7.7,51,1659,VIR
+Jamaica,2004,6.5,51,1659,JAM
+Puerto Rico,2004,3.4,51,1659,PRI
+Cuba,2004,9.6,51,1659,CUB
+Grenada,2004,4.3,51,1659,GRD
+Dominica,2004,14,51,1659,DMA
+Bahamas,2004,18,51,1659,BHS
+British Virgin Islands,2004,3.6,51,1659,VGB
+Dominican Republic,2004,85,51,1659,DOM
+Suriname,2004,67,51,1659,SUR
+Guyana,2004,115,51,1659,GUY
+Barbados,2004,4.7,51,1659,BRB
+Saint Lucia,2004,10,51,1659,LCA
+Saint Kitts and Nevis,2004,2.8,51,1659,KNA
+Turks and Caicos Islands,2004,21,51,1659,TCA
+Belize,2004,40,51,1659,BLZ
+Haiti,2004,277,51,1659,HTI
+Saint Vincent and the Grenadines,2004,25,51,1659,VCT
+Aruba,2004,6.4,51,1659,ABW
+Cayman Islands,2004,1.5,51,1659,CYM
+Montserrat,2004,10,51,1659,MSR
+Cayman Islands,2005,1.2,51,1659,CYM
+Belize,2005,40,51,1659,BLZ
+Saint Vincent and the Grenadines,2005,25,51,1659,VCT
+Haiti,2005,272,51,1659,HTI
+Bahamas,2005,17,51,1659,BHS
+Saint Kitts and Nevis,2005,4.1,51,1659,KNA
+Turks and Caicos Islands,2005,19,51,1659,TCA
+Antigua and Barbuda,2005,4.1,51,1659,ATG
+Netherlands Antilles,2005,5.7,51,1659,ANT
+Guyana,2005,115,51,1659,GUY
+Dominican Republic,2005,82,51,1659,DOM
+Saint Lucia,2005,11,51,1659,LCA
+Barbados,2005,4.8,51,1659,BRB
+Anguilla,2005,22,51,1659,AIA
+British Virgin Islands,2005,3,51,1659,VGB
+Grenada,2005,4.2,51,1659,GRD
+Puerto Rico,2005,3.3,51,1659,PRI
+Suriname,2005,63,51,1659,SUR
+Jamaica,2005,6.5,51,1659,JAM
+United States Virgin Islands,2005,7.7,51,1659,VIR
+Cuba,2005,9.2,51,1659,CUB
+Dominica,2005,13,51,1659,DMA
+Montserrat,2005,14,51,1659,MSR
+Trinidad and Tobago,2005,17,51,1659,TTO
+Aruba,2005,6.4,51,1659,ABW
+Cuba,2006,9.1,51,1659,CUB
+Trinidad and Tobago,2006,18,51,1659,TTO
+Netherlands Antilles,2006,5.5,51,1659,ANT
+Dominica,2006,13,51,1659,DMA
+United States Virgin Islands,2006,7.7,51,1659,VIR
+Grenada,2006,4.2,51,1659,GRD
+Suriname,2006,59,51,1659,SUR
+Guyana,2006,115,51,1659,GUY
+Barbados,2006,4.6,51,1659,BRB
+Saint Lucia,2006,11,51,1659,LCA
+Saint Vincent and the Grenadines,2006,25,51,1659,VCT
+Haiti,2006,264,51,1659,HTI
+Saint Kitts and Nevis,2006,4.9,51,1659,KNA
+Cayman Islands,2006,1.3,51,1659,CYM
+Aruba,2006,6.4,51,1659,ABW
+Bahamas,2006,16,51,1659,BHS
+Belize,2006,40,51,1659,BLZ
+Turks and Caicos Islands,2006,17,51,1659,TCA
+Anguilla,2006,22,51,1659,AIA
+Dominican Republic,2006,79,51,1659,DOM
+British Virgin Islands,2006,2.5,51,1659,VGB
+Puerto Rico,2006,3.1,51,1659,PRI
+Jamaica,2006,6.5,51,1659,JAM
+Antigua and Barbuda,2006,4.2,51,1659,ATG
+Montserrat,2006,15,51,1659,MSR
+British Virgin Islands,2007,2.1,51,1659,VGB
+Turks and Caicos Islands,2007,17,51,1659,TCA
+Cayman Islands,2007,1.9,51,1659,CYM
+Jamaica,2007,6.5,51,1659,JAM
+Haiti,2007,256,51,1659,HTI
+Montserrat,2007,15,51,1659,MSR
+Netherlands Antilles,2007,5.2,51,1659,ANT
+Guyana,2007,114,51,1659,GUY
+Puerto Rico,2007,2.8,51,1659,PRI
+Grenada,2007,4.2,51,1659,GRD
+Aruba,2007,6.4,51,1659,ABW
+Dominican Republic,2007,76,51,1659,DOM
+Dominica,2007,13,51,1659,DMA
+Saint Kitts and Nevis,2007,5.2,51,1659,KNA
+Cuba,2007,9,51,1659,CUB
+Saint Vincent and the Grenadines,2007,25,51,1659,VCT
+Belize,2007,40,51,1659,BLZ
+Saint Lucia,2007,10,51,1659,LCA
+Barbados,2007,4.1,51,1659,BRB
+Bahamas,2007,16,51,1659,BHS
+Suriname,2007,56,51,1659,SUR
+United States Virgin Islands,2007,7.7,51,1659,VIR
+Trinidad and Tobago,2007,19,51,1659,TTO
+Anguilla,2007,22,51,1659,AIA
+Antigua and Barbuda,2007,4.4,51,1659,ATG
+Cayman Islands,2008,2.9,51,1659,CYM
+Anguilla,2008,22,51,1659,AIA
+Antigua and Barbuda,2008,4.8,51,1659,ATG
+Barbados,2008,3.4,51,1659,BRB
+Belize,2008,40,51,1659,BLZ
+Cuba,2008,9.1,51,1659,CUB
+Dominica,2008,13,51,1659,DMA
+Grenada,2008,4.2,51,1659,GRD
+Guyana,2008,113,51,1659,GUY
+Haiti,2008,246,51,1659,HTI
+Turks and Caicos Islands,2008,18,51,1659,TCA
+British Virgin Islands,2008,1.9,51,1659,VGB
+Jamaica,2008,6.6,51,1659,JAM
+Montserrat,2008,14,51,1659,MSR
+United States Virgin Islands,2008,7.7,51,1659,VIR
+Puerto Rico,2008,2.6,51,1659,PRI
+Dominican Republic,2008,73,51,1659,DOM
+Saint Kitts and Nevis,2008,5.5,51,1659,KNA
+Saint Vincent and the Grenadines,2008,25,51,1659,VCT
+Aruba,2008,6.4,51,1659,ABW
+Saint Lucia,2008,9.5,51,1659,LCA
+Suriname,2008,52,51,1659,SUR
+Trinidad and Tobago,2008,19,51,1659,TTO
+Netherlands Antilles,2008,4.9,51,1659,ANT
+Bahamas,2008,15,51,1659,BHS
+Cayman Islands,2009,4.1,51,1659,CYM
+Anguilla,2009,21,51,1659,AIA
+Bahamas,2009,14,51,1659,BHS
+Barbados,2009,2.4,51,1659,BRB
+Belize,2009,40,51,1659,BLZ
+Aruba,2009,6.4,51,1659,ABW
+Cuba,2009,9.1,51,1659,CUB
+Dominica,2009,13,51,1659,DMA
+Grenada,2009,4.1,51,1659,GRD
+Guyana,2009,112,51,1659,GUY
+Netherlands Antilles,2009,4.5,51,1659,ANT
+United States Virgin Islands,2009,7.7,51,1659,VIR
+Trinidad and Tobago,2009,20,51,1659,TTO
+Suriname,2009,49,51,1659,SUR
+Saint Lucia,2009,8.4,51,1659,LCA
+Saint Vincent and the Grenadines,2009,24,51,1659,VCT
+Saint Kitts and Nevis,2009,5.7,51,1659,KNA
+Dominican Republic,2009,70,51,1659,DOM
+Puerto Rico,2009,2.3,51,1659,PRI
+Haiti,2009,238,51,1659,HTI
+Montserrat,2009,12,51,1659,MSR
+Jamaica,2009,6.6,51,1659,JAM
+British Virgin Islands,2009,1.8,51,1659,VGB
+Turks and Caicos Islands,2009,20,51,1659,TCA
+Antigua and Barbuda,2009,5.4,51,1659,ATG
+British Virgin Islands,2010,1.9,51,1659,VGB
+Anguilla,2010,21,51,1659,AIA
+Trinidad and Tobago,2010,21,51,1659,TTO
+Suriname,2010,46,51,1659,SUR
+Saint Lucia,2010,6.9,51,1659,LCA
+Saint Vincent and the Grenadines,2010,24,51,1659,VCT
+Saint Kitts and Nevis,2010,5.7,51,1659,KNA
+Dominican Republic,2010,67,51,1659,DOM
+Puerto Rico,2010,2.1,51,1659,PRI
+Aruba,2010,6.4,51,1659,ABW
+Antigua and Barbuda,2010,6,51,1659,ATG
+Bahamas,2010,14,51,1659,BHS
+Barbados,2010,1.2,51,1659,BRB
+Belize,2010,40,51,1659,BLZ
+Cuba,2010,9.3,51,1659,CUB
+Dominica,2010,13,51,1659,DMA
+Grenada,2010,4.1,51,1659,GRD
+Guyana,2010,111,51,1659,GUY
+United States Virgin Islands,2010,7.7,51,1659,VIR
+Haiti,2010,230,51,1659,HTI
+Cayman Islands,2010,5.7,51,1659,CYM
+Montserrat,2010,8.2,51,1659,MSR
+Jamaica,2010,6.6,51,1659,JAM
+Turks and Caicos Islands,2010,23,51,1659,TCA
+Antigua and Barbuda,2011,6.9,51,1659,ATG
+British Virgin Islands,2011,2.2,51,1659,VGB
+Turks and Caicos Islands,2011,27,51,1659,TCA
+Haiti,2011,222,51,1659,HTI
+Guyana,2011,110,51,1659,GUY
+Grenada,2011,4.1,51,1659,GRD
+Dominica,2011,13,51,1659,DMA
+Cuba,2011,9.3,51,1659,CUB
+Belize,2011,40,51,1659,BLZ
+Bahamas,2011,13,51,1659,BHS
+Aruba,2011,6.4,51,1659,ABW
+Anguilla,2011,21,51,1659,AIA
+Cayman Islands,2011,7.5,51,1659,CYM
+United States Virgin Islands,2011,7.7,51,1659,VIR
+Jamaica,2011,6.6,51,1659,JAM
+Montserrat,2011,3.5,51,1659,MSR
+Puerto Rico,2011,1.8,51,1659,PRI
+Dominican Republic,2011,65,51,1659,DOM
+Saint Kitts and Nevis,2011,5.5,51,1659,KNA
+Saint Vincent and the Grenadines,2011,24,51,1659,VCT
+Saint Lucia,2011,5.1,51,1659,LCA
+Suriname,2011,44,51,1659,SUR
+Trinidad and Tobago,2011,21,51,1659,TTO

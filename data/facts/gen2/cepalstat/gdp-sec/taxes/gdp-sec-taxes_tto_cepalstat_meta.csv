@@ -1,0 +1,9 @@
+key,value
+name,Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Trinidad and Tobago: Taxes on products less subsidies on products
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/taxes/gdp-sec-taxes_tto_cepalstat.csv
+filehash,8e94d64c6e76d23aef3464a944db5ee32749e921
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

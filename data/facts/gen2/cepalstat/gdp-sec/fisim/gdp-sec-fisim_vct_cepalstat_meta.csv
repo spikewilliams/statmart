@@ -1,0 +1,9 @@
+key,value
+name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Vincent and The Grenadines: Financial intermediation services indirectly measured (FISIM)
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fisim/gdp-sec-fisim_vct_cepalstat.csv
+filehash,f8e58faf8d35432a137298dc3df60f5fdffcc128
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

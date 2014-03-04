@@ -1,0 +1,9 @@
+key,value
+name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Kitts and Nevis: Taxes on products less subsidies on products
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/taxes/gdp-sec-taxes_kna_cepalstat.csv
+filehash,a460ab1a9db789d436d7f0f301cf6637bae15a0b
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

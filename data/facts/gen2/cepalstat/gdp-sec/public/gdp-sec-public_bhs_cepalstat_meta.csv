@@ -1,0 +1,9 @@
+key,value
+name,"Bahamas - Annual Gross Domestic Product (GDP) by activity: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Bahamas: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/public/gdp-sec-public_bhs_cepalstat.csv
+filehash,18389271f09726a93dd4ae5a697b25161e522b1b
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

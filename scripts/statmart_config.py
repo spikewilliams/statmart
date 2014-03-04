@@ -1,4 +1,4 @@
-statmart_root = "C:/portal/statmart/"
+statmart_root = "C:/statmart/"
 
 statmart_db_host='127.0.0.1'
 statmart_db_port=3306

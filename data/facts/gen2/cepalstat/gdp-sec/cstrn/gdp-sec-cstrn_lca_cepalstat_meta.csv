@@ -1,0 +1,9 @@
+key,value
+name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Lucia: Construction
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_lca_cepalstat.csv
+filehash,aa16d846380106734b610d608517cfb6c674dce0
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

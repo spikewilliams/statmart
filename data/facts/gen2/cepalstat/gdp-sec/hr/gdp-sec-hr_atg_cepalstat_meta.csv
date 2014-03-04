@@ -1,0 +1,9 @@
+key,value
+name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Antigua and Barbuda: Hotels and restaurants
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/hr/gdp-sec-hr_atg_cepalstat.csv
+filehash,45a47a5714490595455adcaff82bcc0f1766e6ba
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

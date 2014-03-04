@@ -1,0 +1,9 @@
+key,value
+name,Cuba - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Cuba: Construction
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_cub_cepalstat.csv
+filehash,85c7745ecc9555160c785c12501f6640c48dde81
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

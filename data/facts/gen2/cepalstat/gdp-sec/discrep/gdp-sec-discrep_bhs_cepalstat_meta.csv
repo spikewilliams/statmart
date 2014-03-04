@@ -1,0 +1,9 @@
+key,value
+name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Bahamas: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_bhs_cepalstat.csv
+filehash,eddb64a5b9837f4e2d6e5d428ef9ed11f7bb0e42
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

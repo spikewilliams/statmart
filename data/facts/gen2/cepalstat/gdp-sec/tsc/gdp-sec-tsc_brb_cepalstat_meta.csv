@@ -1,0 +1,9 @@
+key,value
+name,"Barbados - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Barbados: Transport, storage and communications"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_brb_cepalstat.csv
+filehash,d78323282061a033a9d3f14435e3d14683381d49
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

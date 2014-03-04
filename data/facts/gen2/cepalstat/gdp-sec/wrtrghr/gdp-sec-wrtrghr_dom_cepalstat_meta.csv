@@ -1,0 +1,9 @@
+key,value
+name,"Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Dominican Republic: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrghr/gdp-sec-wrtrghr_dom_cepalstat.csv
+filehash,57b46bd8fee9440dca063be95bbee654b3de0433
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -1,0 +1,9 @@
+key,value
+name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Dominican Republic: Construction
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_dom_cepalstat.csv
+filehash,11dc0953edeb09af2bc18da01c5ef1a139300494
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

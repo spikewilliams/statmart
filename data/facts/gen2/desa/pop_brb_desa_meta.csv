@@ -3,7 +3,7 @@ name,Barbados - Population estimates (1950-2010) [UN DESA]
 dataset,UN DESA world population estimates
 description,"Population estimates for Barbados from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_brb_desa.csv
-filehash,957036fb004702dfc4c477b5e04b01646ef23ba2
+filehash,6bea78fc63483ddc4f63bbc8bc8ca2f2f774a107
 category,Demographics
 type,Population
 columns,"year,estimated-population"

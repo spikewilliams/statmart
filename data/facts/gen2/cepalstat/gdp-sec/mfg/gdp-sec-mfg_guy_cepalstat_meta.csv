@@ -1,0 +1,9 @@
+key,value
+name,Guyana - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Guyana: Manufacturing
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_guy_cepalstat.csv
+filehash,3116523d6932d3868298488879a36e653c461e20
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

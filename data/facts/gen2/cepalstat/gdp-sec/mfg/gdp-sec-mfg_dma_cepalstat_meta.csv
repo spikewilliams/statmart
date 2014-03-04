@@ -1,0 +1,9 @@
+key,value
+name,Dominica - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Dominica: Manufacturing
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_dma_cepalstat.csv
+filehash,4399722754818b45fdc73fab70c15cd5e7d4f56a
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

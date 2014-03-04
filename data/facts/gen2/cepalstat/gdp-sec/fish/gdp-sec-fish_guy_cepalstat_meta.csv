@@ -1,0 +1,9 @@
+key,value
+name,Guyana - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Guyana: Fishing
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_guy_cepalstat.csv
+filehash,5d841785c6f3d0d249b60d6a4e2497520a185548
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

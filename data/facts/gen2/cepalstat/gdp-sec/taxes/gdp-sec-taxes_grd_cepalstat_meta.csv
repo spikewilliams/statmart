@@ -1,0 +1,9 @@
+key,value
+name,Grenada - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Grenada: Taxes on products less subsidies on products
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/taxes/gdp-sec-taxes_grd_cepalstat.csv
+filehash,be8574f1faefb82bd15fa0d648f85e2fa20be5e6
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

@@ -1,0 +1,9 @@
+key,value
+name,Barbados - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Barbados: Mining and quarrying
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_brb_cepalstat.csv
+filehash,2f7ad75a8e70e68bfaff8effade58559129793ad
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

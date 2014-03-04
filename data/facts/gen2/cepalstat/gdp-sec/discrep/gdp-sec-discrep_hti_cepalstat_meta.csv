@@ -1,0 +1,9 @@
+key,value
+name,Haiti - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Haiti: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_hti_cepalstat.csv
+filehash,e1b21db7f1b841d8b418c1f770fa2407841c4a92
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

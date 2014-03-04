@@ -1,0 +1,9 @@
+key,value
+name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Saint Vincent and The Grenadines: Statistical discrepancy of GDP by economic activity
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_vct_cepalstat.csv
+filehash,e652b67118afc9d6048cc463d92b0f096073275b
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

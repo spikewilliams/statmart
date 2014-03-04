@@ -1,0 +1,9 @@
+key,value
+name,"Suriname - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Suriname: Transport, storage and communications"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_sur_cepalstat.csv
+filehash,e18d2f375f4aa6bc4d6be67ac52fcd0ebf27abed
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

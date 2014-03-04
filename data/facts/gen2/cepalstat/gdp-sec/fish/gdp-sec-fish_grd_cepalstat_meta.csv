@@ -1,0 +1,9 @@
+key,value
+name,Grenada - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Grenada: Fishing
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_grd_cepalstat.csv
+filehash,3cac64058c6f4ece2903b165d3b5e505ed1688c4
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

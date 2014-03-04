@@ -1,0 +1,9 @@
+key,value
+name,Dominica - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
+dataset,CEPALStat national accounts [2216]
+description,Annual national account statistics for Dominica: Gross domestic product (GDP)
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_dma_cepalstat.csv
+filehash,760104b390225d220b59c83725a127a93df4c04a
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

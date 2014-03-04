@@ -1,0 +1,9 @@
+key,value
+name,"Barbados - Annual Gross Domestic Product (GDP) by activity: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Barbados: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/public/gdp-sec-public_brb_cepalstat.csv
+filehash,e2545db4b1e468b034beccbd14e07a92ee73e942
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

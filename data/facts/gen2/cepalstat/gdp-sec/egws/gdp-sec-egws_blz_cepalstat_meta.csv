@@ -1,0 +1,9 @@
+key,value
+name,"Belize - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
+dataset,CEPALStat national accounts [2216]
+description,"Annual national account statistics for Belize: Electricity, gas and water supply"
+file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/egws/gdp-sec-egws_blz_cepalstat.csv
+filehash,d04f423c4242077904511a7c026f374f1c0a7ed0
+category,Economy
+type,GDP
+columns,"year,value,source,notes"

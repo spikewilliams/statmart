@@ -1,0 +1,29 @@
+ID,Key,Value
+5000000,indicator-id,307
+5000001,indicator,"Contraceptive prevalence rate among married women aged 15-49, any method"
+5000002,theme,Social Indicators and Statistics
+5000003,area,Health
+5000004,indicator-note,MDG. - Goal 5 / Target 5.B / Indicator 5.3
+5000005,unit,Percentage
+5000006,definition,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions."
+5000007,data-charactaristics,"Data reported by countries to UNICEF, 1977-2005"
+5000008,methodology,"The number of women ages 15-49 in marital or consensual unions who report that they are practising (or whose sexual partners are practising) contracepcion is divided by the total number of women ages 15-49 (and same marital status, if aplicable) in the survey."
+5000009,commentary,"Contraceptive methods include condoms, female and male sterilization, injectable and oral hormones, intrauterine devices, diaphragms, spermicides and natural family planning, as well as lactational amenorrhoea (lack of menstruation during breastfeeding) where it is cited as a method. Among contraceptive methods, only condoms are effective in preventing HIV infections.  Contraceptive prevalence data are obtained mainly from household surveys, notably the Demographic and Heath Surveys, Multiple Indicator Cluster Surveys and contraceptive prevalence surveys. They are generally conducted every three to five years.  Limitations:  Data on contraceptive use are generally collected for women in unions and in a particular age range, while the population of concern includes all women of reproductive age, irrespective of marital status.  Also, contraceptive methods may include traditional methods that are largely ineffective. It is important, if possible, to distinguish at least between traditional and modern methods.  Finally, under-reporting can occur when the interviewer does not mention specific methods such as contraceptive surgical sterilization."
+5169,note,Adjusted
+6684,note,Years of the survey 2010-2011.
+280,note,Years of survey: 1991-1992.
+2651,note,Years of survey: 1994-1995.
+405,note,Years of survey: 1995-1996.
+4419,note,Years of survey: 2002-2003
+4420,note,Years of survey: 2005-2006
+4452,note,Years of survey: 2006-2007
+6683,note,Figures by method do not add up to the total.
+90,note,Preliminary figures.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+4421,note,Ages 15-44
+4422,note,Ages 15-45
+4424,note,Ages 18-44
+1658,note,The figure is the one produced and disseminated by the country (including data adjusted by the country to meet international standards).
+5173,note,Data pertain to sexually active women of reproductive age
+5170,note,"Data pertain to all women of reproductive age, irrespective of marital status"
+4447,note,Methods used during the last two months
+51,source,United Nations Statistics Division: Millennium Indicators Database.
