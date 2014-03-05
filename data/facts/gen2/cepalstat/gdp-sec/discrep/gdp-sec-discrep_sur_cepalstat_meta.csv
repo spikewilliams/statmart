@@ -2,7 +2,7 @@ key,value
 name,Suriname - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Suriname: Statistical discrepancy of GDP by economic activity
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_sur_cepalstat.csv
+file,gdp-sec-discrep_sur_cepalstat.csv
 filehash,a67ed59d0a16d90ac4d4828169c69437947590d0
 category,Economy
 type,GDP

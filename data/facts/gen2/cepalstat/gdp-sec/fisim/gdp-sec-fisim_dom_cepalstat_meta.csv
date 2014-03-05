@@ -2,7 +2,7 @@ key,value
 name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominican Republic: Financial intermediation services indirectly measured (FISIM)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fisim/gdp-sec-fisim_dom_cepalstat.csv
+file,gdp-sec-fisim_dom_cepalstat.csv
 filehash,fd874a1cc7bf6045729081af99fee72daa21db18
 category,Economy
 type,GDP

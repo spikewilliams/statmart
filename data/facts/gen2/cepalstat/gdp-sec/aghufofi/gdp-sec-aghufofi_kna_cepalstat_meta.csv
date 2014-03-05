@@ -2,7 +2,7 @@ key,value
 name,"Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Kitts and Nevis: Agriculture, hunting, forestry and fishing"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufofi/gdp-sec-aghufofi_kna_cepalstat.csv
+file,gdp-sec-aghufofi_kna_cepalstat.csv
 filehash,9905fc1f3e00ad2a31759d44e78b4c760c2583fd
 category,Economy
 type,GDP

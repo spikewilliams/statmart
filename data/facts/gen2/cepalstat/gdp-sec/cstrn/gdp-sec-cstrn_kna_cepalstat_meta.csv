@@ -2,7 +2,7 @@ key,value
 name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Kitts and Nevis: Construction
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_kna_cepalstat.csv
+file,gdp-sec-cstrn_kna_cepalstat.csv
 filehash,e15d0604dc16fb1a9b7e2823f479fb52a2af5582
 category,Economy
 type,GDP

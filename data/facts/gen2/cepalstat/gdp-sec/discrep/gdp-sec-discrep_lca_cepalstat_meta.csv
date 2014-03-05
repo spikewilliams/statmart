@@ -2,7 +2,7 @@ key,value
 name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Lucia: Statistical discrepancy of GDP by economic activity
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_lca_cepalstat.csv
+file,gdp-sec-discrep_lca_cepalstat.csv
 filehash,9cad66525518a8c3ff70492a136d4423bf1d5b21
 category,Economy
 type,GDP

@@ -2,7 +2,7 @@ key,value
 name,"Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Kitts and Nevis: Wholesale and retail trade, repair of goods, and hotels and restaurants"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrghr/gdp-sec-wrtrghr_kna_cepalstat.csv
+file,gdp-sec-wrtrghr_kna_cepalstat.csv
 filehash,6371cf69a57e405d42f6d5f3fabd0a2d97f9ebed
 category,Economy
 type,GDP

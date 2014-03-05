@@ -2,7 +2,7 @@ key,value
 name,"Belize - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Belize: Wholesale and retail trade, and repair of goods"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrg/gdp-sec-wrtrg_blz_cepalstat.csv
+file,gdp-sec-wrtrg_blz_cepalstat.csv
 filehash,5822503ef8ef18eb21f0139200b63bf36e531423
 category,Economy
 type,GDP

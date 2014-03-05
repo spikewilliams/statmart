@@ -6,4 +6,4 @@ file,pop_glp_desa.csv
 filehash,d77cd77e27d04adc110a285664c33ddc8e4d1f2d
 category,Demographics
 type,Population
-columns,"year,estimated-population"
+columns,"year,value"

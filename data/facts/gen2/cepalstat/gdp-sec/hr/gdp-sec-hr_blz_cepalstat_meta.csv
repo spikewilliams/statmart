@@ -2,7 +2,7 @@ key,value
 name,Belize - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Belize: Hotels and restaurants
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/hr/gdp-sec-hr_blz_cepalstat.csv
+file,gdp-sec-hr_blz_cepalstat.csv
 filehash,a4cf1ba1d5ee4ddc884c29dd2e834d3af1085eae
 category,Economy
 type,GDP

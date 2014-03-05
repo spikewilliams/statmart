@@ -2,7 +2,7 @@ key,value
 name,"Guyana - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Guyana: Wholesale and retail trade, and repair of goods"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrg/gdp-sec-wrtrg_guy_cepalstat.csv
+file,gdp-sec-wrtrg_guy_cepalstat.csv
 filehash,e933aad46e34f64735209b82fcf61e4ae2387849
 category,Economy
 type,GDP

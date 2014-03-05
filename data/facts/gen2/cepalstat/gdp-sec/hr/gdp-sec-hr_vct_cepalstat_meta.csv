@@ -2,7 +2,7 @@ key,value
 name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Vincent and The Grenadines: Hotels and restaurants
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/hr/gdp-sec-hr_vct_cepalstat.csv
+file,gdp-sec-hr_vct_cepalstat.csv
 filehash,5820ae2b261e05424385d7b11f52c754bbc06209
 category,Economy
 type,GDP

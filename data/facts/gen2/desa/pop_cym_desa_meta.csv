@@ -6,4 +6,4 @@ file,pop_cym_desa.csv
 filehash,84dff493585a6f5359196be4be5c41fcff42a4ee
 category,Demographics
 type,Population
-columns,"year,estimated-population"
+columns,"year,value"

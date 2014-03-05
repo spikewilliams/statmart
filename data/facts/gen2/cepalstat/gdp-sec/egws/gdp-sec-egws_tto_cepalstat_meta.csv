@@ -2,7 +2,7 @@ key,value
 name,"Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Trinidad and Tobago: Electricity, gas and water supply"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/egws/gdp-sec-egws_tto_cepalstat.csv
+file,gdp-sec-egws_tto_cepalstat.csv
 filehash,0fa2704cf8ab3f0c382f263eeffdf66cd3ac555a
 category,Economy
 type,GDP

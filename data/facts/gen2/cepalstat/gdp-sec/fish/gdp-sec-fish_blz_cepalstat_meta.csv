@@ -2,7 +2,7 @@ key,value
 name,Belize - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Belize: Fishing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_blz_cepalstat.csv
+file,gdp-sec-fish_blz_cepalstat.csv
 filehash,6120996119da2f6c046733ce52d2f3cbaf840fe7
 category,Economy
 type,GDP

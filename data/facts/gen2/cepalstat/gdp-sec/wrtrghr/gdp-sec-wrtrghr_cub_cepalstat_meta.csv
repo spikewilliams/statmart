@@ -2,8 +2,8 @@ key,value
 name,"Cuba - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Cuba: Wholesale and retail trade, repair of goods, and hotels and restaurants"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrghr/gdp-sec-wrtrghr_cub_cepalstat.csv
-filehash,65ed607f275e9a395bc877c6d1a4398945349c20
+file,gdp-sec-wrtrghr_cub_cepalstat.csv
+filehash,cc380defa384d40adadc63270c92540771861b3d
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

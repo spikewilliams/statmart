@@ -2,7 +2,7 @@ key,value
 name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominican Republic: Mining and quarrying
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_dom_cepalstat.csv
+file,gdp-sec-mq_dom_cepalstat.csv
 filehash,dc3a41e082366b53d2fadfed72460028e3f0084d
 category,Economy
 type,GDP

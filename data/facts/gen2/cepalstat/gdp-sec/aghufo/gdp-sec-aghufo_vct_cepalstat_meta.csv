@@ -2,7 +2,7 @@ key,value
 name,"Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting and forestry [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Vincent and The Grenadines: Agriculture, hunting and forestry"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufo/gdp-sec-aghufo_vct_cepalstat.csv
+file,gdp-sec-aghufo_vct_cepalstat.csv
 filehash,0ef4dd2c28aeb1463a7aec1d24f6c4cfac117752
 category,Economy
 type,GDP

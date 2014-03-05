@@ -2,7 +2,7 @@ key,value
 name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Vincent and The Grenadines: Gross domestic product (GDP)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_vct_cepalstat.csv
+file,gdp-sec-gdp_vct_cepalstat.csv
 filehash,b58bd82774bb7397940edba63bfb472a22aff381
 category,Economy
 type,GDP

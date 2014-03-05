@@ -2,7 +2,7 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Fishing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_bhs_cepalstat.csv
+file,gdp-sec-fish_bhs_cepalstat.csv
 filehash,7bdb470e2307310d81deeb73b2a0df20cba8b09f
 category,Economy
 type,GDP

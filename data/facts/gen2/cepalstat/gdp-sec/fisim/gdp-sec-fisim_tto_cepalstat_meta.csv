@@ -2,7 +2,7 @@ key,value
 name,Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Trinidad and Tobago: Financial intermediation services indirectly measured (FISIM)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fisim/gdp-sec-fisim_tto_cepalstat.csv
+file,gdp-sec-fisim_tto_cepalstat.csv
 filehash,f98e3fdfe5197a9bf6d98c539b7f31b9b4d7fec0
 category,Economy
 type,GDP

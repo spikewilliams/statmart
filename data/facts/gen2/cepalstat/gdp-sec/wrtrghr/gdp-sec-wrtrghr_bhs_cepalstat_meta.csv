@@ -2,7 +2,7 @@ key,value
 name,"Bahamas - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Bahamas: Wholesale and retail trade, repair of goods, and hotels and restaurants"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrghr/gdp-sec-wrtrghr_bhs_cepalstat.csv
+file,gdp-sec-wrtrghr_bhs_cepalstat.csv
 filehash,7774f8f882e738ab6beb7bbdf8d2bbb3bd18bd91
 category,Economy
 type,GDP

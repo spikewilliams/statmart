@@ -2,7 +2,7 @@ key,value
 name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Lucia: Taxes on products less subsidies on products
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/taxes/gdp-sec-taxes_lca_cepalstat.csv
+file,gdp-sec-taxes_lca_cepalstat.csv
 filehash,c051577f31a531bd949877d2ffcfa8c322dcae9a
 category,Economy
 type,GDP

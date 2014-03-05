@@ -2,8 +2,8 @@ key,value
 name,Cuba - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Cuba: Manufacturing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_cub_cepalstat.csv
-filehash,8e3a1ec2f806d043f42a36af702229e29c649ded
+file,gdp-sec-mfg_cub_cepalstat.csv
+filehash,7db0f624c04f2e44d676e4200d1de67480eafb6c
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

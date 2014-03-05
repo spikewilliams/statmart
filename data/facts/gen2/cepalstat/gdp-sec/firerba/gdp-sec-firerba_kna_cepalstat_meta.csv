@@ -2,7 +2,7 @@ key,value
 name,"Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Kitts and Nevis: Financial intermediation, real estate, renting and business activities"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/firerba/gdp-sec-firerba_kna_cepalstat.csv
+file,gdp-sec-firerba_kna_cepalstat.csv
 filehash,55d1e85c69154a135aa67277f340cbc3ed9c9859
 category,Economy
 type,GDP

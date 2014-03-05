@@ -2,7 +2,7 @@ key,value
 name,Dominica - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominica: Taxes on products less subsidies on products
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/taxes/gdp-sec-taxes_dma_cepalstat.csv
+file,gdp-sec-taxes_dma_cepalstat.csv
 filehash,0032aca3651599f71480c9f61aa7fd15fb659ad3
 category,Economy
 type,GDP

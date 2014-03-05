@@ -2,8 +2,8 @@ key,value
 name,Haiti - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Haiti: Gross domestic product (GDP)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_hti_cepalstat.csv
-filehash,16baa0eac30fc1e412389ddf5507347524e5d996
+file,gdp-sec-gdp_hti_cepalstat.csv
+filehash,b07a7c7ec6bfeacc49762b9539e27e53e82799ad
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

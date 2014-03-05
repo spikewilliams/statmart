@@ -2,8 +2,8 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Total value added
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tva/gdp-sec-tva_bhs_cepalstat.csv
-filehash,249c9ba1aba8406620e2639328cc7797571d4b62
+file,gdp-sec-tva_bhs_cepalstat.csv
+filehash,e215d1f093a930eb35aa68914724e9d31719370e
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

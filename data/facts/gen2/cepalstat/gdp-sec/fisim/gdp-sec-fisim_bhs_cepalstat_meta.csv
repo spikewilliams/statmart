@@ -2,7 +2,7 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Financial intermediation services indirectly measured (FISIM)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fisim/gdp-sec-fisim_bhs_cepalstat.csv
+file,gdp-sec-fisim_bhs_cepalstat.csv
 filehash,4bd7e13c1d5ea37209bb16d74a2d4cc0e0216fc5
 category,Economy
 type,GDP

@@ -2,7 +2,7 @@ key,value
 name,Grenada - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Grenada: Total value added
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tva/gdp-sec-tva_grd_cepalstat.csv
+file,gdp-sec-tva_grd_cepalstat.csv
 filehash,41db46a1186e890fdcd4eadbd4114c1c124349a3
 category,Economy
 type,GDP

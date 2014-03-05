@@ -2,7 +2,7 @@ key,value
 name,"Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Vincent and The Grenadines: Transport, storage and communications"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_vct_cepalstat.csv
+file,gdp-sec-tsc_vct_cepalstat.csv
 filehash,cdaf214e1d285e0c350d6934f5794d4b30a1fb48
 category,Economy
 type,GDP

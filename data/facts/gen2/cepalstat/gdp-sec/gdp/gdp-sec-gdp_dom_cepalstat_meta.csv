@@ -2,8 +2,8 @@ key,value
 name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominican Republic: Gross domestic product (GDP)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_dom_cepalstat.csv
-filehash,960920560981d00be6a5cd58ab37b976a08f7f14
+file,gdp-sec-gdp_dom_cepalstat.csv
+filehash,aa432fa576999adbad90f8e387d6a9b4fe378618
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

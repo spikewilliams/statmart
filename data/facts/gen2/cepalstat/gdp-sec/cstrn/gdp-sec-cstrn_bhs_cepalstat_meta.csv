@@ -2,7 +2,7 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Construction
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_bhs_cepalstat.csv
+file,gdp-sec-cstrn_bhs_cepalstat.csv
 filehash,b01ec518f74f1902e362a6c9c26fafda592ae18d
 category,Economy
 type,GDP

@@ -2,8 +2,8 @@ key,value
 name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominican Republic: Transport and supporting and auxiliary activities
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsaa/gdp-sec-tsaa_dom_cepalstat.csv
-filehash,35106d46eeb058afdc978c473a2b732f93f0c9f3
+file,gdp-sec-tsaa_dom_cepalstat.csv
+filehash,234e785272305b13a3d5a74f803e9c77386e24e6
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

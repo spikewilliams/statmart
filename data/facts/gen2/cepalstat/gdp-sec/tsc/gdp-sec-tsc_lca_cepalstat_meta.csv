@@ -2,7 +2,7 @@ key,value
 name,"Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Lucia: Transport, storage and communications"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_lca_cepalstat.csv
+file,gdp-sec-tsc_lca_cepalstat.csv
 filehash,cd2f1a597e1f2cdeca4ee46b27e266f63bc3eb2f
 category,Economy
 type,GDP

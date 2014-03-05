@@ -2,8 +2,8 @@ key,value
 name,"Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Dominican Republic: Transport, storage and communications"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_dom_cepalstat.csv
-filehash,d397ca85daf5aa8d807e16cf4cf5e37c6a86748b
+file,gdp-sec-tsc_dom_cepalstat.csv
+filehash,94bd7dda8fef33ed3ffafe595153651ca414ed11
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

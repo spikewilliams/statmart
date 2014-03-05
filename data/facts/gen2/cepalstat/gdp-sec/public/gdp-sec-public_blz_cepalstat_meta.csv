@@ -2,7 +2,7 @@ key,value
 name,"Belize - Annual Gross Domestic Product (GDP) by activity: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Belize: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/public/gdp-sec-public_blz_cepalstat.csv
+file,gdp-sec-public_blz_cepalstat.csv
 filehash,52f36fc376e38a7bb3ec4ea1b2ef437bfd8f65fa
 category,Economy
 type,GDP

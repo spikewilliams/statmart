@@ -2,7 +2,7 @@ key,value
 name,Barbados - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Barbados: Manufacturing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_brb_cepalstat.csv
+file,gdp-sec-mfg_brb_cepalstat.csv
 filehash,57c955dd2131539a100b9b17904b147d5cadd0be
 category,Economy
 type,GDP

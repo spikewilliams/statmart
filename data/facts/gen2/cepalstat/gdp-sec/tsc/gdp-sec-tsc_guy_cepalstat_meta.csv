@@ -2,7 +2,7 @@ key,value
 name,"Guyana - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Guyana: Transport, storage and communications"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsc/gdp-sec-tsc_guy_cepalstat.csv
+file,gdp-sec-tsc_guy_cepalstat.csv
 filehash,1c5cd01586341ab8aa3abfb9b32c5e202e9b510a
 category,Economy
 type,GDP

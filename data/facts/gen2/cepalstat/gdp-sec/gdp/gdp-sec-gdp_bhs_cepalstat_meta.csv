@@ -2,8 +2,8 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Gross domestic product (GDP)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_bhs_cepalstat.csv
-filehash,1576bf2da06a180941ffc21297838a201ce6fe85
+file,gdp-sec-gdp_bhs_cepalstat.csv
+filehash,a56eb7f8862e0afb3c4a8e90e3c54dbfa9b744bd
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

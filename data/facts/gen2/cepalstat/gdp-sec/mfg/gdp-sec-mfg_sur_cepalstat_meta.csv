@@ -2,7 +2,7 @@ key,value
 name,Suriname - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Suriname: Manufacturing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_sur_cepalstat.csv
+file,gdp-sec-mfg_sur_cepalstat.csv
 filehash,181040c8d98c6789392c5c7e656a6ecc8fe80e1b
 category,Economy
 type,GDP

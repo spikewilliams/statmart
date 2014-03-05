@@ -2,7 +2,7 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Taxes on products less subsidies on products
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/taxes/gdp-sec-taxes_bhs_cepalstat.csv
+file,gdp-sec-taxes_bhs_cepalstat.csv
 filehash,962b4c8d63e3746633122f899852207dab123248
 category,Economy
 type,GDP

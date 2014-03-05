@@ -2,7 +2,7 @@ key,value
 name,Dominica - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominica: Fishing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_dma_cepalstat.csv
+file,gdp-sec-fish_dma_cepalstat.csv
 filehash,c6f9d9870d346e0fe938b8bd4f85e921cd59c6ce
 category,Economy
 type,GDP

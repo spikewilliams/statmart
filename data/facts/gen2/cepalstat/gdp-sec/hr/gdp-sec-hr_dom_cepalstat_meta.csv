@@ -2,8 +2,8 @@ key,value
 name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominican Republic: Hotels and restaurants
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/hr/gdp-sec-hr_dom_cepalstat.csv
-filehash,7e359becbcdc127272ecd4031a66e45a731b1537
+file,gdp-sec-hr_dom_cepalstat.csv
+filehash,8fa39ebc225a52b18eb96f018ce3a63e16018552
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

@@ -2,8 +2,8 @@ key,value
 name,"Cuba - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Cuba: Agriculture, hunting, forestry and fishing"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufofi/gdp-sec-aghufofi_cub_cepalstat.csv
-filehash,227089601302190f655780655b63367d7e5b2b7f
+file,gdp-sec-aghufofi_cub_cepalstat.csv
+filehash,73572a18869f88d1a399834004660c8d29da51f3
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

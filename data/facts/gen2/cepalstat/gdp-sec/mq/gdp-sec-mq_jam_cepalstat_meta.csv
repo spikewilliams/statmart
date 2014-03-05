@@ -2,7 +2,7 @@ key,value
 name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Jamaica: Mining and quarrying
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_jam_cepalstat.csv
+file,gdp-sec-mq_jam_cepalstat.csv
 filehash,5f7c624ca435c90e44db1ab2280bc4ab93cb4bb6
 category,Economy
 type,GDP

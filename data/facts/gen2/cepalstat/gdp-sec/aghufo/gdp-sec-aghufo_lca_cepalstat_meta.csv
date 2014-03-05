@@ -2,7 +2,7 @@ key,value
 name,"Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting and forestry [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Saint Lucia: Agriculture, hunting and forestry"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/aghufo/gdp-sec-aghufo_lca_cepalstat.csv
+file,gdp-sec-aghufo_lca_cepalstat.csv
 filehash,1db4a8991a2bdc08fc67322d003ba0fbe12acc7d
 category,Economy
 type,GDP

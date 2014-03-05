@@ -2,7 +2,7 @@ key,value
 name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Lucia: Post and telecommunications
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/pt/gdp-sec-pt_lca_cepalstat.csv
+file,gdp-sec-pt_lca_cepalstat.csv
 filehash,e88d647bba936327bb784cebbfcc13c739b1e2f6
 category,Economy
 type,GDP

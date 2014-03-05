@@ -2,7 +2,7 @@ key,value
 name,"Bahamas - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Bahamas: Wholesale and retail trade, and repair of goods"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrg/gdp-sec-wrtrg_bhs_cepalstat.csv
+file,gdp-sec-wrtrg_bhs_cepalstat.csv
 filehash,5a98c7f265dc6af5685b31f5036c8b87857afb7e
 category,Economy
 type,GDP

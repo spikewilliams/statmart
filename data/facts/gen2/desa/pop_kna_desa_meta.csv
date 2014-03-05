@@ -6,4 +6,4 @@ file,pop_kna_desa.csv
 filehash,94fd039c2e4d1367afe1d1f77d704682e11c5839
 category,Demographics
 type,Population
-columns,"year,estimated-population"
+columns,"year,value"

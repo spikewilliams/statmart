@@ -2,7 +2,7 @@ key,value
 name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Kitts and Nevis: Fishing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_kna_cepalstat.csv
+file,gdp-sec-fish_kna_cepalstat.csv
 filehash,e65d82326a11d1c7813f320413f97e42db67f7e5
 category,Economy
 type,GDP

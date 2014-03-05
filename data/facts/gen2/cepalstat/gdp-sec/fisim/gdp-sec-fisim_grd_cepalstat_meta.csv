@@ -2,7 +2,7 @@ key,value
 name,Grenada - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Grenada: Financial intermediation services indirectly measured (FISIM)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fisim/gdp-sec-fisim_grd_cepalstat.csv
+file,gdp-sec-fisim_grd_cepalstat.csv
 filehash,a93d82cab38e45342362d3b2e2c5f290fa41a0c0
 category,Economy
 type,GDP

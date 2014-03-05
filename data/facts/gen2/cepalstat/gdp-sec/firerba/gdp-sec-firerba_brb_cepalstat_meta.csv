@@ -2,7 +2,7 @@ key,value
 name,"Barbados - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Barbados: Financial intermediation, real estate, renting and business activities"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/firerba/gdp-sec-firerba_brb_cepalstat.csv
+file,gdp-sec-firerba_brb_cepalstat.csv
 filehash,4c86ddfd20ed19858faa1d99f6fc502d639387f1
 category,Economy
 type,GDP

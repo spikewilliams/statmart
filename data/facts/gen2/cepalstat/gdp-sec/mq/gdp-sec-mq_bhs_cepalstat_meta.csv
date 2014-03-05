@@ -2,7 +2,7 @@ key,value
 name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Bahamas: Mining and quarrying
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_bhs_cepalstat.csv
+file,gdp-sec-mq_bhs_cepalstat.csv
 filehash,c1c54e78516306f575e72da36df47074e6c8998a
 category,Economy
 type,GDP

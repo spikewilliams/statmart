@@ -2,7 +2,7 @@ key,value
 name,Guyana - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Guyana: Statistical discrepancy of GDP by economic activity
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/discrep/gdp-sec-discrep_guy_cepalstat.csv
+file,gdp-sec-discrep_guy_cepalstat.csv
 filehash,f03c32cfa8860774ecc288a41cc4b77b7b3c7b92
 category,Economy
 type,GDP

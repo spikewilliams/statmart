@@ -2,7 +2,7 @@ key,value
 name,Dominica - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Dominica: Post and telecommunications
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/pt/gdp-sec-pt_dma_cepalstat.csv
+file,gdp-sec-pt_dma_cepalstat.csv
 filehash,dc4ddefb143df81f8bcaf396eae2f3713d080724
 category,Economy
 type,GDP

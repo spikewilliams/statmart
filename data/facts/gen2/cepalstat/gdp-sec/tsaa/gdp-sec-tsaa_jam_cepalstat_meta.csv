@@ -2,7 +2,7 @@ key,value
 name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Jamaica: Transport and supporting and auxiliary activities
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tsaa/gdp-sec-tsaa_jam_cepalstat.csv
+file,gdp-sec-tsaa_jam_cepalstat.csv
 filehash,a3779255fe76152de23c47a010956b6400ad5ebe
 category,Economy
 type,GDP

@@ -2,7 +2,7 @@ key,value
 name,Belize - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Belize: Gross domestic product (GDP)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_blz_cepalstat.csv
+file,gdp-sec-gdp_blz_cepalstat.csv
 filehash,72a842f6e715d9461c869a02fdbda6e6ba70792c
 category,Economy
 type,GDP

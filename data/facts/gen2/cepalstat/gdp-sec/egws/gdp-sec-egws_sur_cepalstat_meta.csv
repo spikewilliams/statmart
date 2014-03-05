@@ -2,7 +2,7 @@ key,value
 name,"Suriname - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Suriname: Electricity, gas and water supply"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/egws/gdp-sec-egws_sur_cepalstat.csv
+file,gdp-sec-egws_sur_cepalstat.csv
 filehash,2ee92471ecb77b98194982f79b97c930f5f60db8
 category,Economy
 type,GDP

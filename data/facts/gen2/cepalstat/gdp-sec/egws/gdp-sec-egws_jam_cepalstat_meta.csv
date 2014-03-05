@@ -2,7 +2,7 @@ key,value
 name,"Jamaica - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Jamaica: Electricity, gas and water supply"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/egws/gdp-sec-egws_jam_cepalstat.csv
+file,gdp-sec-egws_jam_cepalstat.csv
 filehash,0d64a36eca8828a81878094d53740158f9cbdd43
 category,Economy
 type,GDP

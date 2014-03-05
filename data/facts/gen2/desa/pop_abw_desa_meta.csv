@@ -6,4 +6,4 @@ file,pop_abw_desa.csv
 filehash,2e41cea564df87670b6b0e5ee2b4a7466f31e2df
 category,Demographics
 type,Population
-columns,"year,estimated-population"
+columns,"year,value"

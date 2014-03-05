@@ -6,4 +6,4 @@ file,pop_bhs_desa.csv
 filehash,de86e0af5a95a2507342b32db2ffbe0fe9ccce7c
 category,Demographics
 type,Population
-columns,"year,estimated-population"
+columns,"year,value"

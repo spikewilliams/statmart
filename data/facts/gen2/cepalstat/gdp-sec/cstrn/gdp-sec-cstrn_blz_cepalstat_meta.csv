@@ -2,7 +2,7 @@ key,value
 name,Belize - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Belize: Construction
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/cstrn/gdp-sec-cstrn_blz_cepalstat.csv
+file,gdp-sec-cstrn_blz_cepalstat.csv
 filehash,ea02e4f0f270beaa66ceeb160de5b519335d6dc0
 category,Economy
 type,GDP

@@ -2,7 +2,7 @@ key,value
 name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Jamaica: Fishing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/fish/gdp-sec-fish_jam_cepalstat.csv
+file,gdp-sec-fish_jam_cepalstat.csv
 filehash,a8d09ba06b08158e75b9dcd71d467364b83f5da7
 category,Economy
 type,GDP

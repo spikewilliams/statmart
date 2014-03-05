@@ -2,7 +2,7 @@ key,value
 name,"Belize - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Belize: Financial intermediation, real estate, renting and business activities"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/firerba/gdp-sec-firerba_blz_cepalstat.csv
+file,gdp-sec-firerba_blz_cepalstat.csv
 filehash,624c39fabb48e8ccdf4420b0dcd2748e724316e4
 category,Economy
 type,GDP

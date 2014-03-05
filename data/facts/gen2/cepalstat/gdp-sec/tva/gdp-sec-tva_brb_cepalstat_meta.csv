@@ -2,8 +2,8 @@ key,value
 name,Barbados - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Barbados: Total value added
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/tva/gdp-sec-tva_brb_cepalstat.csv
-filehash,c2459bb80279dc28014f04734c6d7457e7befca6
+file,gdp-sec-tva_brb_cepalstat.csv
+filehash,3b888ad552e39dfd5d41b0d3d509bfa5f6aa1e02
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

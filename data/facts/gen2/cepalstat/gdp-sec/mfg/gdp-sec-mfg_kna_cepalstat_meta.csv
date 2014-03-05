@@ -2,7 +2,7 @@ key,value
 name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Kitts and Nevis: Manufacturing
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mfg/gdp-sec-mfg_kna_cepalstat.csv
+file,gdp-sec-mfg_kna_cepalstat.csv
 filehash,3a10c937d9cc2139bf1a518c94679c73aa379c18
 category,Economy
 type,GDP

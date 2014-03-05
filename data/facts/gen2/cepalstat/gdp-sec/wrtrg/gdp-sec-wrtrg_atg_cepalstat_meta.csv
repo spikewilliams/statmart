@@ -2,7 +2,7 @@ key,value
 name,"Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
 dataset,CEPALStat national accounts [2216]
 description,"Annual national account statistics for Antigua and Barbuda: Wholesale and retail trade, and repair of goods"
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/wrtrg/gdp-sec-wrtrg_atg_cepalstat.csv
+file,gdp-sec-wrtrg_atg_cepalstat.csv
 filehash,b6b90c762c0ed4e308c927d025d2d0eda7fe1f6d
 category,Economy
 type,GDP

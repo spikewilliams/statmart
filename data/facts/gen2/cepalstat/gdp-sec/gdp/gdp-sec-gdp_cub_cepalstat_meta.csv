@@ -2,8 +2,8 @@ key,value
 name,Cuba - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Cuba: Gross domestic product (GDP)
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/gdp/gdp-sec-gdp_cub_cepalstat.csv
-filehash,e8d1572b3d3d964966f06597c7b3d178a48653a7
+file,gdp-sec-gdp_cub_cepalstat.csv
+filehash,7afd1b2445cbe93fc6d46d451c50116c941ce41e
 category,Economy
 type,GDP
 columns,"year,value,source,notes"

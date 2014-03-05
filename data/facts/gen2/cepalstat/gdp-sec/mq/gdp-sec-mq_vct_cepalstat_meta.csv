@@ -2,7 +2,7 @@ key,value
 name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
 dataset,CEPALStat national accounts [2216]
 description,Annual national account statistics for Saint Vincent and The Grenadines: Mining and quarrying
-file,C:/statmart/data/facts/gen2/cepalstat/gdp-sec/mq/gdp-sec-mq_vct_cepalstat.csv
+file,gdp-sec-mq_vct_cepalstat.csv
 filehash,6ff3f946db8ffde0b963524b10d66a966549e6ff
 category,Economy
 type,GDP
