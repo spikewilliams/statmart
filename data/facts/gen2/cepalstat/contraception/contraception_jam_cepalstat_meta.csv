@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Contraceptive use [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,"Contraceptive prevalence rate among married women aged 15-49, any method [307]"
+description,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions"
+category,Social
+type,Health
+file,contraception_jam_cepalstat.csv
+filehash,4fbab4c791eb5387174169263452afa6f72dfb7f
+columns,"year,value,source,notes"

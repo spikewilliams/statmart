@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Contraceptive use [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,"Contraceptive prevalence rate among married women aged 15-49, any method [307]"
+description,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions"
+category,Social
+type,Health
+file,contraception_grd_cepalstat.csv
+filehash,59d2c40b16110155a95975c6962d2035d76f3bfe
+columns,"year,value,source,notes"

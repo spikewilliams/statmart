@@ -1,0 +1,11 @@
+key,value
+name,Turks and Caicos Islands - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_tca_cepalstat.csv
+filehash,1a93b6010475962692915bb649fd9c74301c79bd
+columns,"year,value,source,notes"

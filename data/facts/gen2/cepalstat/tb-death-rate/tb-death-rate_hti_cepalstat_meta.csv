@@ -1,0 +1,11 @@
+key,value
+name,Haiti - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_hti_cepalstat.csv
+filehash,4ebe650c2dced7a82eaab04c08fde27cd9f473ec
+columns,"year,value,source,notes"

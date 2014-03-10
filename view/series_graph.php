@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>National GDP data from the United Nations Economic Commission for Latin America and the Caribbean (ECLAC)</title>
-  <script type='text/javascript' src='http://d3js.org/d3.v3.min.js'></script>
+  <script type='text/javascript' src='js/d3.v3.min.js'></script>
 
 	<style>
 	
@@ -25,11 +25,9 @@ function getParameterByName(name) {
 var currentUSD = 1.15848; //factor for converting 2005 dollars to current (2013)
 var cYear = 2013;
 
-iso3 = getParameterByName("iso3").toLowerCase();
-unit = getParameterByName("unit");
-seriesName = getParameterByName("series");
+seriesName = getParameterByName("s");
 
-dataURL = "series_query.php?sid=gdp-sec-cstrn&iso=" + iso3 + "&src=cepalstat";
+dataURL = "series_query.php?s=" + seriesName;
 
 if (!seriesName){
 	seriesName = "Gross domestic product (GDP)";
@@ -42,46 +40,42 @@ if (!seriesName){
  d3.csv(dataURL, function(error, data) {
  
     
- var max = d3.max(data, function(d) { return d["value"]; });
- var min = d3.min(data, function(d) { return d["value"]; });
-     console.log(min);
-     console.log(max);
-     unit = "";     
-     if (min > 1000 && max > 10000) {
+    var max = d3.max(data, function(d) { return d["value"]; });
+    var min = d3.min(data, function(d) { return d["value"]; });
+    console.log(min);
+    console.log(max);
+    unit = "";     
+    if (min > 1000 && max > 10000) {
         unit = "thousands"   
-     }
-     if (min > 100000 && max > 1000000) {
+    }
+    if (min > 100000 && max > 1000000) {
         unit = "millions"   
-     }
-     if (min > 100000000 && max > 1000000000) {
+    }
+    if (min > 100000000 && max > 1000000000) {
         unit = "billions"   
-     }     
-     var ufactor = 1;
+    }     
+    var ufactor = 1;
     if (unit == "billions"){
         ufactor = 1000000000
-     } else if (unit == "millions"){
+    } else if (unit == "millions"){
         ufactor = 1000000;
-     } else {
+    } else {
         unit = "thousands";
         ufactor = 1000;
-     }
+    }
      
- data.forEach(function(d) {
- // 	if (d.Item != seriesName){
-//  		return null;
-//  	}
-//  	d.series = d.Item;
-    d.date = parseDate(d.year);
-    d.value = (+d["value"] / ufactor) * currentUSD;
- });
+     data.forEach(function(d) {
+        d.date = parseDate(d.year);
+        d.value = (+d["value"] / ufactor) * currentUSD;
+     });
      
 
      
-  //data = data.filter(function(d){return d.series === seriesName});
-  x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain([0,d3.max(data, function(d) { return d.value; })]);
+    //data = data.filter(function(d){return d.series === seriesName});
+    x.domain(d3.extent(data, function(d) { return d.date; }));
+    y.domain([0,d3.max(data, function(d) { return d.value; })]);
 
-  svg.append("g")
+    svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
@@ -93,7 +87,7 @@ if (!seriesName){
 				  return "rotate(-90)"
 		});
 
-  svg.append("g")
+    svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
     .append("text")
@@ -105,15 +99,15 @@ if (!seriesName){
       .style("padding-right","10px")
       .text("Value in current USD (" + unit + ")");
 
-  svg.append("path")
+    svg.append("path")
       .datum(data)
       .attr("class", "area")
       .attr("d", area);
-});
+    });
 //]]>
 
 </script>
-
+Some additional text goes here
 
 </body>
 

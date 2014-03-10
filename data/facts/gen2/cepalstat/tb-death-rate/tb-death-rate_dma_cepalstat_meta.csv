@@ -1,0 +1,11 @@
+key,value
+name,Dominica - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_dma_cepalstat.csv
+filehash,e9b7738479ee1baddc4e93f6d3c66240cb000b4b
+columns,"year,value,source,notes"

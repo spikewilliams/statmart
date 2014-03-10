@@ -1,0 +1,11 @@
+key,value
+name,Suriname - Official unemployment rate [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division.                                                                                                                                                                                                                                                                                                                                                                                  
+proximatesource,CEPALStat
+dataset,Unemployment rate (ECLAC) [127]
+description,Corresponds to the official unemployment rate of each country
+category,Economic
+type,Unemployment
+file,unemployment_sur_cepalstat.csv
+filehash,5ec21bbb1fed0d135e8601f734d32c2f4f5e156d
+columns,"year,value,source,notes"

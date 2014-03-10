@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_bhs_cepalstat.csv
+filehash,f16944a0d0c841ce8faf097ac79529daa61ebd9d
+columns,"year,value,source,notes"

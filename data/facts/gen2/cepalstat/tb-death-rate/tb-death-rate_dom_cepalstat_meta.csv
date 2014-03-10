@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_dom_cepalstat.csv
+filehash,767d8ec862d952527d93f6f699dc9a037d1ea98a
+columns,"year,value,source,notes"

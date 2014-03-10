@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Contraceptive use [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,"Contraceptive prevalence rate among married women aged 15-49, any method [307]"
+description,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions"
+category,Social
+type,Health
+file,contraception_tto_cepalstat.csv
+filehash,e9562d966215183767178fbdfc8918f35c828b2e
+columns,"year,value,source,notes"

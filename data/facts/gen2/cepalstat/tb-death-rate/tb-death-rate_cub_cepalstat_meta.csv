@@ -1,0 +1,11 @@
+key,value
+name,Cuba - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_cub_cepalstat.csv
+filehash,401418a0fecadb872a9c355afedbd58b859a51b7
+columns,"year,value,source,notes"

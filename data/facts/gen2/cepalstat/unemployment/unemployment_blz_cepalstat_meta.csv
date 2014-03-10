@@ -1,0 +1,11 @@
+key,value
+name,Belize - Official unemployment rate [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division.                                                                                                                                                                                                                                                                                                                                                                                  
+proximatesource,CEPALStat
+dataset,Unemployment rate (ECLAC) [127]
+description,Corresponds to the official unemployment rate of each country
+category,Economic
+type,Unemployment
+file,unemployment_blz_cepalstat.csv
+filehash,00e0d103da88b5340a9fea26032983977ff6b75e
+columns,"year,value,source,notes"

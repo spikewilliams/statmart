@@ -1,0 +1,11 @@
+key,value
+name,British Virgin Islands - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_vgb_cepalstat.csv
+filehash,fb1455ad8247f84c1fb190f733d20bec06132165
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_jam_cepalstat.csv
+filehash,d20c8303299ada350014d6a1c34a5d01f6a8d42a
+columns,"year,value,source,notes"

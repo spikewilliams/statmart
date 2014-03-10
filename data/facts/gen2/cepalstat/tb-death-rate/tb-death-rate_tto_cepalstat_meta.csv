@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Death rate associated with tuberculosis [CEPALStat]
+originalsource,United Nations Statistics Division: Millennium Indicators Database
+proximatesource,CEPALStat
+dataset,Death rate associated with tuberculosis [357]
+description,Proportion of registered deaths caused by tuberculosis in total population during the period of one year
+category,Social
+type,Health
+file,tb-death-rate_tto_cepalstat.csv
+filehash,3feba11877d404a45d4696965f3ac38d6de07591
+columns,"year,value,source,notes"

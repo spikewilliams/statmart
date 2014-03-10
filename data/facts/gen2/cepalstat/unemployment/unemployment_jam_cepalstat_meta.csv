@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Official unemployment rate [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division.                                                                                                                                                                                                                                                                                                                                                                                  
+proximatesource,CEPALStat
+dataset,Unemployment rate (ECLAC) [127]
+description,Corresponds to the official unemployment rate of each country
+category,Economic
+type,Unemployment
+file,unemployment_jam_cepalstat.csv
+filehash,3a16f391ad4f1ab4e8cda613440808b098efb132
+columns,"year,value,source,notes"

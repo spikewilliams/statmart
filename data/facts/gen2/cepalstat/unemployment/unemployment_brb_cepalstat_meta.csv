@@ -1,0 +1,11 @@
+key,value
+name,Barbados - Official unemployment rate [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division.                                                                                                                                                                                                                                                                                                                                                                                  
+proximatesource,CEPALStat
+dataset,Unemployment rate (ECLAC) [127]
+description,Corresponds to the official unemployment rate of each country
+category,Economic
+type,Unemployment
+file,unemployment_brb_cepalstat.csv
+filehash,7c7496d84d058228c4cfa2fcd2277af5cafd417b
+columns,"year,value,source,notes"
