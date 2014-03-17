@@ -1,11 +1,11 @@
 key,value
 name,Cuba - Official unemployment rate [CEPALStat]
-originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division.                                                                                                                                                                                                                                                                                                                                                                                  
+originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division
 proximatesource,CEPALStat
-dataset,Unemployment rate (ECLAC) [127]
+dataset,Official unemployment rate [127]
 description,Corresponds to the official unemployment rate of each country
 category,Economic
 type,Unemployment
 file,unemployment_cub_cepalstat.csv
-filehash,dcbd9f2fbc1fa2885ab4b67461550828b4037e3a
+filehash,862f992540dde11499baf3095dfe593403d14c19
 columns,"year,value,source,notes"

@@ -1,11 +1,11 @@
 key,value
 name,Trinidad and Tobago - Official unemployment rate [CEPALStat]
-originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division.                                                                                                                                                                                                                                                                                                                                                                                  
+originalsource,Economic Commission for Latin America and the Caribbean: Economic Development Division
 proximatesource,CEPALStat
-dataset,Unemployment rate (ECLAC) [127]
+dataset,Official unemployment rate [127]
 description,Corresponds to the official unemployment rate of each country
 category,Economic
 type,Unemployment
 file,unemployment_tto_cepalstat.csv
-filehash,efebc6b6270fe709de2a6ef11fef73c55c233018
+filehash,a58fbb4b2d44dcbf22f15bdb65aa54ae353b2b42
 columns,"year,value,source,notes"

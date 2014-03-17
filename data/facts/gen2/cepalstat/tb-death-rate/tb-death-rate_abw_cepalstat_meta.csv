@@ -7,5 +7,5 @@ description,Proportion of registered deaths caused by tuberculosis in total popu
 category,Social
 type,Health
 file,tb-death-rate_abw_cepalstat.csv
-filehash,ff69535a924a1ae9d723de64bdc60742af975d4a
+filehash,c731aa4ca979eb3251047d9e572c4e38565198e5
 columns,"year,value,source,notes"

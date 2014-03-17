@@ -111,4 +111,15 @@ statmart_facts_gen2
 
 # <codecell>
 
+head = """
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>%s</title>
+  <script type='text/javascript' src='%s'></script>
+    <style>
+ <?php
+		include("%s/inc/style_basic.php");
+ ?> 
+	</style>
+</head>""" % (title, statmart_d3_path, statmart_view_root)
 

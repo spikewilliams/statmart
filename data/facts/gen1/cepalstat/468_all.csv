@@ -1,453 +1,445 @@
-Country,Year,Value,Source,Notes,ISO3
-Belize,1960,472,20,,BLZ
-Trinidad and Tobago,1960,4712,20,,TTO
-Dominican Republic,1960,7524,20,,DOM
-Bahamas,1960,647,20,,BHS
-Guyana,1960,3172,20,,GUY
-Cuba,1960,30500,20,16,CUB
-Haiti,1960,2316,20,,HTI
-Jamaica,1960,6753,20,,JAM
-Barbados,1960,1368,20,,BRB
-Trinidad and Tobago,1965,4247,20,,TTO
-Belize,1965,545,20,,BLZ
-Bahamas,1965,827,20,,BHS
-Jamaica,1965,7023,20,,JAM
-Guyana,1965,3962,20,,GUY
-Cuba,1965,48669,20,16,CUB
-Haiti,1965,2389,20,,HTI
-Barbados,1965,1629,20,,BRB
-Dominican Republic,1965,10425,20,,DOM
-Guyana,1970,3377,20,,GUY
-Bahamas,1970,871,20,,BHS
-Haiti,1970,3545,20,17,HTI
-Trinidad and Tobago,1970,4800,20,,TTO
-Dominican Republic,1970,11674,20,,DOM
-Jamaica,1970,7672,20,,JAM
-Cuba,1970,57653,20,16,CUB
-Barbados,1970,2445,20,,BRB
-Belize,1970,560,20,,BLZ
-Jamaica,1971,7817,20,,JAM
-Barbados,1971,2263,20,,BRB
-Cuba,1971,54303,20,16,CUB
-Dominican Republic,1971,13469,20,,DOM
-Guyana,1971,3450,20,,GUY
-Belize,1971,560,20,,BLZ
-Belize,1972,560,20,,BLZ
-Guyana,1972,3969,20,,GUY
-Cuba,1972,54873,20,16,CUB
-Haiti,1972,3494,20,17,HTI
-Trinidad and Tobago,1972,4804,20,,TTO
-Dominican Republic,1972,11975,20,,DOM
-Jamaica,1972,7100,20,,JAM
-Barbados,1972,2216,20,,BRB
-Dominican Republic,1973,12507,20,,DOM
-Belize,1973,560,20,,BLZ
-Cuba,1973,52524,20,16,CUB
-Haiti,1973,3868,20,17,HTI
-Jamaica,1973,7607,20,,JAM
-Guyana,1973,3987,20,,GUY
-Barbados,1973,2190,20,,BRB
-Dominica,1973,312,20,17,DMA
-Barbados,1974,2130,20,,BRB
-Jamaica,1974,7657,20,,JAM
-Belize,1974,600,20,,BLZ
-Cuba,1974,52709,20,16,CUB
-Trinidad and Tobago,1975,4815,20,,TTO
-Belize,1975,600,20,,BLZ
-Guyana,1975,3969,20,,GUY
-Jamaica,1975,7780,20,,JAM
-Cuba,1975,51244,20,16,CUB
-Haiti,1975,4104,20,,HTI
-Dominican Republic,1975,12618,20,,DOM
-Bahamas,1975,874,20,,BHS
-Barbados,1975,2161,20,,BRB
-Barbados,1976,2141,20,,BRB
-Guyana,1976,3373,20,,GUY
-Cuba,1976,51513,20,16,CUB
-Haiti,1976,3643,20,17,HTI
-Belize,1976,615,20,,BLZ
-Jamaica,1976,7648,20,,JAM
-Barbados,1977,2146,20,,BRB
-Haiti,1977,4514,20,17,HTI
-Jamaica,1977,7717,20,,JAM
-Cuba,1977,51192,20,16,CUB
-Belize,1977,623,20,,BLZ
-Jamaica,1978,7644,20,,JAM
-Haiti,1978,4591,20,17,HTI
-Guyana,1978,3906,20,,GUY
-Belize,1978,594,20,,BLZ
-Suriname,1978,2073,20,,SUR
-Cuba,1978,51595,20,16,CUB
-Grenada,1978,639,20,,GRD
-Cuba,1979,52676,20,16,CUB
-Guyana,1979,4002,20,,GUY
-Trinidad and Tobago,1979,4387,20,,TTO
-Jamaica,1979,7648,20,,JAM
-Belize,1979,564,20,,BLZ
-Suriname,1980,3169,20,,SUR
-Saint Vincent and the Grenadines,1980,572,20,,VCT
-Barbados,1980,2129,20,,BRB
-Dominican Republic,1980,6633,20,,DOM
-Belize,1980,556,20,,BLZ
-Cuba,1980,53417,20,16,CUB
-Haiti,1980,3954,20,17,HTI
-Trinidad and Tobago,1980,4565,20,,TTO
-Grenada,1980,323,20,,GRD
-Jamaica,1980,6527,20,,JAM
-Dominica,1980,156,20,,DMA
-Antigua and Barbuda,1980,207,20,,ATG
-Haiti,1981,5250,20,17,HTI
-Saint Vincent and the Grenadines,1981,572,20,,VCT
-Belize,1981,556,20,,BLZ
-Antigua and Barbuda,1981,205,20,,ATG
-Grenada,1981,320,20,,GRD
-Barbados,1981,2054,20,,BRB
-Jamaica,1981,6535,20,,JAM
-Dominica,1981,153,20,,DMA
-Cuba,1981,56492,20,16,CUB
-Trinidad and Tobago,1981,4456,20,,TTO
-Bahamas,1982,900,20,,BHS
-Jamaica,1982,6342,20,,JAM
-Trinidad and Tobago,1982,4321,20,,TTO
-Barbados,1982,2054,20,,BRB
-Belize,1982,578,20,,BLZ
-Dominica,1982,144,20,,DMA
-Cuba,1982,58326,20,16,CUB
-Jamaica,1983,6334,20,,JAM
-Trinidad and Tobago,1983,4438,20,,TTO
-Dominica,1983,140,20,,DMA
-Cuba,1983,60037,20,16,CUB
-Bahamas,1983,948,20,,BHS
-Barbados,1983,2049,20,,BRB
-Belize,1983,576,20,,BLZ
-Dominican Republic,1983,9814,20,,DOM
-Bahamas,1984,968,20,,BHS
-Trinidad and Tobago,1984,4438,20,,TTO
-Barbados,1984,2076,20,,BRB
-Dominica,1984,177,20,,DMA
-Belize,1984,583,20,,BLZ
-Cuba,1984,63015,20,16,CUB
-Jamaica,1984,6316,20,,JAM
-Jamaica,1985,5778,20,,JAM
-Cuba,1985,64160,20,16,CUB
-Bahamas,1985,999,20,,BHS
-Belize,1985,583,20,,BLZ
-Suriname,1985,1962,20,,SUR
-Dominica,1985,190,20,,DMA
-Trinidad and Tobago,1985,4481,20,,TTO
-Netherlands Antilles,1985,1779,20,,ANT
-Barbados,1985,2111,20,,BRB
-Barbados,1986,2054,20,,BRB
-Saint Lucia,1986,501,20,,LCA
-Bahamas,1986,999,20,,BHS
-Belize,1986,583,20,,BLZ
-Jamaica,1986,5223,20,,JAM
-Suriname,1986,1893,20,,SUR
-Cuba,1986,66412,20,16,CUB
-Antigua and Barbuda,1986,329,20,,ATG
-Saint Kitts and Nevis,1986,258,20,,KNA
-Trinidad and Tobago,1986,4087,20,,TTO
-Dominica,1986,190,20,,DMA
-Haiti,1987,4965,20,,HTI
-Guyana,1987,2204,20,,GUY
-Antigua and Barbuda,1987,329,20,,ATG
-Suriname,1987,1883,20,,SUR
-Saint Kitts and Nevis,1987,256,20,,KNA
-Barbados,1987,2054,20,,BRB
-Grenada,1987,676,20,,GRD
-Saint Vincent and the Grenadines,1987,524,20,,VCT
-Dominican Republic,1987,13169,20,,DOM
-Jamaica,1987,5707,20,,JAM
-Trinidad and Tobago,1987,4241,20,,TTO
-Netherlands Antilles,1987,2552,20,,ANT
-Saint Lucia,1987,539,20,,LCA
-Bahamas,1987,1050,20,,BHS
-Belize,1987,583,20,,BLZ
-Dominica,1987,190,20,,DMA
-Cuba,1987,71106,20,16,CUB
-Cuba,1988,73212,20,16,CUB
-Dominica,1988,190,20,,DMA
-Antigua and Barbuda,1988,329,20,,ATG
-Jamaica,1988,5667,20,,JAM
-Barbados,1988,2049,20,,BRB
-Saint Lucia,1988,545,20,,LCA
-Suriname,1988,1815,20,,SUR
-Trinidad and Tobago,1988,4607,20,,TTO
-Saint Kitts and Nevis,1988,258,20,,KNA
-Belize,1988,583,20,,BLZ
-Bahamas,1988,978,20,,BHS
-Netherlands Antilles,1989,1596,20,,ANT
-Antigua and Barbuda,1989,329,20,,ATG
-Suriname,1989,1775,20,,SUR
-Belize,1989,525,20,,BLZ
-Saint Lucia,1989,548,20,,LCA
-Cuba,1989,77739,20,16,CUB
-Bahamas,1989,987,20,,BHS
-Barbados,1989,2076,20,,BRB
-Trinidad and Tobago,1989,4308,20,,TTO
-Jamaica,1989,5027,20,,JAM
-Saint Kitts and Nevis,1989,258,20,,KNA
-Dominica,1989,190,20,,DMA
-Netherlands Antilles,1990,1596,20,,ANT
-Saint Kitts and Nevis,1990,268,20,,KNA
-Saint Lucia,1990,518,20,,LCA
-Antigua and Barbuda,1990,301,20,,ATG
-Bahamas,1990,997,20,,BHS
-Barbados,1990,2085,20,,BRB
-Jamaica,1990,5130,20,,JAM
-Trinidad and Tobago,1990,3894,20,,TTO
-Belize,1990,585,20,,BLZ
-Cuba,1990,78164,20,16,CUB
-Dominica,1990,195,20,,DMA
-Antigua and Barbuda,1991,301,20,,ATG
-Netherlands Antilles,1991,1494,20,,ANT
-Belize,1991,585,20,,BLZ
-Saint Kitts and Nevis,1991,268,20,,KNA
-Dominica,1991,195,20,,DMA
-Saint Lucia,1991,489,20,,LCA
-Cuba,1991,79997,20,16,CUB
-Dominican Republic,1991,6923,20,,DOM
-Antigua and Barbuda,1992,299,20,,ATG
-Saint Lucia,1992,506,20,,LCA
-Cuba,1992,80684,20,16,CUB
-Belize,1992,585,20,,BLZ
-Saint Kitts and Nevis,1992,268,20,,KNA
-Dominica,1992,195,20,,DMA
-Dominican Republic,1992,7818,20,,DOM
-Netherlands Antilles,1992,1436,20,,ANT
-Cuba,1993,80695,20,16,CUB
-Belize,1993,585,20,,BLZ
-Dominica,1993,195,20,,DMA
-Antigua and Barbuda,1993,279,20,,ATG
-Saint Kitts and Nevis,1993,268,20,,KNA
-Dominican Republic,1993,8621,20,,DOM
-Netherlands Antilles,1993,1448,20,,ANT
-Saint Lucia,1993,520,20,,LCA
-Saint Kitts and Nevis,1994,268,20,,KNA
-Saint Lucia,1994,503,20,,LCA
-Dominican Republic,1994,8363,20,,DOM
-Antigua and Barbuda,1994,279,20,,ATG
-Dominica,1994,195,20,,DMA
-Cuba,1994,81907,20,16,CUB
-Saint Lucia,1995,536,20,,LCA
-Dominican Republic,1995,7234,20,,DOM
-Antigua and Barbuda,1995,279,20,,ATG
-Dominica,1995,195,20,,DMA
-Cuba,1995,81364,20,16,CUB
-Suriname,1995,1660,20,469,SUR
-Suriname,1996,1560,20,469,SUR
-Dominican Republic,1996,8114,20,,DOM
-Saint Lucia,1996,532,20,,LCA
-Trinidad and Tobago,1996,5184,20,,TTO
-Cuba,1996,81549,20,16,CUB
-Dominica,1996,223,20,,DMA
-Suriname,1997,1560,20,469,SUR
-Saint Lucia,1997,527,20,,LCA
-Cuba,1997,82037,20,16,CUB
-Dominican Republic,1997,9248,20,,DOM
-Dominican Republic,1998,10010,20,,DOM
-Aruba,1998,305,20,,ABW
-Saint Kitts and Nevis,1998,150,20,,KNA
-Saint Lucia,1998,521,20,,LCA
-Puerto Rico,1998,12311,20,,PRI
-Cuba,1998,80781,20,16,CUB
-Bahamas,1998,1064,20,,BHS
-Barbados,1998,501,20,,BRB
-Grenada,1998,200,20,,GRD
-Saint Vincent and the Grenadines,1998,209,20,,VCT
-Dominica,1998,233,20,,DMA
-Aruba,1999,305,20,,ABW
-Bahamas,1999,1050,20,,BHS
-Barbados,1999,501,20,,BRB
-Puerto Rico,1999,12311,20,,PRI
-Grenada,1999,370,20,,GRD
-Saint Vincent and the Grenadines,1999,209,20,,VCT
-Saint Lucia,1999,285,20,,LCA
-Dominica,1999,233,20,,DMA
-Saint Kitts and Nevis,1999,199,20,,KNA
-Cuba,1999,77367,20,16,CUB
-Jamaica,1999,4802,20,471,JAM
-Trinidad and Tobago,1999,4384,20,,TTO
-Trinidad and Tobago,2000,4281,20,,TTO
-Suriname,2000,1683,20,469,SUR
-Aruba,2000,305,20,,ABW
-Guyana,2000,3154,20,,GUY
-Cuba,2000,73157,20,,CUB
-Saint Kitts and Nevis,2000,246,20,,KNA
-Turks and Caicos Islands,2000,43,20,,TCA
-Saint Lucia,2000,285,20,,LCA
-Dominica,2000,233,20,,DMA
-Puerto Rico,2000,9671,20,3278,PRI
-Grenada,2000,434,20,,GRD
-Dominican Republic,2000,9184,20,,DOM
-Montserrat,2000,30,20,,MSR
-Bahamas,2000,978,20,,BHS
-Saint Vincent and the Grenadines,2000,209,20,,VCT
-Jamaica,2000,3511,20,471,JAM
-Jamaica,2001,3670,20,471,JAM
-Bahamas,2001,983,20,,BHS
-Saint Vincent and the Grenadines,2001,184,20,,VCT
-Montserrat,2001,30,20,,MSR
-Dominican Republic,2001,9585,20,,DOM
-Cayman Islands,2001,104,20,,CYM
-Turks and Caicos Islands,2001,43,20,,TCA
-Saint Kitts and Nevis,2001,178,20,,KNA
-Guyana,2001,3153,20,,GUY
-Grenada,2001,434,20,,GRD
-Puerto Rico,2001,9259,20,3278,PRI
-Belize,2001,338,20,,BLZ
-Suriname,2001,1657,20,469,SUR
-Trinidad and Tobago,2001,4339,20,,TTO
-Dominica,2001,272,20,,DMA
-Saint Lucia,2001,285,20,,LCA
-Netherlands Antilles,2001,1343,20,,ANT
-Aruba,2001,305,20,,ABW
-Cuba,2001,71251,20,,CUB
-Cuba,2002,70424,20,,CUB
-Aruba,2002,305,20,,ABW
-Guyana,2002,3183,20,,GUY
-Puerto Rico,2002,9522,20,3278,PRI
-Dominican Republic,2002,9291,20,,DOM
-Dominica,2002,272,20,,DMA
-Trinidad and Tobago,2002,4558,20,,TTO
-Turks and Caicos Islands,2002,43,20,,TCA
-Saint Kitts and Nevis,2002,230,20,,KNA
-Bahamas,2002,984,20,,BHS
-Barbados,2002,627,20,,BRB
-Saint Vincent and the Grenadines,2002,209,20,,VCT
-Cayman Islands,2002,104,20,,CYM
-Belize,2002,333,20,,BLZ
-Suriname,2002,1539,20,469,SUR
-Saint Lucia,2002,285,20,,LCA
-Jamaica,2002,3897,20,471,JAM
-Montserrat,2002,30,20,,MSR
-Grenada,2002,434,20,,GRD
-Suriname,2003,1553,20,469,SUR
-Dominica,2003,272,20,,DMA
-Belize,2003,344,20,,BLZ
-Cayman Islands,2003,93,20,,CYM
-Dominican Republic,2003,9395,20,,DOM
-Jamaica,2003,3585,20,471,JAM
-Aruba,2003,305,20,,ABW
-Puerto Rico,2003,9422,20,3278,PRI
-Barbados,2003,627,20,,BRB
-Saint Vincent and the Grenadines,2003,190,20,,VCT
-Saint Kitts and Nevis,2003,215,20,,KNA
-Bahamas,2003,1004,20,,BHS
-Turks and Caicos Islands,2003,43,20,,TCA
-Trinidad and Tobago,2003,4291,20,28,TTO
-Grenada,2003,392,20,,GRD
-Guyana,2003,1883,20,,GUY
-Cuba,2003,70003,20,,CUB
-Montserrat,2003,30,20,,MSR
-Dominican Republic,2004,9209,20,,DOM
-Suriname,2004,1611,20,469,SUR
-Trinidad and Tobago,2004,4553,20,28,TTO
-Guyana,2004,1889,20,,GUY
-Montserrat,2004,30,20,,MSR
-Cayman Islands,2004,101,20,,CYM
-Belize,2004,350,20,,BLZ
-Grenada,2004,353,20,,GRD
-Cuba,2004,70079,20,,CUB
-Aruba,2004,305,20,,ABW
-Turks and Caicos Islands,2004,43,20,,TCA
-Barbados,2004,627,20,,BRB
-Puerto Rico,2004,9422,20,3278,PRI
-Saint Vincent and the Grenadines,2004,190,20,,VCT
-Dominica,2004,272,20,,DMA
-Bahamas,2004,1004,20,,BHS
-Bahamas,2005,985,20,,BHS
-Saint Kitts and Nevis,2005,184,20,,KNA
-Dominica,2005,272,20,,DMA
-Aruba,2005,308,20,,ABW
-Dominican Republic,2005,9640,20,,DOM
-Puerto Rico,2005,9187,20,3278,PRI
-Cuba,2005,69507,20,,CUB
-Trinidad and Tobago,2005,3491,20,,TTO
-Turks and Caicos Islands,2005,43,20,,TCA
-Saint Vincent and the Grenadines,2005,190,20,,VCT
-Suriname,2005,1588,20,469,SUR
-Grenada,2005,363,20,,GRD
-Belize,2005,357,20,,BLZ
-Guyana,2005,1888,20,,GUY
-Montserrat,2005,30,20,,MSR
-Cayman Islands,2005,101,20,,CYM
-Barbados,2005,627,20,,BRB
-Cayman Islands,2006,101,20,,CYM
-Puerto Rico,2006,7174,20,3278,PRI
-Montserrat,2006,30,20,,MSR
-Guyana,2006,1833,20,,GUY
-Dominican Republic,2006,9517,20,,DOM
-Cuba,2006,69392,20,,CUB
-Belize,2006,356,20,,BLZ
-Aruba,2006,308,20,,ABW
-Grenada,2006,363,20,,GRD
-Saint Vincent and the Grenadines,2006,190,20,,VCT
-Saint Kitts and Nevis,2006,216,20,,KNA
-Turks and Caicos Islands,2006,43,20,,TCA
-Suriname,2006,1566,20,469,SUR
-Barbados,2006,552,20,,BRB
-Bahamas,2006,985,20,,BHS
-Trinidad and Tobago,2006,3556,20,,TTO
-Puerto Rico,2007,5659,20,3278,PRI
-Aruba,2007,308,20,,ABW
-Belize,2007,354,20,,BLZ
-Cuba,2007,68877,20,,CUB
-Dominica,2007,227,20,,DMA
-Dominican Republic,2007,9479,20,,DOM
-Saint Vincent and the Grenadines,2007,190,20,,VCT
-Grenada,2007,363,20,,GRD
-Montserrat,2007,30,20,,MSR
-Bahamas,2007,995,20,,BHS
-Guyana,2007,1900,20,,GUY
-Cayman Islands,2007,101,20,,CYM
-Trinidad and Tobago,2007,3356,20,,TTO
-Suriname,2007,1636,20,469,SUR
-Saint Kitts and Nevis,2007,221,20,,KNA
-Dominica,2008,284,20,,DMA
-Guyana,2008,1908,20,,GUY
-Cayman Islands,2008,101,20,,CYM
-Saint Kitts and Nevis,2008,221,20,,KNA
-Trinidad and Tobago,2008,3499,20,,TTO
-Montserrat,2008,30,20,,MSR
-Dominican Republic,2008,9566,20,,DOM
-Suriname,2008,1654,20,469,SUR
-Grenada,2008,380,20,,GRD
-Aruba,2008,290,20,,ABW
-Bahamas,2008,995,20,,BHS
-Puerto Rico,2008,8467,20,3278,PRI
-Saint Vincent and the Grenadines,2008,190,20,,VCT
-Cuba,2008,67268,20,,CUB
-Belize,2008,347,20,,BLZ
-Puerto Rico,2009,8168,20,3278,PRI
-Barbados,2009,578,20,,BRB
-Cuba,2009,66375,20,,CUB
-Grenada,2009,380,20,,GRD
-Suriname,2009,1687,20,469,SUR
-Dominican Republic,2009,10082,20,,DOM
-Montserrat,2009,30,20,,MSR
-Saint Kitts and Nevis,2009,221,20,,KNA
-Saint Vincent and the Grenadines,2009,192,20,,VCT
-Cayman Islands,2009,103,20,,CYM
-Bahamas,2009,1005,20,,BHS
-Puerto Rico,2010,8947,20,3278,PRI
-Dominican Republic,2010,10198,20,,DOM
-Saint Vincent and the Grenadines,2010,195,20,,VCT
-Suriname,2010,1701,20,469,SUR
-Cuba,2010,66320,20,,CUB
-Montserrat,2010,30,20,,MSR
-Grenada,2010,380,20,661,GRD
-Cayman Islands,2010,103,20,,CYM
-Barbados,2010,584,20,,BRB
-Saint Kitts and Nevis,2010,239,20,,KNA
-Bahamas,2010,992,20,,BHS
-Puerto Rico,2011,8969,20,3278,PRI
-Bahamas,2011,992,20,,BHS
-Cayman Islands,2011,103,20,,CYM
-Cuba,2011,57683,20,,CUB
-Barbados,2011,584,20,,BRB
-Montserrat,2011,30,20,,MSR
-Cuba,2012,60042,20,,CUB
-Montserrat,2012,30,20,,MSR
-Barbados,2012,584,20,,BRB
-Cayman Islands,2012,103,20,,CYM
+Year,Value,Source,Notes,ISO3,Country
+1960,4712,20,,TTO,Trinidad and Tobago
+1960,472,20,,BLZ,Belize
+1960,3172,20,,GUY,Guyana
+1960,1368,20,,BRB,Barbados
+1960,30500,20,16,CUB,Cuba
+1960,6753,20,,JAM,Jamaica
+1960,7524,20,,DOM,Dominican Republic
+1960,2316,20,,HTI,Haiti
+1960,647,20,,BHS,Bahamas
+1965,2389,20,,HTI,Haiti
+1965,1629,20,,BRB,Barbados
+1965,3962,20,,GUY,Guyana
+1965,48669,20,16,CUB,Cuba
+1965,7023,20,,JAM,Jamaica
+1965,827,20,,BHS,Bahamas
+1965,4247,20,,TTO,Trinidad and Tobago
+1965,10425,20,,DOM,Dominican Republic
+1965,545,20,,BLZ,Belize
+1970,7672,20,,JAM,Jamaica
+1970,2445,20,,BRB,Barbados
+1970,3545,20,17,HTI,Haiti
+1970,871,20,,BHS,Bahamas
+1970,57653,20,16,CUB,Cuba
+1970,11674,20,,DOM,Dominican Republic
+1970,4800,20,,TTO,Trinidad and Tobago
+1970,3377,20,,GUY,Guyana
+1970,560,20,,BLZ,Belize
+1971,13469,20,,DOM,Dominican Republic
+1971,560,20,,BLZ,Belize
+1971,3450,20,,GUY,Guyana
+1971,54303,20,16,CUB,Cuba
+1971,2263,20,,BRB,Barbados
+1971,7817,20,,JAM,Jamaica
+1972,54873,20,16,CUB,Cuba
+1972,11975,20,,DOM,Dominican Republic
+1972,7100,20,,JAM,Jamaica
+1972,3494,20,17,HTI,Haiti
+1972,2216,20,,BRB,Barbados
+1972,3969,20,,GUY,Guyana
+1972,560,20,,BLZ,Belize
+1972,4804,20,,TTO,Trinidad and Tobago
+1973,7607,20,,JAM,Jamaica
+1973,2190,20,,BRB,Barbados
+1973,3987,20,,GUY,Guyana
+1973,52524,20,16,CUB,Cuba
+1973,3868,20,17,HTI,Haiti
+1973,12507,20,,DOM,Dominican Republic
+1973,560,20,,BLZ,Belize
+1973,312,20,17,DMA,Dominica
+1974,600,20,,BLZ,Belize
+1974,52709,20,16,CUB,Cuba
+1974,2130,20,,BRB,Barbados
+1974,7657,20,,JAM,Jamaica
+1975,3969,20,,GUY,Guyana
+1975,7780,20,,JAM,Jamaica
+1975,874,20,,BHS,Bahamas
+1975,4815,20,,TTO,Trinidad and Tobago
+1975,12618,20,,DOM,Dominican Republic
+1975,600,20,,BLZ,Belize
+1975,2161,20,,BRB,Barbados
+1975,4104,20,,HTI,Haiti
+1975,51244,20,16,CUB,Cuba
+1976,7648,20,,JAM,Jamaica
+1976,51513,20,16,CUB,Cuba
+1976,3643,20,17,HTI,Haiti
+1976,2141,20,,BRB,Barbados
+1976,615,20,,BLZ,Belize
+1976,3373,20,,GUY,Guyana
+1977,4514,20,17,HTI,Haiti
+1977,7717,20,,JAM,Jamaica
+1977,623,20,,BLZ,Belize
+1977,2146,20,,BRB,Barbados
+1977,51192,20,16,CUB,Cuba
+1978,4591,20,17,HTI,Haiti
+1978,639,20,,GRD,Grenada
+1978,7644,20,,JAM,Jamaica
+1978,3906,20,,GUY,Guyana
+1978,51595,20,16,CUB,Cuba
+1978,2073,20,,SUR,Suriname
+1978,594,20,,BLZ,Belize
+1979,4002,20,,GUY,Guyana
+1979,7648,20,,JAM,Jamaica
+1979,52676,20,16,CUB,Cuba
+1979,4387,20,,TTO,Trinidad and Tobago
+1979,564,20,,BLZ,Belize
+1980,556,20,,BLZ,Belize
+1980,572,20,,VCT,Saint Vincent and the Grenadines
+1980,207,20,,ATG,Antigua and Barbuda
+1980,323,20,,GRD,Grenada
+1980,2129,20,,BRB,Barbados
+1980,4565,20,,TTO,Trinidad and Tobago
+1980,3954,20,17,HTI,Haiti
+1980,156,20,,DMA,Dominica
+1980,6527,20,,JAM,Jamaica
+1980,6633,20,,DOM,Dominican Republic
+1980,3169,20,,SUR,Suriname
+1980,53417,20,16,CUB,Cuba
+1981,56492,20,16,CUB,Cuba
+1981,6535,20,,JAM,Jamaica
+1981,5250,20,17,HTI,Haiti
+1981,4456,20,,TTO,Trinidad and Tobago
+1981,2054,20,,BRB,Barbados
+1981,556,20,,BLZ,Belize
+1981,572,20,,VCT,Saint Vincent and the Grenadines
+1981,320,20,,GRD,Grenada
+1981,153,20,,DMA,Dominica
+1981,205,20,,ATG,Antigua and Barbuda
+1982,144,20,,DMA,Dominica
+1982,58326,20,16,CUB,Cuba
+1982,4321,20,,TTO,Trinidad and Tobago
+1982,2054,20,,BRB,Barbados
+1982,6342,20,,JAM,Jamaica
+1982,578,20,,BLZ,Belize
+1982,900,20,,BHS,Bahamas
+1983,140,20,,DMA,Dominica
+1983,9814,20,,DOM,Dominican Republic
+1983,6334,20,,JAM,Jamaica
+1983,2049,20,,BRB,Barbados
+1983,948,20,,BHS,Bahamas
+1983,4438,20,,TTO,Trinidad and Tobago
+1983,576,20,,BLZ,Belize
+1983,60037,20,16,CUB,Cuba
+1984,4438,20,,TTO,Trinidad and Tobago
+1984,6316,20,,JAM,Jamaica
+1984,177,20,,DMA,Dominica
+1984,2076,20,,BRB,Barbados
+1984,63015,20,16,CUB,Cuba
+1984,583,20,,BLZ,Belize
+1984,968,20,,BHS,Bahamas
+1985,999,20,,BHS,Bahamas
+1985,190,20,,DMA,Dominica
+1985,1962,20,,SUR,Suriname
+1985,64160,20,16,CUB,Cuba
+1985,4481,20,,TTO,Trinidad and Tobago
+1985,2111,20,,BRB,Barbados
+1985,5778,20,,JAM,Jamaica
+1985,583,20,,BLZ,Belize
+1986,5223,20,,JAM,Jamaica
+1986,329,20,,ATG,Antigua and Barbuda
+1986,2054,20,,BRB,Barbados
+1986,999,20,,BHS,Bahamas
+1986,4087,20,,TTO,Trinidad and Tobago
+1986,501,20,,LCA,Saint Lucia
+1986,66412,20,16,CUB,Cuba
+1986,1893,20,,SUR,Suriname
+1986,190,20,,DMA,Dominica
+1986,258,20,,KNA,Saint Kitts and Nevis
+1986,583,20,,BLZ,Belize
+1987,71106,20,16,CUB,Cuba
+1987,676,20,,GRD,Grenada
+1987,4241,20,,TTO,Trinidad and Tobago
+1987,1050,20,,BHS,Bahamas
+1987,583,20,,BLZ,Belize
+1987,5707,20,,JAM,Jamaica
+1987,190,20,,DMA,Dominica
+1987,1883,20,,SUR,Suriname
+1987,524,20,,VCT,Saint Vincent and the Grenadines
+1987,539,20,,LCA,Saint Lucia
+1987,2204,20,,GUY,Guyana
+1987,329,20,,ATG,Antigua and Barbuda
+1987,2054,20,,BRB,Barbados
+1987,4965,20,,HTI,Haiti
+1987,13169,20,,DOM,Dominican Republic
+1987,256,20,,KNA,Saint Kitts and Nevis
+1988,2049,20,,BRB,Barbados
+1988,329,20,,ATG,Antigua and Barbuda
+1988,1815,20,,SUR,Suriname
+1988,583,20,,BLZ,Belize
+1988,5667,20,,JAM,Jamaica
+1988,4607,20,,TTO,Trinidad and Tobago
+1988,190,20,,DMA,Dominica
+1988,978,20,,BHS,Bahamas
+1988,258,20,,KNA,Saint Kitts and Nevis
+1988,545,20,,LCA,Saint Lucia
+1988,73212,20,16,CUB,Cuba
+1989,5027,20,,JAM,Jamaica
+1989,190,20,,DMA,Dominica
+1989,987,20,,BHS,Bahamas
+1989,77739,20,16,CUB,Cuba
+1989,258,20,,KNA,Saint Kitts and Nevis
+1989,525,20,,BLZ,Belize
+1989,4308,20,,TTO,Trinidad and Tobago
+1989,1775,20,,SUR,Suriname
+1989,329,20,,ATG,Antigua and Barbuda
+1989,2076,20,,BRB,Barbados
+1989,548,20,,LCA,Saint Lucia
+1990,997,20,,BHS,Bahamas
+1990,2085,20,,BRB,Barbados
+1990,3894,20,,TTO,Trinidad and Tobago
+1990,268,20,,KNA,Saint Kitts and Nevis
+1990,5130,20,,JAM,Jamaica
+1990,518,20,,LCA,Saint Lucia
+1990,301,20,,ATG,Antigua and Barbuda
+1990,195,20,,DMA,Dominica
+1990,585,20,,BLZ,Belize
+1990,78164,20,16,CUB,Cuba
+1991,6923,20,,DOM,Dominican Republic
+1991,79997,20,16,CUB,Cuba
+1991,268,20,,KNA,Saint Kitts and Nevis
+1991,195,20,,DMA,Dominica
+1991,585,20,,BLZ,Belize
+1991,489,20,,LCA,Saint Lucia
+1991,301,20,,ATG,Antigua and Barbuda
+1992,268,20,,KNA,Saint Kitts and Nevis
+1992,7818,20,,DOM,Dominican Republic
+1992,299,20,,ATG,Antigua and Barbuda
+1992,506,20,,LCA,Saint Lucia
+1992,585,20,,BLZ,Belize
+1992,195,20,,DMA,Dominica
+1992,80684,20,16,CUB,Cuba
+1993,520,20,,LCA,Saint Lucia
+1993,268,20,,KNA,Saint Kitts and Nevis
+1993,80695,20,16,CUB,Cuba
+1993,585,20,,BLZ,Belize
+1993,279,20,,ATG,Antigua and Barbuda
+1993,8621,20,,DOM,Dominican Republic
+1993,195,20,,DMA,Dominica
+1994,81907,20,16,CUB,Cuba
+1994,503,20,,LCA,Saint Lucia
+1994,195,20,,DMA,Dominica
+1994,8363,20,,DOM,Dominican Republic
+1994,268,20,,KNA,Saint Kitts and Nevis
+1994,279,20,,ATG,Antigua and Barbuda
+1995,195,20,,DMA,Dominica
+1995,7234,20,,DOM,Dominican Republic
+1995,279,20,,ATG,Antigua and Barbuda
+1995,1660,20,469,SUR,Suriname
+1995,81364,20,16,CUB,Cuba
+1995,536,20,,LCA,Saint Lucia
+1996,8114,20,,DOM,Dominican Republic
+1996,5184,20,,TTO,Trinidad and Tobago
+1996,532,20,,LCA,Saint Lucia
+1996,81549,20,16,CUB,Cuba
+1996,223,20,,DMA,Dominica
+1996,1560,20,469,SUR,Suriname
+1997,527,20,,LCA,Saint Lucia
+1997,82037,20,16,CUB,Cuba
+1997,1560,20,469,SUR,Suriname
+1997,9248,20,,DOM,Dominican Republic
+1998,305,20,,ABW,Aruba
+1998,12311,20,,PRI,Puerto Rico
+1998,80781,20,16,CUB,Cuba
+1998,233,20,,DMA,Dominica
+1998,150,20,,KNA,Saint Kitts and Nevis
+1998,10010,20,,DOM,Dominican Republic
+1998,200,20,,GRD,Grenada
+1998,501,20,,BRB,Barbados
+1998,209,20,,VCT,Saint Vincent and the Grenadines
+1998,1064,20,,BHS,Bahamas
+1998,521,20,,LCA,Saint Lucia
+1999,209,20,,VCT,Saint Vincent and the Grenadines
+1999,1050,20,,BHS,Bahamas
+1999,77367,20,16,CUB,Cuba
+1999,12311,20,,PRI,Puerto Rico
+1999,501,20,,BRB,Barbados
+1999,370,20,,GRD,Grenada
+1999,4384,20,,TTO,Trinidad and Tobago
+1999,233,20,,DMA,Dominica
+1999,285,20,,LCA,Saint Lucia
+1999,4802,20,471,JAM,Jamaica
+1999,199,20,,KNA,Saint Kitts and Nevis
+1999,305,20,,ABW,Aruba
+2000,434,20,,GRD,Grenada
+2000,246,20,,KNA,Saint Kitts and Nevis
+2000,3511,20,471,JAM,Jamaica
+2000,978,20,,BHS,Bahamas
+2000,9671,20,3278,PRI,Puerto Rico
+2000,305,20,,ABW,Aruba
+2000,285,20,,LCA,Saint Lucia
+2000,233,20,,DMA,Dominica
+2000,4281,20,,TTO,Trinidad and Tobago
+2000,43,20,,TCA,Turks and Caicos Islands
+2000,3154,20,,GUY,Guyana
+2000,9184,20,,DOM,Dominican Republic
+2000,73157,20,,CUB,Cuba
+2000,30,20,,MSR,Montserrat
+2000,1683,20,469,SUR,Suriname
+2000,209,20,,VCT,Saint Vincent and the Grenadines
+2001,71251,20,,CUB,Cuba
+2001,1657,20,469,SUR,Suriname
+2001,9259,20,3278,PRI,Puerto Rico
+2001,3153,20,,GUY,Guyana
+2001,285,20,,LCA,Saint Lucia
+2001,272,20,,DMA,Dominica
+2001,43,20,,TCA,Turks and Caicos Islands
+2001,4339,20,,TTO,Trinidad and Tobago
+2001,9585,20,,DOM,Dominican Republic
+2001,983,20,,BHS,Bahamas
+2001,184,20,,VCT,Saint Vincent and the Grenadines
+2001,104,20,,CYM,Cayman Islands
+2001,3670,20,471,JAM,Jamaica
+2001,30,20,,MSR,Montserrat
+2001,305,20,,ABW,Aruba
+2001,178,20,,KNA,Saint Kitts and Nevis
+2001,434,20,,GRD,Grenada
+2001,338,20,,BLZ,Belize
+2002,305,20,,ABW,Aruba
+2002,30,20,,MSR,Montserrat
+2002,43,20,,TCA,Turks and Caicos Islands
+2002,209,20,,VCT,Saint Vincent and the Grenadines
+2002,9291,20,,DOM,Dominican Republic
+2002,272,20,,DMA,Dominica
+2002,4558,20,,TTO,Trinidad and Tobago
+2002,627,20,,BRB,Barbados
+2002,3897,20,471,JAM,Jamaica
+2002,3183,20,,GUY,Guyana
+2002,285,20,,LCA,Saint Lucia
+2002,984,20,,BHS,Bahamas
+2002,104,20,,CYM,Cayman Islands
+2002,70424,20,,CUB,Cuba
+2002,1539,20,469,SUR,Suriname
+2002,9522,20,3278,PRI,Puerto Rico
+2002,230,20,,KNA,Saint Kitts and Nevis
+2002,333,20,,BLZ,Belize
+2002,434,20,,GRD,Grenada
+2003,30,20,,MSR,Montserrat
+2003,93,20,,CYM,Cayman Islands
+2003,344,20,,BLZ,Belize
+2003,43,20,,TCA,Turks and Caicos Islands
+2003,70003,20,,CUB,Cuba
+2003,305,20,,ABW,Aruba
+2003,4291,20,28,TTO,Trinidad and Tobago
+2003,9395,20,,DOM,Dominican Republic
+2003,272,20,,DMA,Dominica
+2003,1883,20,,GUY,Guyana
+2003,215,20,,KNA,Saint Kitts and Nevis
+2003,627,20,,BRB,Barbados
+2003,190,20,,VCT,Saint Vincent and the Grenadines
+2003,9422,20,3278,PRI,Puerto Rico
+2003,1004,20,,BHS,Bahamas
+2003,1553,20,469,SUR,Suriname
+2003,3585,20,471,JAM,Jamaica
+2003,392,20,,GRD,Grenada
+2004,1004,20,,BHS,Bahamas
+2004,190,20,,VCT,Saint Vincent and the Grenadines
+2004,1611,20,469,SUR,Suriname
+2004,1889,20,,GUY,Guyana
+2004,627,20,,BRB,Barbados
+2004,272,20,,DMA,Dominica
+2004,101,20,,CYM,Cayman Islands
+2004,305,20,,ABW,Aruba
+2004,70079,20,,CUB,Cuba
+2004,350,20,,BLZ,Belize
+2004,43,20,,TCA,Turks and Caicos Islands
+2004,9422,20,3278,PRI,Puerto Rico
+2004,9209,20,,DOM,Dominican Republic
+2004,353,20,,GRD,Grenada
+2004,30,20,,MSR,Montserrat
+2004,4553,20,28,TTO,Trinidad and Tobago
+2005,30,20,,MSR,Montserrat
+2005,43,20,,TCA,Turks and Caicos Islands
+2005,1888,20,,GUY,Guyana
+2005,9640,20,,DOM,Dominican Republic
+2005,190,20,,VCT,Saint Vincent and the Grenadines
+2005,9187,20,3278,PRI,Puerto Rico
+2005,985,20,,BHS,Bahamas
+2005,3491,20,,TTO,Trinidad and Tobago
+2005,184,20,,KNA,Saint Kitts and Nevis
+2005,627,20,,BRB,Barbados
+2005,272,20,,DMA,Dominica
+2005,69507,20,,CUB,Cuba
+2005,357,20,,BLZ,Belize
+2005,1588,20,469,SUR,Suriname
+2005,308,20,,ABW,Aruba
+2005,101,20,,CYM,Cayman Islands
+2005,363,20,,GRD,Grenada
+2006,101,20,,CYM,Cayman Islands
+2006,7174,20,3278,PRI,Puerto Rico
+2006,216,20,,KNA,Saint Kitts and Nevis
+2006,43,20,,TCA,Turks and Caicos Islands
+2006,1833,20,,GUY,Guyana
+2006,363,20,,GRD,Grenada
+2006,552,20,,BRB,Barbados
+2006,190,20,,VCT,Saint Vincent and the Grenadines
+2006,69392,20,,CUB,Cuba
+2006,356,20,,BLZ,Belize
+2006,1566,20,469,SUR,Suriname
+2006,9517,20,,DOM,Dominican Republic
+2006,308,20,,ABW,Aruba
+2006,985,20,,BHS,Bahamas
+2006,30,20,,MSR,Montserrat
+2006,3556,20,,TTO,Trinidad and Tobago
+2007,308,20,,ABW,Aruba
+2007,227,20,,DMA,Dominica
+2007,30,20,,MSR,Montserrat
+2007,190,20,,VCT,Saint Vincent and the Grenadines
+2007,68877,20,,CUB,Cuba
+2007,3356,20,,TTO,Trinidad and Tobago
+2007,5659,20,3278,PRI,Puerto Rico
+2007,363,20,,GRD,Grenada
+2007,221,20,,KNA,Saint Kitts and Nevis
+2007,101,20,,CYM,Cayman Islands
+2007,1900,20,,GUY,Guyana
+2007,995,20,,BHS,Bahamas
+2007,9479,20,,DOM,Dominican Republic
+2007,1636,20,469,SUR,Suriname
+2007,354,20,,BLZ,Belize
+2008,30,20,,MSR,Montserrat
+2008,8467,20,3278,PRI,Puerto Rico
+2008,380,20,,GRD,Grenada
+2008,221,20,,KNA,Saint Kitts and Nevis
+2008,290,20,,ABW,Aruba
+2008,995,20,,BHS,Bahamas
+2008,9566,20,,DOM,Dominican Republic
+2008,1654,20,469,SUR,Suriname
+2008,3499,20,,TTO,Trinidad and Tobago
+2008,101,20,,CYM,Cayman Islands
+2008,1908,20,,GUY,Guyana
+2008,284,20,,DMA,Dominica
+2008,67268,20,,CUB,Cuba
+2008,347,20,,BLZ,Belize
+2008,190,20,,VCT,Saint Vincent and the Grenadines
+2009,380,20,,GRD,Grenada
+2009,578,20,,BRB,Barbados
+2009,1005,20,,BHS,Bahamas
+2009,66375,20,,CUB,Cuba
+2009,221,20,,KNA,Saint Kitts and Nevis
+2009,103,20,,CYM,Cayman Islands
+2009,30,20,,MSR,Montserrat
+2009,10082,20,,DOM,Dominican Republic
+2009,1687,20,469,SUR,Suriname
+2009,192,20,,VCT,Saint Vincent and the Grenadines
+2009,8168,20,3278,PRI,Puerto Rico
+2010,30,20,,MSR,Montserrat
+2010,8947,20,3278,PRI,Puerto Rico
+2010,195,20,,VCT,Saint Vincent and the Grenadines
+2010,1701,20,469,SUR,Suriname
+2010,380,20,661,GRD,Grenada
+2010,103,20,,CYM,Cayman Islands
+2010,66320,20,,CUB,Cuba
+2010,584,20,,BRB,Barbados
+2010,10198,20,,DOM,Dominican Republic
+2010,239,20,,KNA,Saint Kitts and Nevis
+2010,992,20,,BHS,Bahamas
+2011,992,20,,BHS,Bahamas
+2011,30,20,,MSR,Montserrat
+2011,8969,20,3278,PRI,Puerto Rico
+2011,57683,20,,CUB,Cuba
+2011,584,20,,BRB,Barbados
+2011,103,20,,CYM,Cayman Islands
+2012,60042,20,,CUB,Cuba
+2012,30,20,,MSR,Montserrat
+2012,103,20,,CYM,Cayman Islands
+2012,584,20,,BRB,Barbados
