@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS `statmart_a` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE IF NOT EXISTS `statmart_b` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER 'statmart_admin'@'localhost' IDENTIFIED BY 'mypass';
+CREATE USER 'statmart_client'@'localhost' IDENTIFIED BY 'mypass';
+CREATE USER 'statmart_view'@'localhost' IDENTIFIED BY 'mypass';
+GRANT ALL ON statmart_a.* TO 'statmart_admin'@'localhost';
+GRANT ALL ON statmart_b.* TO 'statmart_admin'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON statmart_a.* TO 'statmart_client'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON statmart_b.* TO 'statmart_client'@'localhost';
+GRANT SELECT ON statmart_a.* TO 'statmart_view'@'localhost';
+GRANT SELECT ON statmart_b.* TO 'statmart_view'@'localhost';
