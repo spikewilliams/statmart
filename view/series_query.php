@@ -15,7 +15,7 @@ if (strlen($s) == 0){
 //gdp-sec-cstrn\_%\_cepalstat
 //sid=gdp-sec-cstrn&iso=tto&src=cepalstat
 
-$db_connection = mysqli_connect("127.0.0.1","root","","statmart");
+$db_connection = mysqli_connect("127.0.0.1","statmart_client","mypass","statmart_a");
 
 $query = <<<SQLQUERY
 SELECT O.series, L.iso3, L.countryname, D.year, O.value

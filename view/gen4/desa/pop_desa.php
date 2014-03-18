@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv='content-type' content='text/html; charset=UTF-8'/>
 <title>Population</title>
-<script type='text/javascript' src='http://localhost:81/js/d3.v3.min.js'></script>
+<script type='text/javascript' src='../../js/d3.v3.min.js'></script>
 <style><?php include('../../inc/style_basic.php'); ?></style></head>
 <body><script type='text/javascript'>//<![CDATA[
 //~metadata_iso3_map
@@ -25,7 +25,7 @@ function getParameterByName(name, default_param) {
     seriesName = "pop_" + iso3 + "_desa"
 
 //~js_data_url_series_query
-    dataURL = "http://localhost:81/series_query.php?s=" + seriesName;
+    dataURL = "../../series_query.php?s=" + seriesName;
 
 //~graph_set_title (title)
 graphTitle = getParameterByName("title", "Population");
@@ -58,7 +58,7 @@ if (typeof tloc != "undefined" && tloc != "header") {
 
 //~include_js_d3_basic_axis 
     <?php
-		include("C:/portal/statmart/view/inc/axis.php");
+		include("../../inc/axis.php");
      ?> 
  
 //~js_d3_start_csv
