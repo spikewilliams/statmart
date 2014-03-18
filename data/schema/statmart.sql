@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `statmart`
 --
-CREATE DATABASE IF NOT EXISTS `statmart` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `statmart`;
+CREATE DATABASE IF NOT EXISTS `statmart_a` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `statmart_a`;
 
 -- --------------------------------------------------------
 
