@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Guyana from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_guy_desa.csv
 filehash,2a2cf6e042e982cd5dce78f3d231358c97392502
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

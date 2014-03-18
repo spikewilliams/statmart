@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Saint Kitts and Nevis from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_kna_desa.csv
 filehash,94fd039c2e4d1367afe1d1f77d704682e11c5839
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

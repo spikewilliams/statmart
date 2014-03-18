@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Cayman Islands from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_cym_desa.csv
 filehash,84dff493585a6f5359196be4be5c41fcff42a4ee
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

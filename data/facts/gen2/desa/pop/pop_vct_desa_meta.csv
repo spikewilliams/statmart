@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Saint Vincent and The Grenadines from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_vct_desa.csv
 filehash,c7fea1041ec71ef8385983b4fbec39fceeb6459b
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

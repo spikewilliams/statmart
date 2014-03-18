@@ -28,7 +28,7 @@ function getParameterByName(name, default_param) {
     dataURL = "http://localhost:81/series_query.php?s=" + seriesName;
 
 //~graph_set_title (title)
-graphTitle = getParameterByName("title", "Death rate associated with tuberculosis");
+graphTitle = getParameterByName("title", "Death rate - Tuberculosis");
 
 //~graph_set_subtitle_country
 var countryname = iso3Map[iso3.toUpperCase()]["countryname"];
@@ -64,29 +64,9 @@ if (typeof tloc != "undefined" && tloc != "header") {
 //~js_d3_start_csv
      d3.csv(dataURL, function(error, data) {
 
-//~js_guess_unit
-    unit = "";
+//~js_set_unit (unit type, unit factor)
+    unit = "Percentage of registered deaths";
     ufactor = 1;
-
-    var max = d3.max(data, function(d) { return d["value"]; });
-    var min = d3.min(data, function(d) { return d["value"]; });
-    
-    if (min > 1000 && max > 10000) {
-        unit = "Thousands"
-        ufactor = 1000;
-    }
-    if (min > 100000 && max > 1000000) {
-        ufactor = 1000000;
-        unit = "Millions"   
-    }
-    if (min > 100000000 && max > 1000000000) {
-        ufactor = 1000000000;
-        unit = "Billions"   
-    }     
-    if (min < 1 && max < 1) {
-        unit = "Percentage";
-        ufactor = 0.01;
-    }
 
 //~js_d3_process_annual_csv_data
         data.forEach(function(d) {
@@ -118,7 +98,7 @@ if (typeof tloc != "undefined" && tloc != "header") {
           .call(yAxis)
         .append("text")
           .attr("transform", "rotate(-90)")
-          .attr("dy", "-32px")
+          .attr("dy", "-34px")
           .attr("dx", (height * -1) + "px")
           .style("text-anchor", "start")
           .style("padding-right","10px")

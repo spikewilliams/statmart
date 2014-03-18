@@ -92,7 +92,7 @@ def build_d3_line_graph(config):
     if config["y_axis_label"] == "unit":
         script.append(d3.js_d3_svg_build_y_axis_unit_label)
     else:
-        script.append(d3.js_d3_svg_build_y_axis_label)
+        script.append(d3.js_d3_svg_build_y_axis_label % config["y_axis_label"])
         
     script.append(d3.js_d3_svg_draw_line)
     script.append(d3.svg_draw_title)

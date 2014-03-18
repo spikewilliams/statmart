@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Antigua and Barbuda from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_atg_desa.csv
 filehash,6d9539eb4cc41d651edee34bbd6bf1141fcd3c58
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

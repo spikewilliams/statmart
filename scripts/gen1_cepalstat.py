@@ -53,14 +53,6 @@ def get_countries_by_indicator(id_indicator):
 
 # <codecell>
 
-def loadCaribCountryDict(keyColumn="cepalid"):	
-    countryDict = {}
-    carib_country_path = statmart_dimensions_gen2 + "cepalstat/_country_caribbean.csv"
-    with open(carib_country_path, 'r') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            countryDict[row[keyColumn]] = row
-    return countryDict
 
 # <codecell>
 
@@ -99,7 +91,7 @@ def build_dimension_options(dimensions):
 # <codecell>
 
 def get_data_by_indicator(id_indicator):	
-    dimensions = get_dimensions(id_indicator, loadCaribCountryDict())
+    dimensions = get_dimensions(id_indicator, us.load_carib_country_dict(key_column="cepalid"))
     url = build_url("getDataMeta","idIndicator=" + id_indicator + "&" + build_dimension_options(dimensions))
     us.log(url)
     us.log(dimensions)

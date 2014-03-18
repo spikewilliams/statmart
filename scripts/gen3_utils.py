@@ -20,13 +20,14 @@ import utils_statmart as us
 
 def get_gen2_data(config):
     data_list = []
-    filestems = pd.read_csv(config["gen_2_dir"] + "_" + config["prefix"] + ".csv", encoding="utf-8", header=False, squeeze=True,  dtype={'value': object})
+    filestems = pd.read_csv(config["gen_2_dir"] + "_" + config["prefix"] + ".csv", encoding="utf-8", header=None, squeeze=True,  dtype={'value': object})
+    #filestems = open(config["gen_2_dir"] + "_" + config["prefix"] + ".csv", "r").readlines()
     for filestem in filestems:
         iso3 = filestem.split("/")[-1].split("_")[1].upper()
         metafile = config["gen_2_dir"] + filestem + "_meta.csv"
         meta = pd.read_csv(metafile, encoding="utf-8", index_col=["key"], squeeze=True)
         datafile = config["gen_2_dir"] + filestem + ".csv"
-        data = pd.read_csv(datafile, encoding="utf-8", index_col=["year"], squeeze=True)
+        data = pd.read_csv(datafile, encoding="utf-8", index_col=["year"], squeeze=False)
         data_list.append((filestem.split("/")[-1], iso3, meta, data))
     return data_list
 
@@ -60,7 +61,13 @@ def standard_load_from_data_list(data_list):
                 #full list of fields: `OBSERVATIONID`, `SERIESID`, `LOCATIONID`, `DATEID`, `NOTEID`, `DESCRIPTIONID`, `VALUE`, `UNITID`, `STATUSID`
                 insert_observation = "INSERT INTO observation(" + observation_fields + ") VALUES (%s, %s, %s, %s, %s, %s)"
                 record = data.ix[date];
-                values  = [series_key, locationid, dateid, str(record["value"]), str(record["source"]), str(record["notes"])]
+                source = ""
+                if "source" in list(data.columns):
+                    source = str(record["source"])
+                note = ""
+                if "note" in list(data.columns):
+                    note = str(record["notes"])
+                values  = [series_key, locationid, dateid, str(record["value"]), source, note]
                 cursor.execute(insert_observation, values)
             cursor.execute("COMMIT")
 

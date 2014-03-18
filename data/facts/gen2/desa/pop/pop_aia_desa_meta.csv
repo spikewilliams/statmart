@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Anguilla from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_aia_desa.csv
 filehash,abdcc5ce832b91be7b0b600d99880d965ed9c0a1
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"
