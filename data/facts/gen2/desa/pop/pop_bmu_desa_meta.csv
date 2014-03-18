@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Bermuda from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_bmu_desa.csv
 filehash,5580f866348863244063dde1f9270ad55c5fbb78
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

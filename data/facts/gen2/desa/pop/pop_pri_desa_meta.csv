@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Puerto Rico from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_pri_desa.csv
 filehash,382f5ed9c9c623957ee83b08d30f8d3a57930530
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

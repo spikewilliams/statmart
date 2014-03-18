@@ -113,7 +113,7 @@ core_js_d3_svg_build_y_axis_label = """
           .call(yAxis)
         .append("text")
           .attr("transform", "rotate(-90)")
-          .attr("dy", "-32px")
+          .attr("dy", "-34px")
           .attr("dx", (height * -1) + "px")
           .style("text-anchor", "start")
           .style("padding-right","10px")

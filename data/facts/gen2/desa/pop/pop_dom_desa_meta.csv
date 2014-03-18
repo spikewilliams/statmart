@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Dominican Republic from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_dom_desa.csv
 filehash,390c64178d50e895d1a87d4ec562da2f164fc0e5
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

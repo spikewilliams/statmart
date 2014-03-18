@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Haiti from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_hti_desa.csv
 filehash,5c9a827b20023e9314e81ac69fd813c61ebf3a61
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

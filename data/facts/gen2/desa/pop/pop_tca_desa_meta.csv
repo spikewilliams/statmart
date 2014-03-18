@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Turks and Caicos Islands from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_tca_desa.csv
 filehash,80fef8b059860a0495103efa28b55ab45adcb376
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

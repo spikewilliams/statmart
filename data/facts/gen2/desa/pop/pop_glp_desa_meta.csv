@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Guadeloupe from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_glp_desa.csv
 filehash,d77cd77e27d04adc110a285664c33ddc8e4d1f2d
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"

@@ -6,7 +6,7 @@
 import pandas as pd
 import pymysql
 import pandas.io.sql as psql
-
+import csv
 from hashlib import sha1
 
 from settings_statmart import *
@@ -106,4 +106,24 @@ def log(str):
 
 # <codecell>
 
+def multiply_data(df, columns, config):
+    if not hasattr(df,"multiplied_flag"):
+        for col in columns:
+            df[col] = df[col].apply(lambda x : x * config["multiplier"]).astype(int)
+    else:
+        log("WARNING: you must reinitialize the DataFrame before running this code a second time.")
+    df.multiplied_flag = True
+    return df
+
+# <codecell>
+
+# Deprecated
+def load_carib_country_dict(key_column="iso3"):	
+    country_dict = {}
+    carib_country_path = statmart_dimensions_gen2 + "cepalstat/_country_caribbean.csv"
+    with open(carib_country_path, 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            country_dict[row[key_column]] = row
+    return country_dict
 

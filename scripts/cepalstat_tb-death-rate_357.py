@@ -36,7 +36,7 @@ indicator_type = "Health"
 config = us.build_config(suffix,prefix,indicator_id,indicator_name,indicator_category,indicator_type)
 #config["source"] = "Economic Commission for Latin America and the Caribbean"
 #config["multiplier"] = 1000000
-config["multiplier"] = 0.01
+config["multiplier"] = 1
 
 config
 
@@ -74,7 +74,7 @@ gen3_utils.standard_load_from_data_list(data_list)
 
 import imp
 imp.reload(gen4_utils)
-config = gen4_utils.build_gen4_config(config)
+config = gen4_utils.build_gen4_config(config, title="Death rate - Tuberculosis", unit="Percentage of registered deaths")
 page = gen4_utils.build_d3_line_graph(config)
 
 # <codecell>

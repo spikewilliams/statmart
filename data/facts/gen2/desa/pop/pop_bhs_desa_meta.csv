@@ -4,6 +4,7 @@ dataset,UN DESA world population estimates
 description,"Population estimates for Bahamas from the 2012 Revision of the World Population Prospects, produced by the Population Division of the United Nations Department of Economic and Social Affairs"
 file,pop_bhs_desa.csv
 filehash,de86e0af5a95a2507342b32db2ffbe0fe9ccce7c
-category,Demographics
+category,Demographic
 type,Population
+originalsource,UN Department of Economic and Social Affairs: Population Divison
 columns,"year,value"
