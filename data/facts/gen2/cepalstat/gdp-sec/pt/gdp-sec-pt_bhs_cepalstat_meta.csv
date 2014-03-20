@@ -1,9 +1,0 @@
-key,value
-name,Bahamas - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Bahamas: Post and telecommunications
-file,gdp-sec-pt_bhs_cepalstat.csv
-filehash,ef1e8071b64a5297bdd6a0f639901acce24015e1
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

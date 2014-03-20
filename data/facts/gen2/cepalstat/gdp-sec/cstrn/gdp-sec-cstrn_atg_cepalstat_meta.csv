@@ -1,9 +1,0 @@
-key,value
-name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Antigua and Barbuda: Construction
-file,gdp-sec-cstrn_atg_cepalstat.csv
-filehash,f17ca9f9ee7bb5fe606c83fcc72df85ffc8b913e
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

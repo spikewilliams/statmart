@@ -1,9 +1,0 @@
-key,value
-name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Jamaica: Total value added
-file,gdp-sec-tva_jam_cepalstat.csv
-filehash,2894ddbe80862dd0c088a82430a0d88bb2a0b4b9
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

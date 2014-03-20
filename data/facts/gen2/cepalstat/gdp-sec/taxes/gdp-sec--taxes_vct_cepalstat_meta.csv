@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_vct_cepalstat.csv
+filehash,7679aae91df36d3d125207b0a868953c782bb798
+columns,"year,value,source,notes"

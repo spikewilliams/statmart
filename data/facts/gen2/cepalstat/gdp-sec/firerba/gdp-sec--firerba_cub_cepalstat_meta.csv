@@ -1,0 +1,11 @@
+key,value
+name,"Cuba - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_cub_cepalstat.csv
+filehash,eaac775e69a33a12e2cbe0e6ac0fac6aa5376cd9
+columns,"year,value,source,notes"

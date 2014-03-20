@@ -17,6 +17,9 @@ import utils_statmart as us
 import gen4_html as html
 import gen4_d3js_parts as d3
 
+import imp
+imp.reload(d3)
+
 # <codecell>
 
 def build_file_name(config):
@@ -108,12 +111,6 @@ def build_d3_line_graph(config):
     page_file.write(page)
     page_file.close()    
     return page
-
-# <codecell>
-
-import imp
-imp.reload(d3)
-#imp.reload(html)
 
 # <codecell>
 

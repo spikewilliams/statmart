@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_vct_cepalstat.csv
+filehash,f7042096217ad329f015414cd5c21bfd34558af4
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Saint Kitts and Nevis - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_kna_cepalstat.csv
+filehash,c7872b5882094dc328f63dcca0467959c08af9a2
+columns,"year,value,source,notes"

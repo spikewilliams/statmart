@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_vct_cepalstat.csv
+filehash,e927ecca3622c930efd1017d8407a87284c675ea
+columns,"year,value,source,notes"

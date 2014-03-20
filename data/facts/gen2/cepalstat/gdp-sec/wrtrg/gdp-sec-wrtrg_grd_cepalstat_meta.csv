@@ -1,9 +1,0 @@
-key,value
-name,"Grenada - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Grenada: Wholesale and retail trade, and repair of goods"
-file,gdp-sec-wrtrg_grd_cepalstat.csv
-filehash,8c3b4b29156619e40a000225d303bfd050170a1a
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

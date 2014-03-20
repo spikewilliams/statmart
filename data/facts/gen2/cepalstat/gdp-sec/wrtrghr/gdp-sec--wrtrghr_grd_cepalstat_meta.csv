@@ -1,0 +1,11 @@
+key,value
+name,"Grenada - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_grd_cepalstat.csv
+filehash,2d60e8ec2e54c188424eaea4fbb029cc0af42011
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Guyana - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_guy_cepalstat.csv
+filehash,b93a28054d88a878672f07f504d9e66652b28644
+columns,"year,value,source,notes"

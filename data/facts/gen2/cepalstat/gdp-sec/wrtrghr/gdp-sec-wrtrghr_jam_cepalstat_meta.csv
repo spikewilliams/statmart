@@ -1,9 +1,0 @@
-key,value
-name,"Jamaica - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Jamaica: Wholesale and retail trade, repair of goods, and hotels and restaurants"
-file,gdp-sec-wrtrghr_jam_cepalstat.csv
-filehash,19db336303eb7c380971c43e961406e2eae9835e
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

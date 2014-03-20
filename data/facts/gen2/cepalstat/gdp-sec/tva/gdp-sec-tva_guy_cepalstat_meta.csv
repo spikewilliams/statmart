@@ -1,9 +1,0 @@
-key,value
-name,Guyana - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Guyana: Total value added
-file,gdp-sec-tva_guy_cepalstat.csv
-filehash,33caa8e0ebbdfd936b10bb42f1bf08285ee825f9
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

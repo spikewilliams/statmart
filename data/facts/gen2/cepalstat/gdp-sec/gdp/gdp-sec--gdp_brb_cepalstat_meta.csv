@@ -1,0 +1,11 @@
+key,value
+name,Barbados - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_brb_cepalstat.csv
+filehash,b6282f01a09bfaed9c5a56357a128371bcf3d272
+columns,"year,value,source,notes"

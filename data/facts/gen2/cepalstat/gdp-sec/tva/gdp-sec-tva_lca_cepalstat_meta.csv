@@ -1,9 +1,0 @@
-key,value
-name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Lucia: Total value added
-file,gdp-sec-tva_lca_cepalstat.csv
-filehash,5bade480b0c68e523b3949382a66195c45ced9fa
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Guyana - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_guy_cepalstat.csv
+filehash,f8242c252700e977e0f491cf7e0a9edf6d6d9272
+columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Cuba - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Cuba: Fishing
-file,gdp-sec-fish_cub_cepalstat.csv
-filehash,392c436daf55d149caa85a184c2b9af1fe4e5a2f
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

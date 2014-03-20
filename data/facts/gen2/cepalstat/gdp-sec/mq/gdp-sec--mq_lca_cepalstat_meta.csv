@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_lca_cepalstat.csv
+filehash,d1659def3b0529108640c0623e654a9c3592c6f6
+columns,"year,value,source,notes"

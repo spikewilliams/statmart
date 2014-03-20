@@ -1,9 +1,0 @@
-key,value
-name,Grenada - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Grenada: Post and telecommunications
-file,gdp-sec-pt_grd_cepalstat.csv
-filehash,76efd57f2aa82cda0378e8a11f1c5961a39beda5
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

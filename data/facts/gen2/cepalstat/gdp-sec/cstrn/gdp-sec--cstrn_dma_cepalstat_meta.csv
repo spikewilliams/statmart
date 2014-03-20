@@ -1,0 +1,11 @@
+key,value
+name,Dominica - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_dma_cepalstat.csv
+filehash,f4d31b0d20899a40a8c700db36ee1c7cf4bf8cd8
+columns,"year,value,source,notes"

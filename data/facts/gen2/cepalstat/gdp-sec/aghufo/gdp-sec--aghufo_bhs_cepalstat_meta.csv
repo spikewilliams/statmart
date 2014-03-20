@@ -1,0 +1,11 @@
+key,value
+name,"Bahamas - Agriculture, hunting and forestry [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting and forestry [2216]"
+description,"Sectoral GDP: Agriculture, hunting and forestry"
+category,Economic
+type,GDP
+file,gdp-sec--aghufo_bhs_cepalstat.csv
+filehash,e3e06bdb3c36a9bd9b7251cfc3b8bf5479efbede
+columns,"year,value,source,notes"

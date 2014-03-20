@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_jam_cepalstat.csv
+filehash,4c249c1cfbde1c0fe3dbcb219e980e415285e4d6
+columns,"year,value,source,notes"

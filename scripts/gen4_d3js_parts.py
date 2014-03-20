@@ -23,7 +23,7 @@ include_js_d3_basic_axis = """//~include_js_d3_basic_axis
     <?php
 		include("%sinc/axis.php");
      ?> 
- """ % (statmart_view_root)
+ """ % ("../../")
 
 util_function_get_parameters_by_name = """//~util_function_get_parameters_by_name
 
@@ -67,7 +67,7 @@ if (!seriesName){
 
 js_data_url_series_query = """//~js_data_url_series_query
     dataURL = "%sseries_query.php?s=" + seriesName;
-""" % (statmart_root_url)
+""" % ("../../")
 
 js_d3_start_csv = """//~js_d3_start_csv
      d3.csv(dataURL, function(error, data) {

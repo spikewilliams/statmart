@@ -1,0 +1,11 @@
+key,value
+name,"Jamaica - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_jam_cepalstat.csv
+filehash,87a63fd1595323a9c1a2dd7e9421f451258fff0d
+columns,"year,value,source,notes"

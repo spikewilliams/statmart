@@ -1,9 +1,0 @@
-key,value
-name,"Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Saint Vincent and The Grenadines: Wholesale and retail trade, and repair of goods"
-file,gdp-sec-wrtrg_vct_cepalstat.csv
-filehash,bc4f00dd249a038819fe3069ba0b2aac5fbf4030
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

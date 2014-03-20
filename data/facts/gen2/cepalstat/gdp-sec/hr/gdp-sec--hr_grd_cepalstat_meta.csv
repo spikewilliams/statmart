@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_grd_cepalstat.csv
+filehash,35ab781346bf9ea508eac1813083e4a2ed0bbd60
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_vct_cepalstat.csv
+filehash,e3edf8eb640be9a416841100d7f40a1e07ca364a
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_tto_cepalstat.csv
+filehash,cea16a5363e1fabcbb75041afa71ad962c2fea0b
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Dominica - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_dma_cepalstat.csv
+filehash,95c51243e19774b4e607e2076237cfe0b83e662b
+columns,"year,value,source,notes"

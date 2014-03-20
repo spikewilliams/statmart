@@ -1,0 +1,11 @@
+key,value
+name,Barbados - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_brb_cepalstat.csv
+filehash,575abb613b1473924efbfb47731a28199c5346f3
+columns,"year,value,source,notes"

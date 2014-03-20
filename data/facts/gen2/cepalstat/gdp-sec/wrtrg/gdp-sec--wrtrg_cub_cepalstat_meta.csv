@@ -1,0 +1,11 @@
+key,value
+name,"Cuba - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_cub_cepalstat.csv
+filehash,68b74afe1c073d50f3c5ff5a1a0e48f9a9356bd9
+columns,"year,value,source,notes"

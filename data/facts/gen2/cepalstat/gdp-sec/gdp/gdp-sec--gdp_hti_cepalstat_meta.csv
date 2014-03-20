@@ -1,0 +1,11 @@
+key,value
+name,Haiti - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_hti_cepalstat.csv
+filehash,58de46cd5a52b045ebeb963a3dfa2dcf78545649
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_atg_cepalstat.csv
+filehash,699abd34df2fba55ac9bbf769b53c3c6cdcd888e
+columns,"year,value,source,notes"

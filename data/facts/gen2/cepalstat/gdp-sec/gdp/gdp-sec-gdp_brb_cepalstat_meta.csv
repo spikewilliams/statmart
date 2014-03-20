@@ -1,9 +1,0 @@
-key,value
-name,Barbados - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Barbados: Gross domestic product (GDP)
-file,gdp-sec-gdp_brb_cepalstat.csv
-filehash,7282838bd470d288717e03593f4aa260471d1919
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

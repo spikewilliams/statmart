@@ -1,0 +1,11 @@
+key,value
+name,"Jamaica - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_jam_cepalstat.csv
+filehash,d86d24fdb80a2961d66be10ab72d91bfc9e66420
+columns,"year,value,source,notes"

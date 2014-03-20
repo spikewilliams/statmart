@@ -1,0 +1,11 @@
+key,value
+name,"Dominica - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_dma_cepalstat.csv
+filehash,57b3136c93de5c0b21b8ab814007971a77cc410c
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Belize - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_blz_cepalstat.csv
+filehash,86de9d4c632113aa4dbc5e7b304c8653b0a2c37f
+columns,"year,value,source,notes"

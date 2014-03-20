@@ -1,0 +1,11 @@
+key,value
+name,Suriname - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_sur_cepalstat.csv
+filehash,edb61fc993ef4f1b4786e81141a296f24039b061
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_tto_cepalstat.csv
+filehash,3201d910de1989731cbc9ee583541e5f68de9013
+columns,"year,value,source,notes"

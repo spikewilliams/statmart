@@ -1,0 +1,11 @@
+key,value
+name,"Belize - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_blz_cepalstat.csv
+filehash,b43d2b4cf0fe6de23e2bd5f8a44722d7c6673dba
+columns,"year,value,source,notes"

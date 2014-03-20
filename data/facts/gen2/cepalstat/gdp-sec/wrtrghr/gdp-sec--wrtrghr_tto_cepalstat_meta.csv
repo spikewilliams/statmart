@@ -1,0 +1,11 @@
+key,value
+name,"Trinidad and Tobago - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_tto_cepalstat.csv
+filehash,4e249730d0dc6596fee1389b7245d7d3f43d03e4
+columns,"year,value,source,notes"

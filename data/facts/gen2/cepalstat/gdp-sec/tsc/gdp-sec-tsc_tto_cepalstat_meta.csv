@@ -1,9 +1,0 @@
-key,value
-name,"Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Trinidad and Tobago: Transport, storage and communications"
-file,gdp-sec-tsc_tto_cepalstat.csv
-filehash,cf43212dfe81aed01fb87dc97f40e756898bdd92
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Dominican Republic - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_dom_cepalstat.csv
+filehash,520034929196ddf916d675d178758f6bb4d0407e
+columns,"year,value,source,notes"

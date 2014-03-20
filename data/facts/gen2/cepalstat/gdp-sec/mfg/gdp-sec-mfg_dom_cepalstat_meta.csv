@@ -1,9 +1,0 @@
-key,value
-name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Dominican Republic: Manufacturing
-file,gdp-sec-mfg_dom_cepalstat.csv
-filehash,1629a503f472a7feddb68fac5203ab0639d49123
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Trinidad and Tobago: Manufacturing
-file,gdp-sec-mfg_tto_cepalstat.csv
-filehash,15086a153d27372a5cb9f3c3b98a99e6baa0c9f0
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Grenada - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Grenada: Statistical discrepancy of GDP by economic activity
-file,gdp-sec-discrep_grd_cepalstat.csv
-filehash,88e7ef6809302dd112f0fdb42e68988f6267238c
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

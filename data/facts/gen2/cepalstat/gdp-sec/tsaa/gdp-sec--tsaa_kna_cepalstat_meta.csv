@@ -1,0 +1,11 @@
+key,value
+name,Saint Kitts and Nevis - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_kna_cepalstat.csv
+filehash,58c05c21b791ba15a649ab5e92d459f23b23b7bd
+columns,"year,value,source,notes"

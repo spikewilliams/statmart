@@ -1,0 +1,11 @@
+key,value
+name,Belize - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_blz_cepalstat.csv
+filehash,9b05a74e830a3106ef57ade9a998222cccab874b
+columns,"year,value,source,notes"

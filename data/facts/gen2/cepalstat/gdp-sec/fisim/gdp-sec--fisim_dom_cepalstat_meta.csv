@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_dom_cepalstat.csv
+filehash,1263593229680a64a167d89746737d5a97bf7acd
+columns,"year,value,source,notes"

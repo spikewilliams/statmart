@@ -1,0 +1,11 @@
+key,value
+name,"Antigua and Barbuda - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_atg_cepalstat.csv
+filehash,55d38bfd1c6ecefaaad97a54fe8eb3d3818b9f43
+columns,"year,value,source,notes"

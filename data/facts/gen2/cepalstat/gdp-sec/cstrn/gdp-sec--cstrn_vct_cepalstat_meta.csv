@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_vct_cepalstat.csv
+filehash,001dba0a27691116eac5c363f814c359deedf714
+columns,"year,value,source,notes"

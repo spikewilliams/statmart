@@ -1,0 +1,11 @@
+key,value
+name,Belize - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_blz_cepalstat.csv
+filehash,ec0396442235fd2cf2d44943b9a349e899e7231c
+columns,"year,value,source,notes"

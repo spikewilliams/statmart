@@ -1,0 +1,11 @@
+key,value
+name,Barbados - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_brb_cepalstat.csv
+filehash,9c7990a8cb5fe3ec11c39582b39c65399e029147
+columns,"year,value,source,notes"

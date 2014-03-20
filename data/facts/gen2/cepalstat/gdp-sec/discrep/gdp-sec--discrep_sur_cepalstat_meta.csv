@@ -1,0 +1,11 @@
+key,value
+name,Suriname - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_sur_cepalstat.csv
+filehash,de7ec602fb7d39bf063d7d67111b03cdc9a86cd3
+columns,"year,value,source,notes"

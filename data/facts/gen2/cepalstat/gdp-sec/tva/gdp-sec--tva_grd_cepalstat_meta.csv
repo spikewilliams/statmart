@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_grd_cepalstat.csv
+filehash,151d8ea2daa2e9e9cef2c7f392a778c91c2d6e84
+columns,"year,value,source,notes"

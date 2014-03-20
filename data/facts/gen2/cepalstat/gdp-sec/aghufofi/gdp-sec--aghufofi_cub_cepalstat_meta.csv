@@ -1,0 +1,11 @@
+key,value
+name,"Cuba - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_cub_cepalstat.csv
+filehash,c1dd0d778e629cdae834cf22fb27fd11d788a62f
+columns,"year,value,source,notes"

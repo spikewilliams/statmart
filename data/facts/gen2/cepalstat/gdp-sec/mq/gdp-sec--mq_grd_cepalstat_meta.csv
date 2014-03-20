@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_grd_cepalstat.csv
+filehash,594fbb3c325fbbf98966328f00f17616e591d5df
+columns,"year,value,source,notes"

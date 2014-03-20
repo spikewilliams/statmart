@@ -1,9 +1,0 @@
-key,value
-name,"Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Dominican Republic: Financial intermediation, real estate, renting and business activities"
-file,gdp-sec-firerba_dom_cepalstat.csv
-filehash,ef870156af8ff2f8947aa79f4f154706f37a17d1
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

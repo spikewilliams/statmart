@@ -1,0 +1,11 @@
+key,value
+name,Belize - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_blz_cepalstat.csv
+filehash,470d86650f6e6410f56a4de23c0420ebae338d49
+columns,"year,value,source,notes"

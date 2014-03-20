@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_tto_cepalstat.csv
+filehash,374842db6703f3c986443d289435024e943e43b3
+columns,"year,value,source,notes"

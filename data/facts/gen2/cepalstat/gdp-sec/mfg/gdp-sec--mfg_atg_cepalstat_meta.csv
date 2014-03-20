@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_atg_cepalstat.csv
+filehash,8ed4486176e833b2f91962158c6535d766bdb5be
+columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Dominica - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Dominica: Transport and supporting and auxiliary activities
-file,gdp-sec-tsaa_dma_cepalstat.csv
-filehash,af07ff9f6ecf33a91d7ba6ad1090f1f747917497
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

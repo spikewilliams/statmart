@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_bhs_cepalstat.csv
+filehash,319e5382cf19df491a7b469d107aa0c4f9a108cb
+columns,"year,value,source,notes"

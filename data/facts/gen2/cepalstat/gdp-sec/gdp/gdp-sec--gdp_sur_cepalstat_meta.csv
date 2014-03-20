@@ -1,0 +1,11 @@
+key,value
+name,Suriname - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_sur_cepalstat.csv
+filehash,b74d16216a4bb7b4f97dc58d66955ba1d9349964
+columns,"year,value,source,notes"

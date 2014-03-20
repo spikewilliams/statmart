@@ -1,9 +1,0 @@
-key,value
-name,Belize - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Belize: Manufacturing
-file,gdp-sec-mfg_blz_cepalstat.csv
-filehash,44f89977a7bc39270415a78b68580b4faed57d72
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

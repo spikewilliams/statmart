@@ -1,0 +1,11 @@
+key,value
+name,"Saint Vincent and The Grenadines - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_vct_cepalstat.csv
+filehash,e4ba0f972b48098932099d241e3b9c9d8f98267b
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_dom_cepalstat.csv
+filehash,e28401858be3c75262b034da808ca15bdb4c35bc
+columns,"year,value,source,notes"

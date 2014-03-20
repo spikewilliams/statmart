@@ -1,9 +1,0 @@
-key,value
-name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Kitts and Nevis: Gross domestic product (GDP)
-file,gdp-sec-gdp_kna_cepalstat.csv
-filehash,8405232e1d7014b7739590827b4721623f8bc437
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

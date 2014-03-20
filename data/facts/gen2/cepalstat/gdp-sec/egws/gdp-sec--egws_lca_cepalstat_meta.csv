@@ -1,0 +1,11 @@
+key,value
+name,"Saint Lucia - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_lca_cepalstat.csv
+filehash,7211a41d66781ed99c1f3487e148397aa4a0aad2
+columns,"year,value,source,notes"

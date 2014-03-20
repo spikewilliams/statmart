@@ -1,0 +1,11 @@
+key,value
+name,"Suriname - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_sur_cepalstat.csv
+filehash,708013e76b2fbd3e352621205f9ec7f62d3a44f0
+columns,"year,value,source,notes"

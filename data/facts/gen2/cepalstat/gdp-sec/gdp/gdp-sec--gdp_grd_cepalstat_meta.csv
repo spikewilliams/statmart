@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_grd_cepalstat.csv
+filehash,c6fcc80c06891d71026b75c7775dbc4a01e9b682
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_lca_cepalstat.csv
+filehash,123c1fe04db8bacb0cedd79f73342a3bc149a62e
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Fishing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Fishing [2216]
+description,Sectoral GDP: Fishing
+category,Economic
+type,GDP
+file,gdp-sec--fish_grd_cepalstat.csv
+filehash,68209f592f6cf250ee701ee799481ddcc3778246
+columns,"year,value,source,notes"

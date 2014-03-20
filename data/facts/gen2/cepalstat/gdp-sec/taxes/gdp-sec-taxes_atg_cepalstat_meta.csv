@@ -1,9 +1,0 @@
-key,value
-name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Antigua and Barbuda: Taxes on products less subsidies on products
-file,gdp-sec-taxes_atg_cepalstat.csv
-filehash,185af10a3a4c50664026f0c438141ef1939e7730
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

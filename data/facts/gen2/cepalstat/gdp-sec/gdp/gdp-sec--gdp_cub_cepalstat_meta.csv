@@ -1,0 +1,11 @@
+key,value
+name,Cuba - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_cub_cepalstat.csv
+filehash,f1f08af639e45e491f6e3b9e40aaa701b374878f
+columns,"year,value,source,notes"

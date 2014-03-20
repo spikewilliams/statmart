@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_vct_cepalstat.csv
+filehash,4a16c654976b991ddd0bc84f4201129bdb7aad73
+columns,"year,value,source,notes"

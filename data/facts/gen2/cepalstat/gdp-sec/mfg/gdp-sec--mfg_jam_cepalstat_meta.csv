@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_jam_cepalstat.csv
+filehash,fd55d2a9b0ea9f54ad3b278841c79a67b1228d19
+columns,"year,value,source,notes"

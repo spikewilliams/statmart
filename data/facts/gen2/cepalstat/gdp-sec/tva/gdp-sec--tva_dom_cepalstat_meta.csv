@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_dom_cepalstat.csv
+filehash,096eafd97dc9d15c1c5a56e7280fbe89c02b9216
+columns,"year,value,source,notes"

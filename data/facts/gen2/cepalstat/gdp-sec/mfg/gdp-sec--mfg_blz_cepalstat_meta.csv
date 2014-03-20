@@ -1,0 +1,11 @@
+key,value
+name,Belize - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_blz_cepalstat.csv
+filehash,b1e093705053138c66e4ac206fb679fa3e8ca61b
+columns,"year,value,source,notes"

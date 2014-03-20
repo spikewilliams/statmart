@@ -1,0 +1,11 @@
+key,value
+name,Dominica - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_dma_cepalstat.csv
+filehash,771501594af392a3bfdb42c024436d220e171576
+columns,"year,value,source,notes"

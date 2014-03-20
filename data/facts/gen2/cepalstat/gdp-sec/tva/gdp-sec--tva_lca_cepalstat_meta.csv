@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_lca_cepalstat.csv
+filehash,e7672feec5e2e873f1c729ae4395caeb378abb29
+columns,"year,value,source,notes"

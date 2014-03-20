@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_grd_cepalstat.csv
+filehash,d995fc97248c1b65aefe7107d34e852701643406
+columns,"year,value,source,notes"

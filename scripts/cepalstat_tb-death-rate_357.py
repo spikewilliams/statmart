@@ -36,7 +36,7 @@ indicator_type = "Health"
 config = us.build_config(suffix,prefix,indicator_id,indicator_name,indicator_category,indicator_type)
 #config["source"] = "Economic Commission for Latin America and the Caribbean"
 #config["multiplier"] = 1000000
-config["multiplier"] = 1
+config["multiplier"] = 0.01
 
 config
 

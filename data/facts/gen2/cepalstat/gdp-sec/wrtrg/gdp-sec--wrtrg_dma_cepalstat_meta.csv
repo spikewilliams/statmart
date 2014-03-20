@@ -1,0 +1,11 @@
+key,value
+name,"Dominica - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_dma_cepalstat.csv
+filehash,edf663efd2b79bbb2752e932fe7c34ff697be54e
+columns,"year,value,source,notes"

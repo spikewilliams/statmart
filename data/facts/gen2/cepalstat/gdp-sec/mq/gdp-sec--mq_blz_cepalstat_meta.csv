@@ -1,0 +1,11 @@
+key,value
+name,Belize - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_blz_cepalstat.csv
+filehash,85d14199c5bf971909fe039c13059bb567d35a77
+columns,"year,value,source,notes"

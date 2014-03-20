@@ -1,0 +1,11 @@
+key,value
+name,"Grenada - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_grd_cepalstat.csv
+filehash,d19534ee90cbd19403e7e9b376cc8af5ecde88fc
+columns,"year,value,source,notes"

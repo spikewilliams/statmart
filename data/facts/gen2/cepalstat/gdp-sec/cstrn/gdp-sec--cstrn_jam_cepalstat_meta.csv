@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_jam_cepalstat.csv
+filehash,de588125e99ef719d2239aa318b682ca90eee9b4
+columns,"year,value,source,notes"

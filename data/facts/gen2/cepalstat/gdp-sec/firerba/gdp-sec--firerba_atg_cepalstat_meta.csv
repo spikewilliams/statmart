@@ -1,0 +1,11 @@
+key,value
+name,"Antigua and Barbuda - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_atg_cepalstat.csv
+filehash,9f9f30dad257c689d162fa491038bd31b7f37c5b
+columns,"year,value,source,notes"

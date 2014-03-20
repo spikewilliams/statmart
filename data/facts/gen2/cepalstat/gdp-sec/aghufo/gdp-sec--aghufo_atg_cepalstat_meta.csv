@@ -1,0 +1,11 @@
+key,value
+name,"Antigua and Barbuda - Agriculture, hunting and forestry [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting and forestry [2216]"
+description,"Sectoral GDP: Agriculture, hunting and forestry"
+category,Economic
+type,GDP
+file,gdp-sec--aghufo_atg_cepalstat.csv
+filehash,b7fcd1bba82e76f44947ebe1aa8a0cefa65b9474
+columns,"year,value,source,notes"

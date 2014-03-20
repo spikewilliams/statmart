@@ -1,9 +1,0 @@
-key,value
-name,Belize - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Belize: Post and telecommunications
-file,gdp-sec-pt_blz_cepalstat.csv
-filehash,5c777f813ff129636ee39417fda144c2adb9c850
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

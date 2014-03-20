@@ -1,0 +1,11 @@
+key,value
+name,"Saint Lucia - Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [2216]"
+description,"Sectoral GDP: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+category,Economic
+type,GDP
+file,gdp-sec--public_lca_cepalstat.csv
+filehash,7e6d748738a47c14414a54b88a75f95f7d0c2150
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Saint Vincent and The Grenadines - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_vct_cepalstat.csv
+filehash,f7dfef6b374dcf3df0c340c430f9a184b7132a11
+columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Gross domestic product (GDP) [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Jamaica: Gross domestic product (GDP)
-file,gdp-sec-gdp_jam_cepalstat.csv
-filehash,df5c1d491492f761c0017ea4268377406ae5cfed
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

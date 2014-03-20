@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_tto_cepalstat.csv
+filehash,5a5e1b235604cfbc28b5a2e4af3ba6d920786f8b
+columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,"Jamaica - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Jamaica: Financial intermediation, real estate, renting and business activities"
-file,gdp-sec-firerba_jam_cepalstat.csv
-filehash,be4a9bcdca6ffd41ea8fab07dbcd1e36269b4fa9
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

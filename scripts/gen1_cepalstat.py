@@ -130,7 +130,7 @@ def get_data_by_indicator(id_indicator):
 # <codecell>
 
 def get_metadata_by_indicator(id_indicator):	
-    dimensions = get_dimensions(id_indicator, loadCaribCountryDict())
+    dimensions = get_dimensions(id_indicator, us.load_carib_country_dict(key_column="cepalid"))
     url = build_url("getDataMeta","idIndicator=" + id_indicator + "&" + build_dimension_options(dimensions))
     #print(url)
     response = urllib.request.urlopen(url)
@@ -173,7 +173,7 @@ def save_as_csv(path, df, country, prefix, suffix=""):
 
 #iso3Dict = loadCaribCountryDict("iso3")
 def make_country_data_files(indicator, sort=["Year"]):
-    countryDict = loadCaribCountryDict()
+    countryDict = us.load_carib_country_dict(key_column="cepalid")
     countries = get_countries_by_indicator(indicator)
     (df,mdf) = get_data_by_indicator(indicator)
     df = df.sort(sort)

@@ -1,0 +1,11 @@
+key,value
+name,"Dominican Republic - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_dom_cepalstat.csv
+filehash,41ddc33d8d4413c28db57bd929337f98523f3529
+columns,"year,value,source,notes"

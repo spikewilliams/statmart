@@ -1,9 +1,0 @@
-key,value
-name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Kitts and Nevis: Mining and quarrying
-file,gdp-sec-mq_kna_cepalstat.csv
-filehash,ba6a5cb45ee2fd1fee658c81dc8a0be311ed525f
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

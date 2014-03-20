@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_bhs_cepalstat.csv
+filehash,243e30ef249565bdebb146b3c9ea34e8c58e260e
+columns,"year,value,source,notes"

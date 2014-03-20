@@ -1,9 +1,0 @@
-key,value
-name,"Cuba - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Cuba: Electricity, gas and water supply"
-file,gdp-sec-egws_cub_cepalstat.csv
-filehash,6a65f2d54402ccfa10cb438e6a5e94788ecec231
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

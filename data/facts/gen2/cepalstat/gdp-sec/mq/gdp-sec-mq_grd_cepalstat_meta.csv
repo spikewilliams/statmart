@@ -1,9 +1,0 @@
-key,value
-name,Grenada - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Grenada: Mining and quarrying
-file,gdp-sec-mq_grd_cepalstat.csv
-filehash,522c0df50ac61d2dfb5e52bbb77c0a3033e6b1c5
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

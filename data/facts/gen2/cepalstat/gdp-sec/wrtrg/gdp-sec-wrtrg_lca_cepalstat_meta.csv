@@ -1,9 +1,0 @@
-key,value
-name,"Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, and repair of goods [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Saint Lucia: Wholesale and retail trade, and repair of goods"
-file,gdp-sec-wrtrg_lca_cepalstat.csv
-filehash,a9b1d31cce3d57204362e0849627876e2f1c7529
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

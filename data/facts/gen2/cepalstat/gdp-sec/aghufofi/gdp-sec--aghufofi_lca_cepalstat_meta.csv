@@ -1,0 +1,11 @@
+key,value
+name,"Saint Lucia - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_lca_cepalstat.csv
+filehash,d453e0593ef1caf3251c0cb00f78cc514f856931
+columns,"year,value,source,notes"

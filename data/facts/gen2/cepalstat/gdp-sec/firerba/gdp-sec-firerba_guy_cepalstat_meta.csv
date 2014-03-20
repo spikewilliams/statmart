@@ -1,9 +1,0 @@
-key,value
-name,"Guyana - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Guyana: Financial intermediation, real estate, renting and business activities"
-file,gdp-sec-firerba_guy_cepalstat.csv
-filehash,ff508369c7a6de07d475293b1563872ce24f95b4
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

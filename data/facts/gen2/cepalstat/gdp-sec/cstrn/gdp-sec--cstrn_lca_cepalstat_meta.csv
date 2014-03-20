@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_lca_cepalstat.csv
+filehash,1a19f15b8cc880246d9eca2647621f1e17fba687
+columns,"year,value,source,notes"

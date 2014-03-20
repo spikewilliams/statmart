@@ -1,0 +1,11 @@
+key,value
+name,"Barbados - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_brb_cepalstat.csv
+filehash,e81e9777390ca64ce8b11a6f8671e5bc05e8b3f3
+columns,"year,value,source,notes"

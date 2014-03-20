@@ -1,9 +1,0 @@
-key,value
-name,"Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Dominican Republic: Electricity, gas and water supply"
-file,gdp-sec-egws_dom_cepalstat.csv
-filehash,9eb75c291ef66e6334e1d7010e3d2cfba001be0d
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

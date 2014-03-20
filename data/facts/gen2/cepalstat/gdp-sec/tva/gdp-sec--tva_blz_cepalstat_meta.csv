@@ -1,0 +1,11 @@
+key,value
+name,Belize - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_blz_cepalstat.csv
+filehash,0ddc69a7ae6dff4716b0b0eed56efe09c708aec8
+columns,"year,value,source,notes"

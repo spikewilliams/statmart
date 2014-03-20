@@ -1,0 +1,11 @@
+key,value
+name,"Dominican Republic - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_dom_cepalstat.csv
+filehash,84fffd514f7601f363a20db005bdf1e0645f0d87
+columns,"year,value,source,notes"

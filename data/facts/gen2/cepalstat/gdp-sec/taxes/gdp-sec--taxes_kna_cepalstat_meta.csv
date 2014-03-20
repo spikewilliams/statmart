@@ -1,0 +1,11 @@
+key,value
+name,Saint Kitts and Nevis - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_kna_cepalstat.csv
+filehash,0a08430798840f6b77f1ccfb7414999a85531c13
+columns,"year,value,source,notes"

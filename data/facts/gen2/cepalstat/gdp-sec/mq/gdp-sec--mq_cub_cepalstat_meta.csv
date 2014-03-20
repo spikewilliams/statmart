@@ -1,0 +1,11 @@
+key,value
+name,Cuba - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_cub_cepalstat.csv
+filehash,fbd1954c2d443d720c8f6fffab62cb9c253d2ba8
+columns,"year,value,source,notes"

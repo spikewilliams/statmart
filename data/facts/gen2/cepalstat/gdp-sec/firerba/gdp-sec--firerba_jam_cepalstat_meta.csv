@@ -1,0 +1,11 @@
+key,value
+name,"Jamaica - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_jam_cepalstat.csv
+filehash,0b2b06c65295205ba1108cb1c34ce37c4ef1ac37
+columns,"year,value,source,notes"

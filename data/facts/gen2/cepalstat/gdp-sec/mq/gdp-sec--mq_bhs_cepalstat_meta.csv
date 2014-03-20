@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_bhs_cepalstat.csv
+filehash,90991cf7229d6621603c7dd4a68bf73ea516f211
+columns,"year,value,source,notes"

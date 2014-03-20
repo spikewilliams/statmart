@@ -1,9 +1,0 @@
-key,value
-name,"Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Trinidad and Tobago: Wholesale and retail trade, repair of goods, and hotels and restaurants"
-file,gdp-sec-wrtrghr_tto_cepalstat.csv
-filehash,2e562c8393132f483807375943f9ae4fce5fffca
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

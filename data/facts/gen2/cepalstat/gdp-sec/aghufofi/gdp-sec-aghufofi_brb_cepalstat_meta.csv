@@ -1,9 +1,0 @@
-key,value
-name,"Barbados - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Barbados: Agriculture, hunting, forestry and fishing"
-file,gdp-sec-aghufofi_brb_cepalstat.csv
-filehash,6818604592a36d800a29a44c03e64360d63b1052
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

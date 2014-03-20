@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_lca_cepalstat.csv
+filehash,fa6b92dc44deb9b6d6e7708470f0ec6bbcede345
+columns,"year,value,source,notes"

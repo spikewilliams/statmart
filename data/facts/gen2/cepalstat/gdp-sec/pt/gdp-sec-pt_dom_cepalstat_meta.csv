@@ -1,9 +1,0 @@
-key,value
-name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Dominican Republic: Post and telecommunications
-file,gdp-sec-pt_dom_cepalstat.csv
-filehash,81d8ffa7688429946f34b137429bd0c436d7e881
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

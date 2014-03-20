@@ -1,0 +1,11 @@
+key,value
+name,"Saint Vincent and The Grenadines - Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [2216]"
+description,"Sectoral GDP: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+category,Economic
+type,GDP
+file,gdp-sec--public_vct_cepalstat.csv
+filehash,2be2f9fe39ec1ea2fc6f1d339a68d7fc50607184
+columns,"year,value,source,notes"

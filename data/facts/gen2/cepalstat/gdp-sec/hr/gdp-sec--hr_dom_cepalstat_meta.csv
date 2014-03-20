@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_dom_cepalstat.csv
+filehash,16687d453ee0bb26155c51ce80f74c12e3cfb60c
+columns,"year,value,source,notes"

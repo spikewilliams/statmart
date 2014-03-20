@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_jam_cepalstat.csv
+filehash,355733859da3760f442199217574d5e225559cfd
+columns,"year,value,source,notes"

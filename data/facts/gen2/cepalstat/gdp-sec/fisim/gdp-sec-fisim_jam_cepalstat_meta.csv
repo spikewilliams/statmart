@@ -1,9 +1,0 @@
-key,value
-name,Jamaica - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Jamaica: Financial intermediation services indirectly measured (FISIM)
-file,gdp-sec-fisim_jam_cepalstat.csv
-filehash,a69ba62111d2a6c54ebd22da60cd4253d53907f8
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

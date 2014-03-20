@@ -1,9 +1,0 @@
-key,value
-name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Financial intermediation services indirectly measured (FISIM) [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Antigua and Barbuda: Financial intermediation services indirectly measured (FISIM)
-file,gdp-sec-fisim_atg_cepalstat.csv
-filehash,9ea32dfca3f751ee7a57bdce3595b6b143d35aa1
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,"Suriname - Annual Gross Domestic Product (GDP) by activity: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Suriname: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
-file,gdp-sec-public_sur_cepalstat.csv
-filehash,b46349fb966e0f009c044116a93b5cd6f0dfe8d1
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

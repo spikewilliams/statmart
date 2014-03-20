@@ -1,9 +1,0 @@
-key,value
-name,Barbados - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Barbados: Hotels and restaurants
-file,gdp-sec-hr_brb_cepalstat.csv
-filehash,dc6ea2d0e9a0b3527f61734d66c8b79d5a9e5e91
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

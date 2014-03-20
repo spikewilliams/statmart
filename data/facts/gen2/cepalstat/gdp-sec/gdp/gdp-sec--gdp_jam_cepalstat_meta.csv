@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_jam_cepalstat.csv
+filehash,1931a8a0add4be94e38bfc72792773993aeb90eb
+columns,"year,value,source,notes"

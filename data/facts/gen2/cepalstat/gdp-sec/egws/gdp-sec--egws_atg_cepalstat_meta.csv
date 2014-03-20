@@ -1,0 +1,11 @@
+key,value
+name,"Antigua and Barbuda - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_atg_cepalstat.csv
+filehash,3da790964b0df8b4b706491fdb86fc6c7e18d993
+columns,"year,value,source,notes"

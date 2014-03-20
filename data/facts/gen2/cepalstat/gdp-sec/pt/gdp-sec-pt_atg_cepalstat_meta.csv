@@ -1,9 +1,0 @@
-key,value
-name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Antigua and Barbuda: Post and telecommunications
-file,gdp-sec-pt_atg_cepalstat.csv
-filehash,72eef67dbc5106d690a106106f30d59f3e1b5910
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

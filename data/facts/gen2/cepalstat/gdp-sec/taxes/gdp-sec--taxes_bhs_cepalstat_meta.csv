@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_bhs_cepalstat.csv
+filehash,8ec2a103d5ef9fd9999ed68f6c03f81bb4c96c26
+columns,"year,value,source,notes"

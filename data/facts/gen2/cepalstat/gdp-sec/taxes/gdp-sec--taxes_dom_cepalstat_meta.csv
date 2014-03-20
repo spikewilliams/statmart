@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_dom_cepalstat.csv
+filehash,37d38e28d40fd7d07c20e7b2924b0b34bbdcff19
+columns,"year,value,source,notes"

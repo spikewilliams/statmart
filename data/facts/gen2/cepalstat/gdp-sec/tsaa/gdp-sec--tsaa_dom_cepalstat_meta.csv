@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_dom_cepalstat.csv
+filehash,ca44c07cb5f03d5b5c521600c2c0e6688791e49f
+columns,"year,value,source,notes"

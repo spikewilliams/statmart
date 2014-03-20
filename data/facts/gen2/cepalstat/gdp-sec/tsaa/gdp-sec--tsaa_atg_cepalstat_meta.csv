@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_atg_cepalstat.csv
+filehash,c352fd83617b23863421182d6b07b73ff32b310f
+columns,"year,value,source,notes"

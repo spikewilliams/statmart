@@ -1,0 +1,11 @@
+key,value
+name,"Belize - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_blz_cepalstat.csv
+filehash,c657b7dbc99e3f7e2cb9baf402c56175c7a39445
+columns,"year,value,source,notes"

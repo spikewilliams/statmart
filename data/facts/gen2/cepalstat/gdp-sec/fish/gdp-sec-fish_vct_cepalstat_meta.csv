@@ -1,9 +1,0 @@
-key,value
-name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Vincent and The Grenadines: Fishing
-file,gdp-sec-fish_vct_cepalstat.csv
-filehash,033be2362f066734863dc2be14cfd88f241e85bd
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

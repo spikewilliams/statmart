@@ -1,0 +1,11 @@
+key,value
+name,"Saint Vincent and The Grenadines - Agriculture, hunting and forestry [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting and forestry [2216]"
+description,"Sectoral GDP: Agriculture, hunting and forestry"
+category,Economic
+type,GDP
+file,gdp-sec--aghufo_vct_cepalstat.csv
+filehash,4d738a39cf3e689c8d143d115660049a6e40ba07
+columns,"year,value,source,notes"

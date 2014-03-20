@@ -1,0 +1,11 @@
+key,value
+name,"Suriname - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_sur_cepalstat.csv
+filehash,20dad202027e3f616f073a2add672f17639d1a2a
+columns,"year,value,source,notes"

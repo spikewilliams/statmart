@@ -1,9 +1,0 @@
-key,value
-name,"Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Saint Kitts and Nevis: Electricity, gas and water supply"
-file,gdp-sec-egws_kna_cepalstat.csv
-filehash,d88b992694e5956627dc826943ca2def18e6914b
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

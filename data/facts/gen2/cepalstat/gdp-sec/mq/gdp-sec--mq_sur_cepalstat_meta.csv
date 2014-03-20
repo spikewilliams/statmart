@@ -1,0 +1,11 @@
+key,value
+name,Suriname - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_sur_cepalstat.csv
+filehash,ce6d9a28a75913017dfa53c66902f2771432d257
+columns,"year,value,source,notes"

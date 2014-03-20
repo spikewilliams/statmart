@@ -1,0 +1,11 @@
+key,value
+name,Cuba - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_cub_cepalstat.csv
+filehash,71a3a6fb24e7aa5385a015b68bdf3d95345b5915
+columns,"year,value,source,notes"

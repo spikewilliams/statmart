@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_atg_cepalstat.csv
+filehash,e3227d2cd2f5d40d3c586027b1dff61b54066b64
+columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Antigua and Barbuda: Transport and supporting and auxiliary activities
-file,gdp-sec-tsaa_atg_cepalstat.csv
-filehash,ec606624c141855117d7376c5681f8cbd4c16857
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

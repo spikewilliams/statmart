@@ -1,0 +1,11 @@
+key,value
+name,Dominica - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_dma_cepalstat.csv
+filehash,e970d7506915e495dbb9ff0f9af74bca1f5f7efa
+columns,"year,value,source,notes"

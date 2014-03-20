@@ -1,9 +1,0 @@
-key,value
-name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Taxes on products less subsidies on products [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Dominican Republic: Taxes on products less subsidies on products
-file,gdp-sec-taxes_dom_cepalstat.csv
-filehash,6e0509aba0bee2d6df2c500020ad03e667aaf839
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

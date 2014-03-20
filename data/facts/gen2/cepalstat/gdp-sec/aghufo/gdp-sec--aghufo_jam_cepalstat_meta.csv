@@ -1,0 +1,11 @@
+key,value
+name,"Jamaica - Agriculture, hunting and forestry [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting and forestry [2216]"
+description,"Sectoral GDP: Agriculture, hunting and forestry"
+category,Economic
+type,GDP
+file,gdp-sec--aghufo_jam_cepalstat.csv
+filehash,0e84ff1062dbe8fda04a2aa6a9f56b1b587682df
+columns,"year,value,source,notes"

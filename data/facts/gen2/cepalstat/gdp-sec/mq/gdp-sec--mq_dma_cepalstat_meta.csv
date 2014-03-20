@@ -1,0 +1,11 @@
+key,value
+name,Dominica - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_dma_cepalstat.csv
+filehash,f22dea4941b07f85075bbbafc59e9c41049f70ab
+columns,"year,value,source,notes"

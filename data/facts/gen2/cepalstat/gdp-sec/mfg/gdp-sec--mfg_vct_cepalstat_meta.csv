@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_vct_cepalstat.csv
+filehash,d27423302ef1ec4b98efc7ab556e08d358bfac19
+columns,"year,value,source,notes"

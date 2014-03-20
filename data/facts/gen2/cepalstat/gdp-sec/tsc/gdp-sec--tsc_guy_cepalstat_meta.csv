@@ -1,0 +1,11 @@
+key,value
+name,"Guyana - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_guy_cepalstat.csv
+filehash,621b5160397536a9176579e63a67f3e3360dcf9a
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Saint Vincent and The Grenadines - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_vct_cepalstat.csv
+filehash,2dcb0cbe81efd342c1a37d4a94daac4917918d13
+columns,"year,value,source,notes"

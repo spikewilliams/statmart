@@ -1,0 +1,11 @@
+key,value
+name,"Saint Lucia - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_lca_cepalstat.csv
+filehash,0cb93214d9af844562b6760fa32e0d9fdf8de232
+columns,"year,value,source,notes"

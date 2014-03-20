@@ -1,9 +1,0 @@
-key,value
-name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Manufacturing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Vincent and The Grenadines: Manufacturing
-file,gdp-sec-mfg_vct_cepalstat.csv
-filehash,a7a827f96a1c74b44c52bf316538e7bb1c3352c4
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Suriname - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_sur_cepalstat.csv
+filehash,3968c96ac8959e038fe9435d0661f0d79508e080
+columns,"year,value,source,notes"

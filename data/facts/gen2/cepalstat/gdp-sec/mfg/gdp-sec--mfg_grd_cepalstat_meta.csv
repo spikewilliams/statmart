@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_grd_cepalstat.csv
+filehash,eb737ed4a43e7892b72125652f95dd79ca745356
+columns,"year,value,source,notes"

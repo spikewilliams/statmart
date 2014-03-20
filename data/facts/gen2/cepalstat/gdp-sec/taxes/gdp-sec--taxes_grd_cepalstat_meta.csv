@@ -1,0 +1,11 @@
+key,value
+name,Grenada - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_grd_cepalstat.csv
+filehash,ec90312b07c91532dd0e3f9c20c0361330b60c64
+columns,"year,value,source,notes"

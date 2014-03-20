@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_atg_cepalstat.csv
+filehash,fe4c8eef1da8826647fff75b72979cedab56d148
+columns,"year,value,source,notes"

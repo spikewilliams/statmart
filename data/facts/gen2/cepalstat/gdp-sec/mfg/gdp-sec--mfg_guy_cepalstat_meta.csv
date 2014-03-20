@@ -1,0 +1,11 @@
+key,value
+name,Guyana - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_guy_cepalstat.csv
+filehash,747e3f2b52f3f7c3083de7a7601260236b6482f1
+columns,"year,value,source,notes"

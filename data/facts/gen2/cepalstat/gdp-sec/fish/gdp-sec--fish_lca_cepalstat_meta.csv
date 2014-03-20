@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Fishing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Fishing [2216]
+description,Sectoral GDP: Fishing
+category,Economic
+type,GDP
+file,gdp-sec--fish_lca_cepalstat.csv
+filehash,92f3694d0d19d98d2bf3b170f05c33f23fe62eb6
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Barbados - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_brb_cepalstat.csv
+filehash,ccdb9321bd0a242f4228faf75fd0f9aaadf6b534
+columns,"year,value,source,notes"

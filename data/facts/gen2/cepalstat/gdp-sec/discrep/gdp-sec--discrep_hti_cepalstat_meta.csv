@@ -1,0 +1,11 @@
+key,value
+name,Haiti - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_hti_cepalstat.csv
+filehash,25524b3ac4144bf4c5864d7cc90c5ac301902d59
+columns,"year,value,source,notes"

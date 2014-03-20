@@ -1,0 +1,11 @@
+key,value
+name,"Guyana - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_guy_cepalstat.csv
+filehash,04224f61e7344db73ab53899762068d0037316de
+columns,"year,value,source,notes"

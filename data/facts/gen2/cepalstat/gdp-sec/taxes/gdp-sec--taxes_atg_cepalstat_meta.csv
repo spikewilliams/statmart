@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Taxes on products less subsidies on products [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Taxes on products less subsidies on products [2216]
+description,Sectoral GDP: Taxes on products less subsidies on products
+category,Economic
+type,GDP
+file,gdp-sec--taxes_atg_cepalstat.csv
+filehash,710d74d013286306f0369f99f875a95ecd098505
+columns,"year,value,source,notes"

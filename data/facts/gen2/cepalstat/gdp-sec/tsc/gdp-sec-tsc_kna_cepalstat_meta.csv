@@ -1,9 +1,0 @@
-key,value
-name,"Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Saint Kitts and Nevis: Transport, storage and communications"
-file,gdp-sec-tsc_kna_cepalstat.csv
-filehash,60c634ccec20027541182f1a17764144dba55f25
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

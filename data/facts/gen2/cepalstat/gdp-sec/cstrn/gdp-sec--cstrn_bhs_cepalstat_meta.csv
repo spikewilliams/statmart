@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_bhs_cepalstat.csv
+filehash,b72957e6678074677230130a0743468648a782d4
+columns,"year,value,source,notes"

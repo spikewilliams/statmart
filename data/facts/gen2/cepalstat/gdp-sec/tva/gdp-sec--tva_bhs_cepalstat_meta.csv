@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_bhs_cepalstat.csv
+filehash,4e6d929145346fa5264e09ee13d67c69feb5ff4d
+columns,"year,value,source,notes"

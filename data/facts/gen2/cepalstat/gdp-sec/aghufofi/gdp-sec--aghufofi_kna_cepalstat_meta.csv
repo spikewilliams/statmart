@@ -1,0 +1,11 @@
+key,value
+name,"Saint Kitts and Nevis - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_kna_cepalstat.csv
+filehash,c469fe55cc9cbb99b356e2b5b808fb1966d5c398
+columns,"year,value,source,notes"

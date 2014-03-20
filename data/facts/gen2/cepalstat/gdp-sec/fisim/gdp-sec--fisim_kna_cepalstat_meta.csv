@@ -1,0 +1,11 @@
+key,value
+name,Saint Kitts and Nevis - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_kna_cepalstat.csv
+filehash,ec74658807eb800e6bd409e409a40fd018a98e27
+columns,"year,value,source,notes"

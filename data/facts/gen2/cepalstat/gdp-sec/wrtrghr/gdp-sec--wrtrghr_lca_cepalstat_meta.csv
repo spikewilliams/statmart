@@ -1,0 +1,11 @@
+key,value
+name,"Saint Lucia - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_lca_cepalstat.csv
+filehash,367832ba7c5e0382829c3303efa13cc3c8504538
+columns,"year,value,source,notes"

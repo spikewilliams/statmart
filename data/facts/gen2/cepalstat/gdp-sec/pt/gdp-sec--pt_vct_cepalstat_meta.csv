@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_vct_cepalstat.csv
+filehash,4837d9e5a8bc4ba0eab28cb29a58e0551099b8e4
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,"Barbados - Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [2216]"
+description,"Sectoral GDP: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+category,Economic
+type,GDP
+file,gdp-sec--public_brb_cepalstat.csv
+filehash,4f807afb1414935ea81a249594ea08c454a58a9c
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Saint Kitts and Nevis - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_kna_cepalstat.csv
+filehash,39a0cca02450a64e0d20ba368477b28e95070bdd
+columns,"year,value,source,notes"

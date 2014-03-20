@@ -1,9 +1,0 @@
-key,value
-name,"Bahamas - Annual Gross Domestic Product (GDP) by activity: Electricity, gas and water supply [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Bahamas: Electricity, gas and water supply"
-file,gdp-sec-egws_bhs_cepalstat.csv
-filehash,fb11c22c444e05360de6efa9fd5f406ce87a8e4f
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

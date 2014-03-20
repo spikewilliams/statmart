@@ -1,9 +1,0 @@
-key,value
-name,Suriname - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Suriname: Total value added
-file,gdp-sec-tva_sur_cepalstat.csv
-filehash,156b6415d6ec3f97735bbbc90db9d76c01c43b77
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

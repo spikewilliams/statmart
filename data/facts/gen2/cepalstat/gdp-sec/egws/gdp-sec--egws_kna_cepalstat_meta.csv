@@ -1,0 +1,11 @@
+key,value
+name,"Saint Kitts and Nevis - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_kna_cepalstat.csv
+filehash,ceb38be8b46197cec43d999f4b35b19a5bd0b47c
+columns,"year,value,source,notes"

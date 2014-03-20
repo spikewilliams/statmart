@@ -1,0 +1,11 @@
+key,value
+name,Guyana - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_guy_cepalstat.csv
+filehash,0f6040c8441935d745089f5747d8de78069e1fcf
+columns,"year,value,source,notes"

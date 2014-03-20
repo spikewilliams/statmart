@@ -1,0 +1,11 @@
+key,value
+name,"Belize - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_blz_cepalstat.csv
+filehash,8cc300d7ec9d695b8eaa2112e96a6d3fa4135930
+columns,"year,value,source,notes"

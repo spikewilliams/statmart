@@ -1,0 +1,11 @@
+key,value
+name,Saint Kitts and Nevis - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_kna_cepalstat.csv
+filehash,56ddc3f072605819907aa786790f702fe8687c17
+columns,"year,value,source,notes"

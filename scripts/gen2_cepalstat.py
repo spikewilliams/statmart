@@ -55,7 +55,11 @@ def get_notes(notes, mmap):
     if notes == "nan":
         return ""
     notes = notes.split(",")
-    return "|".join(map(lambda x : mmap[str(x)], notes))
+    mynotes = []
+    for note in notes:
+        if note in mmap:
+            mynotes.append(note)
+    return "|".join(map(lambda x : mmap[str(x)], mynotes))
 
 def clip_period(str):
     if str[-1] == ".":
@@ -64,7 +68,7 @@ def clip_period(str):
 
 # <codecell>
 
-def build_files(df, meta_map, config):
+def build_files(df, config):
     filelist = []
     countrylist = []
     for iso3 in us.get_index_set(df):
@@ -74,10 +78,14 @@ def build_files(df, meta_map, config):
                 idf = pd.DataFrame([idf])
             idf = idf[["Year","Value","Source","Notes"]]
             idf.columns = ["year","value","source","notes"]
-            if config["multiplier"]:
-                idf["value"] = idf["value"].apply(lambda x : x * config["multiplier"])
-            idf["source"] = idf["source"].apply(lambda x : meta_map["source"])
-            idf["notes"] = idf["notes"].apply(lambda x : get_notes(str(x), meta_map))
+            mult = config["multiplier"]
+            if mult:
+                if (mult <= 1 and mult >= -1) or not type(mult) is int:
+                    idf["value"] = idf["value"].apply(lambda x : x * mult)
+                else:
+                    idf["value"] = idf["value"].apply(lambda x : int(x * mult)).astype(object)
+            idf["source"] = idf["source"].apply(lambda x : config["source"])
+            idf["notes"] = idf["notes"].apply(lambda x : get_notes(str(x), config))
             filestem = config["prefix"] + "_" + iso3.lower() + "_" + config["suffix"]
             filename = filestem + ".csv"
             filepath = config["gen_2_dir"] + filename
@@ -86,10 +94,10 @@ def build_files(df, meta_map, config):
                    
             country = us.get_country_by_iso3(iso3)    
             meta = [("name", "%s - %s [CEPALStat]" % (country, config["indicator"])),
-                ("originalsource", meta_map["source"]),
+                ("originalsource", config["source"]),
                 ("proximatesource", "CEPALStat"),
-                ("dataset", meta_map["indicator"] + " [" + config["indicator_id"] + "]"),
-                ("description", meta_map["definition"]),
+                ("dataset", config["indicator"] + " [" + config["indicator_id"] + "]"),
+                ("description", config["definition"]),
                 ("category", config["indicator_category"]),
                 ("type", config["indicator_type"]),
                 ("file", filename),
@@ -98,7 +106,7 @@ def build_files(df, meta_map, config):
                 ]
      
             metafile = config["gen_2_dir"] + filestem + "_meta.csv"    
-            pd.DataFrame(meta,columns = ["key","value"]).to_csv(metafile, encoding="utf8", index=False)
+            pd.DataFrame(meta,columns = ["key","value"]).to_csv(metafile, encoding="utf8", float_format='%.3f',index=False)
             filelist.append([filestem])
             countrylist.append(country)
         except Exception as strerror:
@@ -122,7 +130,7 @@ def build(config):
     metafile = config["gen_1_dir"] + config["indicator_id"] + "_meta.csv"
     metamap = parse_meta_file(metafile)
     metamap.update(config) # this enables customizations in config to override entries in the meta file
-    report = build_files(df, metamap, config)
+    report = build_files(df, metamap)
     us.log("%i series saved to %s" % (len(report), config["gen_2_dir"]))
     return report
     

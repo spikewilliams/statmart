@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_bhs_cepalstat.csv
+filehash,4efb85f89e0d313adb7429d7090f20b1a44ac595
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_jam_cepalstat.csv
+filehash,8baab21fd9beedfcede4cefcfd9dc8630e6e3952
+columns,"year,value,source,notes"

@@ -1,5 +1,7 @@
 <?php
 
+include("inc/settings.php");
+
 parse_str($_SERVER['QUERY_STRING'], $params);
 /*$sid = $params['sid'];
 $src = $params['src'];
@@ -15,7 +17,7 @@ if (strlen($s) == 0){
 //gdp-sec-cstrn\_%\_cepalstat
 //sid=gdp-sec-cstrn&iso=tto&src=cepalstat
 
-$db_connection = mysqli_connect("127.0.0.1","statmart_client","mypass","statmart_a");
+$db_connection = mysqli_connect($db_host,$db_user,$db_pass,$db_schema);
 
 $query = <<<SQLQUERY
 SELECT O.series, L.iso3, L.countryname, D.year, O.value
@@ -46,23 +48,23 @@ function makeValuesReferenced($arr){ // because php is a mess
 }
 
 if ($stmt = mysqli_prepare($db_connection, $query)) {
-    call_user_func_array('mysqli_stmt_bind_param', array_merge (array($stmt, $types), makeValuesReferenced($serieses))); 
-    
+    call_user_func_array('mysqli_stmt_bind_param', array_merge (array($stmt, $types), makeValuesReferenced($serieses)));
+
     mysqli_stmt_execute($stmt);
     $result = $stmt->get_result();
    // mysqli_stmt_store_result($stmt);
-    
+
     $fields = mysqli_fetch_fields(mysqli_stmt_result_metadata($stmt));
     $headers = array();
     foreach ($fields as $field){
-        $headers[] = $field->name;  
+        $headers[] = $field->name;
     }
     mysqli_stmt_close($stmt);
-    
+
     header('Content-Type: text/plain');
     header('Pragma: no-cache');
     header('Expires: 0');
-    
+
     $fp = fopen('php://output', 'w');
     if ($fp && $result) {
         fputcsv($fp, $headers);
@@ -70,8 +72,8 @@ if ($stmt = mysqli_prepare($db_connection, $query)) {
             fputcsv($fp, array_values($row));
         }
     }
-    die;  
-    
+    die;
+
 } else {
- printf("Query failed");   
+ printf("Query failed");
 }

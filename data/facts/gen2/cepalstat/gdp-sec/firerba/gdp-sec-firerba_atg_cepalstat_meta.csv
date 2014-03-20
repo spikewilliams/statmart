@@ -1,9 +1,0 @@
-key,value
-name,"Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Antigua and Barbuda: Financial intermediation, real estate, renting and business activities"
-file,gdp-sec-firerba_atg_cepalstat.csv
-filehash,44ca2fcc83a0915f5d7fe583060fe275d10bf9e5
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

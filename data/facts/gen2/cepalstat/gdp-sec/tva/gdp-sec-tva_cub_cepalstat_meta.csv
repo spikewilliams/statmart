@@ -1,9 +1,0 @@
-key,value
-name,Cuba - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Cuba: Total value added
-file,gdp-sec-tva_cub_cepalstat.csv
-filehash,969cc4ff7716ca36c58e3910ec66317b878c5f4e
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Barbados - Mining and quarrying [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Mining and quarrying [2216]
+description,Sectoral GDP: Mining and quarrying
+category,Economic
+type,GDP
+file,gdp-sec--mq_brb_cepalstat.csv
+filehash,a80d8955ff1da9ae0aef733facf2ed138860dd8e
+columns,"year,value,source,notes"

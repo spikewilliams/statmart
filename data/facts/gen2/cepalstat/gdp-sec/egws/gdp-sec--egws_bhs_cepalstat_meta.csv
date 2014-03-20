@@ -1,0 +1,11 @@
+key,value
+name,"Bahamas - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_bhs_cepalstat.csv
+filehash,21ff4999abba7262ac6c1746d7037b5802a4a069
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Dominican Republic - Gross domestic product (GDP) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Gross domestic product (GDP) [2216]
+description,Sectoral GDP: Gross domestic product (GDP)
+category,Economic
+type,GDP
+file,gdp-sec--gdp_dom_cepalstat.csv
+filehash,c1ea2c0890bca6c25426d2850fcb474f845c3b85
+columns,"year,value,source,notes"

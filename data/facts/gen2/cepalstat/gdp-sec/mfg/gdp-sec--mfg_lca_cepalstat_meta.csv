@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Manufacturing [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Manufacturing [2216]
+description,Sectoral GDP: Manufacturing
+category,Economic
+type,GDP
+file,gdp-sec--mfg_lca_cepalstat.csv
+filehash,6fa90a82695d8244869978da323634410e01c2ab
+columns,"year,value,source,notes"

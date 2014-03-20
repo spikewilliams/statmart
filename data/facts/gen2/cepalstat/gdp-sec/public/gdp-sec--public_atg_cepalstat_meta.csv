@@ -1,0 +1,11 @@
+key,value
+name,"Antigua and Barbuda - Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [2216]"
+description,"Sectoral GDP: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+category,Economic
+type,GDP
+file,gdp-sec--public_atg_cepalstat.csv
+filehash,ab83ce0b43e307c069b335c1d061170054d107a2
+columns,"year,value,source,notes"

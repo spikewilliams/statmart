@@ -1,9 +1,0 @@
-key,value
-name,"Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Financial intermediation, real estate, renting and business activities [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Saint Vincent and The Grenadines: Financial intermediation, real estate, renting and business activities"
-file,gdp-sec-firerba_vct_cepalstat.csv
-filehash,440614e38d9faaf71ac19b0ce93e44188fe77173
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

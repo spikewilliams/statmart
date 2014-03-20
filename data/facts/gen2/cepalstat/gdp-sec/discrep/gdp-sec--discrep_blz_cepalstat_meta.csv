@@ -1,0 +1,11 @@
+key,value
+name,Belize - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_blz_cepalstat.csv
+filehash,d01e403f8d6e6d50515f278ca16d68dd53a96ff2
+columns,"year,value,source,notes"

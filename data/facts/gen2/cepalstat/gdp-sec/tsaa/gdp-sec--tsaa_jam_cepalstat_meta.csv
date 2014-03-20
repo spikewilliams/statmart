@@ -1,0 +1,11 @@
+key,value
+name,Jamaica - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_jam_cepalstat.csv
+filehash,f84bcb6a0106240efcf78c687154592addbb97ab
+columns,"year,value,source,notes"

@@ -1,0 +1,11 @@
+key,value
+name,Cuba - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_cub_cepalstat.csv
+filehash,8aa78a4bfbb1ad546ae91036618a56f60e8594ba
+columns,"year,value,source,notes"

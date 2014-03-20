@@ -1,9 +1,0 @@
-key,value
-name,Saint Lucia - Annual Gross Domestic Product (GDP) by activity: Fishing [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Lucia: Fishing
-file,gdp-sec-fish_lca_cepalstat.csv
-filehash,cf3f9616e490a5c36e5964099389268f5937cd0e
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

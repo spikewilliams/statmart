@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_atg_cepalstat.csv
+filehash,ad2575965f9f789de685cf307c97b2ad88482283
+columns,"year,value,source,notes"

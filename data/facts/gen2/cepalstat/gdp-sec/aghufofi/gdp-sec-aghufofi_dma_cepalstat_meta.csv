@@ -1,9 +1,0 @@
-key,value
-name,"Dominica - Annual Gross Domestic Product (GDP) by activity: Agriculture, hunting, forestry and fishing [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Dominica: Agriculture, hunting, forestry and fishing"
-file,gdp-sec-aghufofi_dma_cepalstat.csv
-filehash,bbfacb8b1c2fbc08a012c335475f4e2233456fb1
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

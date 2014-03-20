@@ -1,0 +1,11 @@
+key,value
+name,"Bahamas - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_bhs_cepalstat.csv
+filehash,1463691df2e3e3f7735f77d14f0322a05537f240
+columns,"year,value,source,notes"

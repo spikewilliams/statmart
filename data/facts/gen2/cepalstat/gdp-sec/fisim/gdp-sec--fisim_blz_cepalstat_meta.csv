@@ -1,0 +1,11 @@
+key,value
+name,Belize - Financial intermediation services indirectly measured (FISIM) [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Financial intermediation services indirectly measured (FISIM) [2216]
+description,Sectoral GDP: Financial intermediation services indirectly measured (FISIM)
+category,Economic
+type,GDP
+file,gdp-sec--fisim_blz_cepalstat.csv
+filehash,9a6e9d6f340886639490f1d05eac7a9d01a48929
+columns,"year,value,source,notes"

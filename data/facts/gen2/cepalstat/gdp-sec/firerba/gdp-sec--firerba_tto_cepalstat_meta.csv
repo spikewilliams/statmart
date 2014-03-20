@@ -1,0 +1,11 @@
+key,value
+name,"Trinidad and Tobago - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_tto_cepalstat.csv
+filehash,d3de237d241725f828a3abc888072f89170cd769
+columns,"year,value,source,notes"

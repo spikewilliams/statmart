@@ -1,0 +1,11 @@
+key,value
+name,"Jamaica - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_jam_cepalstat.csv
+filehash,fbfa15eb20298445b9a5ee43e9b3fc66b6723802
+columns,"year,value,source,notes"

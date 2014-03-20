@@ -1,9 +1,0 @@
-key,value
-name,Dominican Republic - Annual Gross Domestic Product (GDP) by activity: Total value added [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Dominican Republic: Total value added
-file,gdp-sec-tva_dom_cepalstat.csv
-filehash,1aabc766381595c0f78db454ad39750dd40ba2d8
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

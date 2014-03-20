@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_bhs_cepalstat.csv
+filehash,0c643f91039784fb398abaac1819da6ddeaeaa0c
+columns,"year,value,source,notes"

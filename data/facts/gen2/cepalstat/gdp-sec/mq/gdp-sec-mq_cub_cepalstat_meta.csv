@@ -1,9 +1,0 @@
-key,value
-name,Cuba - Annual Gross Domestic Product (GDP) by activity: Mining and quarrying [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Cuba: Mining and quarrying
-file,gdp-sec-mq_cub_cepalstat.csv
-filehash,4504ea2eb3b4dc3f5b7348b734b86c97c43ad616
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

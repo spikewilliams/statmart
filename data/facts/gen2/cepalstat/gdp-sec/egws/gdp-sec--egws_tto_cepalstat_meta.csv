@@ -1,0 +1,11 @@
+key,value
+name,"Trinidad and Tobago - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_tto_cepalstat.csv
+filehash,e7f604cf0972d188d13029e8bcf1885519440e74
+columns,"year,value,source,notes"

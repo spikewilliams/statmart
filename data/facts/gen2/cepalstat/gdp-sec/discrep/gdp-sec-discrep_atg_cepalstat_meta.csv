@@ -1,9 +1,0 @@
-key,value
-name,Antigua and Barbuda - Annual Gross Domestic Product (GDP) by activity: Statistical discrepancy of GDP by economic activity [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Antigua and Barbuda: Statistical discrepancy of GDP by economic activity
-file,gdp-sec-discrep_atg_cepalstat.csv
-filehash,ff2c5896e9bc08e9e9b23da73a75179dea2504ca
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

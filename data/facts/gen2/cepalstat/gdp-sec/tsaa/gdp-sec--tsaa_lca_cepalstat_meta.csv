@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Transport and supporting and auxiliary activities [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Transport and supporting and auxiliary activities [2216]
+description,Sectoral GDP: Transport and supporting and auxiliary activities
+category,Economic
+type,GDP
+file,gdp-sec--tsaa_lca_cepalstat.csv
+filehash,b9217cbbe9d16b8606dcba746c93756534aa75af
+columns,"year,value,source,notes"

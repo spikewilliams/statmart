@@ -1,0 +1,11 @@
+key,value
+name,"Dominican Republic - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_dom_cepalstat.csv
+filehash,4343057f712f41dffa7cb5e7fbb5f500f18ea83c
+columns,"year,value,source,notes"

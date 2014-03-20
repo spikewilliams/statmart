@@ -1,0 +1,11 @@
+key,value
+name,Saint Lucia - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_lca_cepalstat.csv
+filehash,6ee1e34e9244a3cb6c61b1da1f8be7c517ccb869
+columns,"year,value,source,notes"

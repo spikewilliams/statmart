@@ -1,9 +1,0 @@
-key,value
-name,Trinidad and Tobago - Annual Gross Domestic Product (GDP) by activity: Construction [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Trinidad and Tobago: Construction
-file,gdp-sec-cstrn_tto_cepalstat.csv
-filehash,ba90946c2e33cd3adc3d50ce7554f8ea2d71265a
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

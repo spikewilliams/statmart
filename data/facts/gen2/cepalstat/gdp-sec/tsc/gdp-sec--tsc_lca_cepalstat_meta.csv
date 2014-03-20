@@ -1,0 +1,11 @@
+key,value
+name,"Saint Lucia - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_lca_cepalstat.csv
+filehash,7164265d1fdaf90b73c91884d3761af76c4e2287
+columns,"year,value,source,notes"

@@ -1,9 +1,0 @@
-key,value
-name,Saint Kitts and Nevis - Annual Gross Domestic Product (GDP) by activity: Post and telecommunications [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Kitts and Nevis: Post and telecommunications
-file,gdp-sec-pt_kna_cepalstat.csv
-filehash,4f885840a73119fd8070064cab27ad5d0cd742d9
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

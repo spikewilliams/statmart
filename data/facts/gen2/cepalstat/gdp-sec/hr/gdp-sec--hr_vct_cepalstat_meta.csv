@@ -1,0 +1,11 @@
+key,value
+name,Saint Vincent and The Grenadines - Hotels and restaurants [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Hotels and restaurants [2216]
+description,Sectoral GDP: Hotels and restaurants
+category,Economic
+type,GDP
+file,gdp-sec--hr_vct_cepalstat.csv
+filehash,c53a851fd3f401b218e32774a055ad94939f5511
+columns,"year,value,source,notes"

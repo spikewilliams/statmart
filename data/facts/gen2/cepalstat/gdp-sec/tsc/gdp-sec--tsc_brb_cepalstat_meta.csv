@@ -1,0 +1,11 @@
+key,value
+name,"Barbados - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_brb_cepalstat.csv
+filehash,5ef9a798225e566599ef1d72256fcc54c83883f7
+columns,"year,value,source,notes"

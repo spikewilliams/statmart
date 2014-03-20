@@ -1,0 +1,11 @@
+key,value
+name,"Saint Kitts and Nevis - Wholesale and retail trade, and repair of goods [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, and repair of goods [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, and repair of goods"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrg_kna_cepalstat.csv
+filehash,b753bcec5e0b4a0ed4ac5acb13bc2c5dd27d0986
+columns,"year,value,source,notes"

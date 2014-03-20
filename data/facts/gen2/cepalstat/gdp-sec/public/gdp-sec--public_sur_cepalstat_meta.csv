@@ -1,0 +1,11 @@
+key,value
+name,"Suriname - Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities [2216]"
+description,"Sectoral GDP: Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities"
+category,Economic
+type,GDP
+file,gdp-sec--public_sur_cepalstat.csv
+filehash,ac6c51d4d9b4a510a0914739945003cbd61c03db
+columns,"year,value,source,notes"

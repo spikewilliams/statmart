@@ -1,0 +1,11 @@
+key,value
+name,Bahamas - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_bhs_cepalstat.csv
+filehash,31de98edb840eebfed6bb7ce9fe29d0c96c152c5
+columns,"year,value,source,notes"

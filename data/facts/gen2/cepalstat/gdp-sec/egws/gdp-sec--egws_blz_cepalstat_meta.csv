@@ -1,0 +1,11 @@
+key,value
+name,"Belize - Electricity, gas and water supply [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Electricity, gas and water supply [2216]"
+description,"Sectoral GDP: Electricity, gas and water supply"
+category,Economic
+type,GDP
+file,gdp-sec--egws_blz_cepalstat.csv
+filehash,723ed878eb916edf46f12bee5887d23048567ec6
+columns,"year,value,source,notes"

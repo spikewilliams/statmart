@@ -1,9 +1,0 @@
-key,value
-name,Dominica - Annual Gross Domestic Product (GDP) by activity: Hotels and restaurants [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Dominica: Hotels and restaurants
-file,gdp-sec-hr_dma_cepalstat.csv
-filehash,1f5688f12ff647aeede548421e0e662227f33b5b
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

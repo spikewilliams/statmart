@@ -1,0 +1,11 @@
+key,value
+name,"Barbados - Agriculture, hunting, forestry and fishing [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Agriculture, hunting, forestry and fishing [2216]"
+description,"Sectoral GDP: Agriculture, hunting, forestry and fishing"
+category,Economic
+type,GDP
+file,gdp-sec--aghufofi_brb_cepalstat.csv
+filehash,40295f6ec1f7779731e16469bcb342154a222daf
+columns,"year,value,source,notes"

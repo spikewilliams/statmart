@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Construction [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Construction [2216]
+description,Sectoral GDP: Construction
+category,Economic
+type,GDP
+file,gdp-sec--cstrn_tto_cepalstat.csv
+filehash,3631b963cbc500460f458e4c0d57e0b8beeb8346
+columns,"year,value,source,notes"

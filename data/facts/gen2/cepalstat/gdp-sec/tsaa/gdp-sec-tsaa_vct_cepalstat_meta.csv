@@ -1,9 +1,0 @@
-key,value
-name,Saint Vincent and The Grenadines - Annual Gross Domestic Product (GDP) by activity: Transport and supporting and auxiliary activities [CEPALStat]
-dataset,CEPALStat national accounts [2216]
-description,Annual national account statistics for Saint Vincent and The Grenadines: Transport and supporting and auxiliary activities
-file,gdp-sec-tsaa_vct_cepalstat.csv
-filehash,000cf6c51d47168aafa57c69ad5300118970da70
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

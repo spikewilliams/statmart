@@ -1,9 +1,0 @@
-key,value
-name,"Dominica - Annual Gross Domestic Product (GDP) by activity: Transport, storage and communications [CEPALStat]"
-dataset,CEPALStat national accounts [2216]
-description,"Annual national account statistics for Dominica: Transport, storage and communications"
-file,gdp-sec-tsc_dma_cepalstat.csv
-filehash,93b3210d4999702cf8d336fcda0fdad3f6da4d20
-category,Economy
-type,GDP
-columns,"year,value,source,notes"

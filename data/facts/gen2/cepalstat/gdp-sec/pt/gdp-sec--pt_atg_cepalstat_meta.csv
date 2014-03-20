@@ -1,0 +1,11 @@
+key,value
+name,Antigua and Barbuda - Post and telecommunications [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Post and telecommunications [2216]
+description,Sectoral GDP: Post and telecommunications
+category,Economic
+type,GDP
+file,gdp-sec--pt_atg_cepalstat.csv
+filehash,2e0545e365b82cbf8b0d5ec1db9adb10505224fa
+columns,"year,value,source,notes"

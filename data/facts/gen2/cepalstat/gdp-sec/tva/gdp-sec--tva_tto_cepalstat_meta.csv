@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Total value added [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Total value added [2216]
+description,Sectoral GDP: Total value added
+category,Economic
+type,GDP
+file,gdp-sec--tva_tto_cepalstat.csv
+filehash,8a91882f0308684c34a094980ee53d5f1e502204
+columns,"year,value,source,notes"

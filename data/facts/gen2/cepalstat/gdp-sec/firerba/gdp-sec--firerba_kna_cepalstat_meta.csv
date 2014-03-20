@@ -1,0 +1,11 @@
+key,value
+name,"Saint Kitts and Nevis - Financial intermediation, real estate, renting and business activities [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Financial intermediation, real estate, renting and business activities [2216]"
+description,"Sectoral GDP: Financial intermediation, real estate, renting and business activities"
+category,Economic
+type,GDP
+file,gdp-sec--firerba_kna_cepalstat.csv
+filehash,ca00c7247d8edfb1a4bac5381ae552cc0be755b0
+columns,"year,value,source,notes"

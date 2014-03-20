@@ -1,0 +1,11 @@
+key,value
+name,"Bahamas - Wholesale and retail trade, repair of goods, and hotels and restaurants [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Wholesale and retail trade, repair of goods, and hotels and restaurants [2216]"
+description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hotels and restaurants"
+category,Economic
+type,GDP
+file,gdp-sec--wrtrghr_bhs_cepalstat.csv
+filehash,c49dd4e6cc749277fdf03f1383efe124646877ac
+columns,"year,value,source,notes"

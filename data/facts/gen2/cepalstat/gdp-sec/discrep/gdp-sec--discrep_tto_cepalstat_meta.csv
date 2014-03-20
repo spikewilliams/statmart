@@ -1,0 +1,11 @@
+key,value
+name,Trinidad and Tobago - Statistical discrepancy of GDP by economic activity [CEPALStat]
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,Statistical discrepancy of GDP by economic activity [2216]
+description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+category,Economic
+type,GDP
+file,gdp-sec--discrep_tto_cepalstat.csv
+filehash,b530f1ce53fb054c5e0b529ae59213f881627c81
+columns,"year,value,source,notes"

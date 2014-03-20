@@ -1,0 +1,11 @@
+key,value
+name,"Grenada - Transport, storage and communications [CEPALStat]"
+originalsource,Economic Commission for Latin America and the Caribbean
+proximatesource,CEPALStat
+dataset,"Transport, storage and communications [2216]"
+description,"Sectoral GDP: Transport, storage and communications"
+category,Economic
+type,GDP
+file,gdp-sec--tsc_grd_cepalstat.csv
+filehash,320846f2984c72030ed709f7308f8cb88776147d
+columns,"year,value,source,notes"
