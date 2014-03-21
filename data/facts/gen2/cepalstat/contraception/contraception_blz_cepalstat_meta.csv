@@ -2,10 +2,10 @@ key,value
 name,Belize - Contraceptive use [CEPALStat]
 originalsource,United Nations Statistics Division: Millennium Indicators Database
 proximatesource,CEPALStat
-dataset,"Contraceptive prevalence rate among married women aged 15-49, any method [307]"
+dataset,Contraceptive use [307]
 description,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions"
 category,Social
 type,Health
 file,contraception_blz_cepalstat.csv
-filehash,ece62554eaceb1f90c2b34ee20a57a6066862242
+filehash,f8d3c59cd1ef4ddd0b310cd502a01eea0813ca82
 columns,"year,value,source,notes"

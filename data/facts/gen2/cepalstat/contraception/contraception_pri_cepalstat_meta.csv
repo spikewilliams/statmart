@@ -2,10 +2,10 @@ key,value
 name,Puerto Rico - Contraceptive use [CEPALStat]
 originalsource,United Nations Statistics Division: Millennium Indicators Database
 proximatesource,CEPALStat
-dataset,"Contraceptive prevalence rate among married women aged 15-49, any method [307]"
+dataset,Contraceptive use [307]
 description,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions"
 category,Social
 type,Health
 file,contraception_pri_cepalstat.csv
-filehash,99146a550a9e7d690b4c597cbee880a020699abe
+filehash,30cf757518d0e518758f1d065428da33070222d2
 columns,"year,value,source,notes"

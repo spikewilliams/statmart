@@ -2,10 +2,10 @@ key,value
 name,Guyana - Contraceptive use [CEPALStat]
 originalsource,United Nations Statistics Division: Millennium Indicators Database
 proximatesource,CEPALStat
-dataset,"Contraceptive prevalence rate among married women aged 15-49, any method [307]"
+dataset,Contraceptive use [307]
 description,"Corresponds to the percentage of women who are practising, or whose sexual partners are practising any form of contraception. It is usually reported for women ages 15-49 in marital or consensual unions"
 category,Social
 type,Health
 file,contraception_guy_cepalstat.csv
-filehash,d13006e3c9a62139f8104c4e3165379cb68bc32d
+filehash,5f73fe85700339efd82c86e709a0205082a03362
 columns,"year,value,source,notes"
