@@ -17,6 +17,8 @@ statmart_db_user='root'
 statmart_db_passwd=''
 statmart_db_schema='statmart'
 
+statmart_default_language='en'
+
 # <markdowncell>
 
 # No additional configuration needed below this point.
@@ -34,15 +36,6 @@ statmart_facts_gen1 = statmart_facts_root + "gen1/"
 statmart_facts_gen2 = statmart_facts_root + "gen2/"
 statmart_view_root = statmart_data_root = statmart_root + "view/"
 statmart_view_gen4 = statmart_view_root + "gen4/"
-
-# <codecell>
-
-
-# <codecell>
-
-
-# <codecell>
-
 
 # <codecell>
 

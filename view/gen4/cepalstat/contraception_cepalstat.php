@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv='content-type' content='text/html; charset=UTF-8'/>
-<title>Official unemployment rate</title>
+<title>Contraceptive use</title>
 <script type='text/javascript' src='http://localhost:81/js/d3.v3.min.js'></script>
 <style><?php include('../../inc/style_basic.php'); ?></style></head>
 <body><script type='text/javascript'>//<![CDATA[
 //~metadata_iso3_map
-var iso3Map = {"BHS":{"countryname":"Bahamas","series":"unemployment_bhs_cepalstat","numberyears":21},"BLZ":{"countryname":"Belize","series":"unemployment_blz_cepalstat","numberyears":20},"BRB":{"countryname":"Barbados","series":"unemployment_brb_cepalstat","numberyears":28},"CUB":{"countryname":"Cuba","series":"unemployment_cub_cepalstat","numberyears":23},"DOM":{"countryname":"Dominican Republic","series":"unemployment_dom_cepalstat","numberyears":23},"JAM":{"countryname":"Jamaica","series":"unemployment_jam_cepalstat","numberyears":28},"SUR":{"countryname":"Suriname","series":"unemployment_sur_cepalstat","numberyears":16},"TTO":{"countryname":"Trinidad and Tobago","series":"unemployment_tto_cepalstat","numberyears":27}};
+var iso3Map = {"AIA":{"countryname":"Anguilla","series":"contraception_aia_cepalstat","numberyears":1},"BLZ":{"countryname":"Belize","series":"contraception_blz_cepalstat","numberyears":4},"CUB":{"countryname":"Cuba","series":"contraception_cub_cepalstat","numberyears":3},"DOM":{"countryname":"Dominican Republic","series":"contraception_dom_cepalstat","numberyears":7},"GRD":{"countryname":"Grenada","series":"contraception_grd_cepalstat","numberyears":1},"GUY":{"countryname":"Guyana","series":"contraception_guy_cepalstat","numberyears":5},"HTI":{"countryname":"Haiti","series":"contraception_hti_cepalstat","numberyears":4},"JAM":{"countryname":"Jamaica","series":"contraception_jam_cepalstat","numberyears":3},"PRI":{"countryname":"Puerto Rico","series":"contraception_pri_cepalstat","numberyears":2},"SUR":{"countryname":"Suriname","series":"contraception_sur_cepalstat","numberyears":3},"TTO":{"countryname":"Trinidad and Tobago","series":"contraception_tto_cepalstat","numberyears":2},"VIR":{"countryname":"Virgin Islands, U.S.","series":"contraception_vir_cepalstat","numberyears":1}};
 
 //~metadata_series_info_map
-var seriesInfoMap = {"unemployment_bhs_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_blz_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_brb_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_cub_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_dom_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_jam_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_sur_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"},"unemployment_tto_cepalstat":{"originalsource":"Economic Commission for Latin America and the Caribbean: Economic Development Division","proximatesource":"CEPALStat"}};
+var seriesInfoMap = {"contraception_aia_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_blz_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_cub_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_dom_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_grd_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_guy_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_hti_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_jam_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_pri_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_sur_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_tto_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"},"contraception_vir_cepalstat":{"originalsource":"United Nations Statistics Division: Millennium Indicators Database","proximatesource":"CEPALStat"}};
 
 //~util_function_get_parameters_by_name
 
@@ -22,13 +22,13 @@ function getParameterByName(name, default_param) {
 
 //~js_series_name_from_iso3_parameter
     iso3 = getParameterByName("iso3");
-    seriesName = "unemployment_" + iso3 + "_cepalstat"
+    seriesName = "contraception_" + iso3 + "_cepalstat"
 
 //~js_data_url_series_query
     dataURL = "../../series_query.php?s=" + seriesName;
 
 //~graph_set_title (title)
-graphTitle = getParameterByName("title", "Official unemployment rate");
+graphTitle = getParameterByName("title", "Contraceptive use");
 
 //~graph_set_subtitle_country
 var countryname = iso3Map[iso3.toUpperCase()]["countryname"];
@@ -64,29 +64,9 @@ if (typeof tloc != "undefined" && tloc != "header") {
 //~js_d3_start_csv
      d3.csv(dataURL, function(error, data) {
 
-//~js_guess_unit
-    unit = "";
-    ufactor = 1;
-
-    var max = d3.max(data, function(d) { return d["value"]; });
-    var min = d3.min(data, function(d) { return d["value"]; });
-    
-    if (min > 1000 && max > 10000) {
-        unit = "Thousands"
-        ufactor = 1000;
-    }
-    if (min > 100000 && max > 1000000) {
-        ufactor = 1000000;
-        unit = "Millions"   
-    }
-    if (min > 100000000 && max > 1000000000) {
-        ufactor = 1000000000;
-        unit = "Billions"   
-    }     
-    if (min < 1 && max < 1) {
-        unit = "Percentage";
-        ufactor = 0.01;
-    }
+//~js_set_unit (unit type, unit factor)
+    unit = "Percentage of women using contraception";
+    ufactor = 0.01;
 
 //~js_d3_process_annual_csv_data
         data.forEach(function(d) {

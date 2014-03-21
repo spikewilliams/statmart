@@ -25,7 +25,7 @@ function getParameterByName(name, default_param) {
     seriesName = "tb-death-rate_" + iso3 + "_cepalstat"
 
 //~js_data_url_series_query
-    dataURL = "http://localhost:81/series_query.php?s=" + seriesName;
+    dataURL = "../../series_query.php?s=" + seriesName;
 
 //~graph_set_title (title)
 graphTitle = getParameterByName("title", "Death rate - Tuberculosis");
@@ -58,7 +58,7 @@ if (typeof tloc != "undefined" && tloc != "header") {
 
 //~include_js_d3_basic_axis 
     <?php
-		include("C:/portal/statmart/view/inc/axis.php");
+		include("../../inc/axis.php");
      ?> 
  
 //~js_d3_start_csv

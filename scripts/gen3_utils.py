@@ -10,6 +10,8 @@
 import pandas as pd
 import pymysql
 
+from settings_statmart import *
+
 import utils_statmart as us
 
 # <markdowncell>
@@ -63,11 +65,47 @@ def standard_load_from_data_list(data_list):
                 record = data.ix[date];
                 source = ""
                 if "source" in list(data.columns):
-                    source = str(record["source"])
+                    source = get_translation_id(str(record["source"]))
                 note = ""
                 if "note" in list(data.columns):
-                    note = str(record["notes"])
+                    note = get_translation_id(str(record["notes"]))
                 values  = [series_key, locationid, dateid, str(record["value"]), source, note]
                 cursor.execute(insert_observation, values)
             cursor.execute("COMMIT")
+
+# <codecell>
+
+translation_id_cache = {}
+
+def get_translation_id(strn, lang=statmart_default_language):
+    cache_key = lang + " " + strn
+    if cache_key in translation_id_cache:
+        return translation_id_cache[cache_key]
+    if len(lang) > 2: # Since 'lang' is used outside of the prepared statement, we need to protect against SQL injection
+        raise Exception("Bad language: '%s' - this value must be a maximum of two characters.")
+    with us.get_db_connection() as cursor:
+        query = "SELECT id FROM translation WHERE " + lang + " = %s;" 
+        count = cursor.execute(query, [strn])
+        if count == 1:
+            id = list(cursor)[0][0]
+            translation_id_cache[cache_key] = id
+            return id
+        if count > 1:
+            raise Exception("There are multiple instances of the phrase '%s' in the database. This case is not currently supported.")
+        query = "INSERT INTO translation (" + lang + ") VALUES (%s);"
+        cursor.execute(query, [strn])
+        cursor.execute("SELECT LAST_INSERT_ID();")
+        id = list(cursor)[0][0]
+        translation_id_cache[cache_key] = id
+        cursor.execute("COMMIT")
+        return id
+
+# <codecell>
+
+
+# <codecell>
+
+
+# <codecell>
+
 

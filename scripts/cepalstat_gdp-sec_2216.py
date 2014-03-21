@@ -128,8 +128,7 @@ for sector in sectors:
     sec = sector_map[sector]
     sconfig["prefix"] = prefix + "--" + sec
     sconfig["indicator"] = sector
-    if name != sector:
-        sconfig["definition"] = "Sectoral GDP: " + sector
+    sconfig["definition"] = "Sectoral GDP: " + sector
     sconfig["gen_2_dir"] = config["gen_2_dir"] + sec + "/"
     print(sconfig["gen_2_dir"])
     gen2_cepalstat.build_files(qf, sconfig)
@@ -141,6 +140,8 @@ for sector in sectors:
 
 # <codecell>
 
+import imp
+imp.reload(gen3_utils)
 for config in configs:
     data_list = gen3_utils.get_gen2_data(config)
     gen3_utils.standard_load_from_data_list(data_list)

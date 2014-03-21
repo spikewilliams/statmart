@@ -3,7 +3,7 @@ name,Cuba - Statistical discrepancy of GDP by economic activity [CEPALStat]
 originalsource,Economic Commission for Latin America and the Caribbean
 proximatesource,CEPALStat
 dataset,Statistical discrepancy of GDP by economic activity [2216]
-description,El producto interno bruto (PIB) es el valor del flujo de bienes y servicios producidos en un país durante un período de referencia determinado. (Translation in progress ...)
+description,Sectoral GDP: Statistical discrepancy of GDP by economic activity
 category,Economic
 type,GDP
 file,gdp-sec--discrep_cub_cepalstat.csv
