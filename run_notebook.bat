@@ -1,1 +1,1 @@
-"Ipython Notebook.exe" --notebook-dir=c:\portal\statmart\scripts\ --script
+"Ipython Notebook.exe" --notebook-dir=c:\statmart\scripts\ --script

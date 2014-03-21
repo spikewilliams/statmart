@@ -7,7 +7,7 @@
 
 # <codecell>
 
-statmart_root = "C:/portal/statmart/"
+statmart_root = "C:/statmart/"
 statmart_root_url = "http://localhost:81/"
 statmart_d3_path = statmart_root_url + "js/d3.v3.min.js"
 
