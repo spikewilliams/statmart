@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv='content-type' content='text/html; charset=UTF-8'/>
 <title>Public administration, defence, compulsory social security, education, health and social work, and other community, social and personal service activities</title>
-<script type='text/javascript' src='http://localhost:81/js/d3.v3.min.js'></script>
+<script type='text/javascript' src='../../js/d3.v3.min.js'></script>
 <style><?php include('../../inc/style_basic.php'); ?></style></head>
 <body><script type='text/javascript'>//<![CDATA[
 //~metadata_iso3_map
