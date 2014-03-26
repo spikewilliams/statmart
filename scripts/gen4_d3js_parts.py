@@ -124,9 +124,9 @@ js_d3_svg_build_y_axis_unit_label = """//~js_d3_svg_build_y_axis_unit_label
           .text(unit);
 """ % (core_js_d3_svg_build_y_axis_label)
 
-js_d3_svg_build_y_axis_label = """//~js_d3_svg_build_y_axis_unit_label
+js_d3_svg_build_y_axis_label = """//~js_d3_svg_build_y_axis_label
 """ + core_js_d3_svg_build_y_axis_label + """
-          .text("%s");
+          .text("%s".replace("$Unit",unit).replace("$unit",unit.toLowerCase()));
 """
           
 js_d3_svg_draw_area = """//~js_d3_svg_draw_area
@@ -291,11 +291,16 @@ svg_draw_subtitle = """//svg_draw_subtitle
 """
 
 svg_draw_source = """//~svg_draw_source
+
+        source = seriesInfoMap[seriesName]["originalsource"];
+        if (source == null){
+            source = seriesInfoMap[seriesName]["proximatesource"]
+        }
         svg.append("g")
 		  .attr("transform", "translate(10," + (height - 15) + ")")
         .append("text")
 			.attr("class", "source")
 			.attr("dy","10px")
-			.text("Source: " + seriesInfoMap[seriesName]["originalsource"]);
+			.text("Source: " + source);
 """
 

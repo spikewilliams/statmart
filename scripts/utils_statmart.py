@@ -3,10 +3,12 @@
 
 # <codecell>
 
+import os
 import pandas as pd
 import pymysql
 import pandas.io.sql as psql
 import csv
+import string
 from hashlib import sha1
 
 from settings_statmart import *
@@ -22,7 +24,8 @@ def get_db_connection():
             port=statmart_db_port, 
             user=statmart_db_user, 
             passwd=statmart_db_passwd,
-            db=statmart_db_schema)
+            db=statmart_db_schema,
+            charset='utf8')
 
 # <markdowncell>
 
@@ -38,6 +41,17 @@ def githash(filepath):
     s.update(("blob %u\0" % len(data)).encode("utf-8"))
     s.update(data)
     return s.hexdigest()
+
+# <codecell>
+
+def format_lower_no_spaces(strn):
+    return(strn.strip().lower().replace(" ","-"))
+
+def machine_name(s):
+    exclude = set(string.punctuation)
+    s = ''.join(ch for ch in s if ch not in exclude)
+    name = format_lower_no_spaces(s)[0:32]
+    return name
 
 # <markdowncell>
 
@@ -55,6 +69,24 @@ def get_country_by_iso3(iso3):
     if isinstance(iso3df, int):
         iso3df = get_iso3_country_df()
     return iso3df.ix[iso3]['name']
+
+# <codecell>
+
+countrydf = 0
+
+def get_country_iso3_df():
+    return pd.read_csv(statmart_dimensions_gen2 + "base/country_base.csv", encoding="utf-8", usecols=["iso3","countryname"])
+
+def get_iso3_by_country(country):
+    global countrydf
+    if isinstance(countrydf, int):
+        countrydf = get_country_iso3_df()
+        countrydf["lname"] = [format_lower_no_spaces(x) for x in countrydf["countryname"]]
+        countrydf = countrydf.set_index(["lname"])
+    return countrydf.ix[format_lower_no_spaces(country)]['iso3']
+
+#get_iso3_by_country("Barbados")
+
 
 # <markdowncell>
 
@@ -126,4 +158,10 @@ def load_carib_country_dict(key_column="iso3"):
         for row in reader:
             country_dict[row[key_column]] = row
     return country_dict
+
+# <codecell>
+
+def mkdirs(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 

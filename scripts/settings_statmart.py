@@ -7,15 +7,15 @@
 
 # <codecell>
 
-statmart_root = "C:/statmart/"
+statmart_root = "C:/portal/statmart/"
 statmart_root_url = "../../"
 statmart_d3_path = statmart_root_url + "js/d3.v3.min.js"
 
-statmart_db_host='drupal01'
+statmart_db_host='127.0.0.1'
 statmart_db_port=3306
-statmart_db_user='statmart_client'
-statmart_db_passwd='mypass'
-statmart_db_schema='statmart_a'
+statmart_db_user='root'
+statmart_db_passwd=''
+statmart_db_schema='statmart'
 
 statmart_default_language='en'
 

@@ -1,19 +1,5 @@
 <?php
 
-include("inc/settings.php");
-
-parse_str($_SERVER['QUERY_STRING'], $params);
-
-$s = $params['s'];
-if (strlen($s) == 0){
-    die;
-}
-
-//gdp-sec-cstrn\_%\_cepalstat
-//sid=gdp-sec-cstrn&iso=tto&src=cepalstat
-
-$db_connection = mysqli_connect($db_host,$db_user,$db_pass,$db_schema);
-
 $query = <<<SQLQUERY
 SELECT O.series, L.iso3, L.countryname, D.year, O.value
 FROM observation as O
@@ -24,7 +10,6 @@ SQLQUERY;
 
 $orr = "";
 $types = "";
-$serieses = explode(",",$s);
 foreach ($serieses as $series) {
     $query .= $orr . " O.series = ? ";
     $orr = " OR ";
@@ -39,7 +24,6 @@ function makeValuesReferenced($arr){ // because php is a mess
     foreach($arr as $key => $value)
         $refs[$key] = &$arr[$key];
     return $refs;
-
 }
 
 if ($stmt = mysqli_prepare($db_connection, $query)) {
@@ -47,7 +31,6 @@ if ($stmt = mysqli_prepare($db_connection, $query)) {
 
     mysqli_stmt_execute($stmt);
     $result = $stmt->get_result();
-   // mysqli_stmt_store_result($stmt);
 
     $fields = mysqli_fetch_fields(mysqli_stmt_result_metadata($stmt));
     $headers = array();
@@ -55,20 +38,13 @@ if ($stmt = mysqli_prepare($db_connection, $query)) {
         $headers[] = $field->name;
     }
     mysqli_stmt_close($stmt);
-
-    header('Content-Type: text/plain');
-    header('Pragma: no-cache');
-    header('Expires: 0');
-
-    $fp = fopen('php://output', 'w');
-    if ($fp && $result) {
-        fputcsv($fp, $headers);
+    if ( $result) {
+		$out = fopen('php://output', 'w');
         while ($row = $result->fetch_array(MYSQLI_NUM)) {
-            fputcsv($fp, array_values($row));
+			fputcsv($out, array_values($row));
         }
+        fclose($out);
     }
-    die;
-
 } else {
  printf("Query failed");
 }

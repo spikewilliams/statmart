@@ -128,7 +128,7 @@ print("%i series saved to %s" % (len(filelist), config["gen_2_dir"]))
 imp.reload(gen3_utils)
 data_list = gen3_utils.get_gen2_data(config)
 gen3_utils.standard_load_from_data_list(data_list)
-#data_list[0:3]
+data_list[0:3]
 
 # <markdowncell>
 

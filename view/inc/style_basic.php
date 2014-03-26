@@ -15,7 +15,6 @@ svg {
 
  .subtitle {
  	alignment-baseline: hanging;
- 	fill: #ccc;
  	stroke: none;
  	font-size: 16px;
  	font-weight: 400;

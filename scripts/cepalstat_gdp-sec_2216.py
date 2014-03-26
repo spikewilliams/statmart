@@ -99,8 +99,7 @@ sector_map = {'Agriculture, hunting and forestry':'aghufo',
                                                                                 
 for val in sector_map.values(): # ensure there is a directory for each of the above sets
     directory = config['gen_2_dir'] + val + "/"
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    us.mkdirs(directory)
 
 # <codecell>
 

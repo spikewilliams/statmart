@@ -77,7 +77,7 @@ def build_files(df, config):
             if type(idf) == pd.Series: #idf a Series if there is only one element in it, but we want a DataFrame always
                 idf = pd.DataFrame([idf])
             idf = idf[["Year","Value","Source","Notes"]]
-            idf.columns = ["year","value","source","notes"]
+            idf.columns = ["year","value","source","note"]
             mult = config["multiplier"]
             if mult:
                 if (mult <= 1 and mult >= -1) or not type(mult) is int:
@@ -85,7 +85,7 @@ def build_files(df, config):
                 else:
                     idf["value"] = idf["value"].apply(lambda x : int(x * mult)).astype(object)
             idf["source"] = idf["source"].apply(lambda x : config["source"])
-            idf["notes"] = idf["notes"].apply(lambda x : get_notes(str(x), config))
+            idf["note"] = idf["note"].apply(lambda x : get_notes(str(x), config))
             filestem = config["prefix"] + "_" + iso3.lower() + "_" + config["suffix"]
             filename = filestem + ".csv"
             filepath = config["gen_2_dir"] + filename

@@ -10,9 +10,11 @@ import utils_statmart as us
 
 # <codecell>
 
+us.verbose = True
+
 gen_0_dir = statmart_facts_gen0 + "sidsrcm/"
-gen_1_dir = statmart_facts_gen0 + "sidsrcm/"
-gen_2_dir = statmart_facts_gen0 + "sidsrcm/"
+gen_1_dir = statmart_facts_gen1 + "sidsrcm/"
+gen_2_dir = statmart_facts_gen2 + "sidsrcm/"
 
 tmpDir = "C:/tmp/"
 
@@ -30,6 +32,34 @@ water = [{
     "generation":"0",
     "path":"water/",
     "timeseries":False
+},{
+    "description":"Water usage",
+    "descriptor":"usage",
+    "fileName":"Water_5a_Waterusage.xlsx",
+    "generation":"0",
+    "path":"water/",
+    "timeseries":True
+},{
+    "description":"Households connected",
+    "descriptor":"households-connected",
+    "fileName":"Water_5d_HouseholdsConnected.xlsx",
+    "generation":"0",
+    "path":"water/",
+    "timeseries":True
+},{
+    "description":"Sectoral demand",
+    "descriptor":"sectoral-demand",
+    "fileName":"Water_5b_SectoralDemand.xlsx",
+    "generation":"0",
+    "path":"water/",
+    "timeseries":True
+},{
+    "description":"Water production",
+    "descriptor":"water-production",
+    "fileName":"Water_5e_WaterProduction.xlsx",
+    "generation":"0",
+    "path":"water/",
+    "timeseries":True
 },{
     "description":"Rainfall",
     "descriptor":"rainfall",
@@ -253,14 +283,6 @@ def cleanWhitespace(df):
 
 #utility functions
 
-chatter = False
-def elog(s):
-    if chatter:
-        print(s)
-
-def formatComputerReadableString(strn):
-    return(strn.strip().lower().replace(" ","-"))
-
 def saveAsCSV(df, path, name, prefix, suffix="",index=False, float_format='%.2f'):
     filename = path + prefix + "_" + name
     if suffix:
@@ -280,40 +302,46 @@ def writeGen1XLS(data, meta, gen1Path, setName, prefix, suffix=""):
     writer.save()
 
 def writeGen2CSV(data, meta, gen2Path, setName, prefix, suffix=""):
-    data = data.rename(columns=lambda x: formatComputerReadableString(x))
+    data = data.rename(columns=lambda x: us.format_lower_no_spaces(x))
     saveAsCSV(data, gen2Path, setName, prefix, suffix)
-    meta["Field"] = meta.index.map(formatComputerReadableString)
+    meta["Field"] = meta.index.map(us.format_lower_no_spaces)
     meta["English"] = meta.index
     cols = meta.columns.tolist()
     cols = cols[-2:] + cols[:-2]
     meta = meta[cols]
-    meta = meta.rename(columns=lambda x: formatComputerReadableString(x))
+    meta = meta.rename(columns=lambda x: us.format_lower_no_spaces(x))
     sufx = "meta"
     if suffix:
         sufx = suffix + "_meta"
     saveAsCSV(meta, gen2Path, setName, prefix, sufx)    
         
 def processMultiCountryFile(config):
-    elog(config)
+    us.log(config)
     xlFile = getXLFile(config)
     multiIndex = excelToMultiIndex(xlFile, header=[1,2])
     cols = getTopCols(multiIndex)
-    gen1Path = gen_1_dir + config["path"] + "/"
-    gen2Path = gen_2_dir + config["path"] + "/"
-    prefix = formatComputerReadableString(config["descriptor"])
+    gen1Path = gen_1_dir + config["path"]
+    gen2Path = gen_2_dir + config["path"]
+    us.mkdirs(gen1Path)
+    us.mkdirs(gen2Path)
+    prefix = us.format_lower_no_spaces(config["descriptor"])
     countryMap = {}
     for country in cols:
-        lcountry = formatComputerReadableString(country)
-        elog(country)
+        lcountry = us.format_lower_no_spaces(country)
+        us.log(country)
         if config["timeseries"]:
-            (monthly, yearly, meta) = getTimeseriesDataSet(multiIndex, country, config)
-            countryMap[lcountry] = (monthly, yearly, meta)
-            if len(yearly.index):
-                writeGen1XLS(yearly, meta, gen1Path, lcountry, prefix, "annual")
-                writeGen2CSV(yearly, meta, gen2Path, lcountry, prefix, "annual")
-            if len(monthly.index):
-                writeGen1XLS(monthly, meta, gen1Path, lcountry, prefix, "monthly")
-                writeGen2CSV(monthly, meta, gen2Path, lcountry, prefix, "monthly")                
+            try:
+                (monthly, yearly, meta) = getTimeseriesDataSet(multiIndex, country, config)
+                countryMap[lcountry] = (monthly, yearly, meta)
+                if len(yearly.index):
+                    writeGen1XLS(yearly, meta, gen1Path, lcountry, prefix, "annual")
+                    writeGen2CSV(yearly, meta, gen2Path, lcountry, prefix, "annual")
+                if len(monthly.index):
+                    writeGen1XLS(monthly, meta, gen1Path, lcountry, prefix, "monthly")
+                    writeGen2CSV(monthly, meta, gen2Path, lcountry, prefix, "monthly")
+            except ValueError:
+                print("********************** Unable to convert data for " + country)
+                continue
         else:
             (data, meta) = getDataSet(multiIndex, country, config)
             countryMap[lcountry] = (data, meta)

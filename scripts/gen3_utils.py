@@ -14,6 +14,8 @@ from settings_statmart import *
 
 import utils_statmart as us
 
+verbose = False
+
 # <markdowncell>
 
 # Returns all data and metadata listed in the gen_2_dir/_prefix.csv file.
@@ -29,13 +31,22 @@ def get_gen2_data(config):
         metafile = config["gen_2_dir"] + filestem + "_meta.csv"
         meta = pd.read_csv(metafile, encoding="utf-8", index_col=["key"], squeeze=True)
         datafile = config["gen_2_dir"] + filestem + ".csv"
-        data = pd.read_csv(datafile, encoding="utf-8", index_col=["year"], squeeze=False)
+        data = pd.read_csv(datafile, encoding="utf-8", squeeze=False)
         data_list.append((filestem.split("/")[-1], iso3, meta, data))
     return data_list
 
 # <codecell>
 
-def standard_load_from_data_list(data_list):
+def get_translated_field(data, record, field):
+    val = ""
+    if field in list(data.columns): #meh
+        if (pd.isnull(record[field])):
+            val = ""
+        else:
+            val = get_translation_id(str(record[field]))
+    return val
+        
+def standard_load_from_data_list(data_list, observation_fields="series, locationid, dateid, value, source, note"):
     with us.get_db_connection() as cursor:
         for (series_key, iso3, meta, data) in data_list:
             cursor.execute("SELECT ID FROM location WHERE iso3 = %s AND divisionname IS NULL AND city IS NULL", [iso3])
@@ -51,25 +62,49 @@ def standard_load_from_data_list(data_list):
             for field in series_fields.split(",")[1:]:
                 field = field.strip()
                 if field in meta:
-                    values.append(meta[field])
+                    if pd.isnull(meta[field]):
+                        values.append(None)
+                    else:
+                        values.append(meta[field])
                 else:
                     values.append(None)
             cursor.execute(insert_series, values)
-            
-            for date in data.index:
-                cursor.execute("SELECT ID FROM date WHERE year = %s AND month IS NULL AND day IS NULL", [str(date)])
-                dateid = list(cursor)[0][0]
-                observation_fields = "series, locationid, dateid, value, source, note" 
-                #full list of fields: `OBSERVATIONID`, `SERIESID`, `LOCATIONID`, `DATEID`, `NOTEID`, `DESCRIPTIONID`, `VALUE`, `UNITID`, `STATUSID`
-                insert_observation = "INSERT INTO observation(" + observation_fields + ") VALUES (%s, %s, %s, %s, %s, %s)"
-                record = data.ix[date];
-                source = ""
-                if "source" in list(data.columns):
-                    source = get_translation_id(str(record["source"]))
-                note = ""
-                if "note" in list(data.columns):
-                    note = get_translation_id(str(record["notes"]))
-                values  = [series_key, locationid, dateid, str(record["value"]), source, note]
+
+            for indx in data.index:
+                record = data.ix[indx];
+                values = []
+                valplaces = []
+                for field in observation_fields.split(","):
+                    valplaces.append("%s")
+                    field = field.strip()
+                    if field == "dateid": #TODO: this needs to be revisited; it assumes that "year" is the only date value
+                        cursor.execute("SELECT ID FROM date WHERE year = %s AND month IS NULL AND day IS NULL", [str(record["year"])])
+                        dateid = list(cursor)[0][0]        
+                        values.append(dateid)      
+                    
+                    if field == "description":
+                        values.append(get_translated_field(data, record, "description"))
+                
+                    if field == "locationid": #TODO: this needs to be revisited
+                        values.append(locationid)   
+                        
+                    if field == "note":        
+                        values.append(get_translated_field(data, record, "note"))
+                
+                    if field == "series":
+                        values.append(series_key)
+                        
+                    if field == "source":               
+                        values.append(get_translated_field(data, record, "source"))     
+                
+                    if field == "value":
+                        values.append(str(record["value"]).strip())
+                                
+                insert_observation = "INSERT INTO observation(" + observation_fields + ") VALUES (" + ", ".join(valplaces) + ")"
+                # this logging can be very chatty
+                if verbose:
+                    us.log(insert_observation)
+                    us.log(values)
                 cursor.execute(insert_observation, values)
             cursor.execute("COMMIT")
 
@@ -93,7 +128,7 @@ def get_translation_id(strn, lang=statmart_default_language):
         if count > 1:
             raise Exception("There are multiple instances of the phrase '%s' in the database. This case is not currently supported.")
         query = "INSERT INTO translation (" + lang + ") VALUES (%s);"
-        cursor.execute(query, [strn])
+        cursor.execute(query, [strn.strip()])
         cursor.execute("SELECT LAST_INSERT_ID();")
         id = list(cursor)[0][0]
         translation_id_cache[cache_key] = id

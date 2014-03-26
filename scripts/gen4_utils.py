@@ -107,6 +107,7 @@ def build_d3_line_graph(config):
     body = html.body(html.script("\n".join(script)))
     page = html.html(head + "\n" + body)
     page_name = build_file_name(config)
+    us.mkdirs(config["gen_4_dir"])
     page_file = open(config["gen_4_dir"] + page_name, "w", encoding="utf8")
     page_file.write(page)
     page_file.close()    
