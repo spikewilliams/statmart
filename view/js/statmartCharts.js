@@ -10,9 +10,10 @@ function smChart(chartType) {
 
 	var width = 456;
 	var height = 362;
-    var headerHeight = 50;
-    var footerHeight = 25;
-	var margin = {top: 5, right: 5, bottom: 50, left: 5};
+    var headerHeight = 58;
+    var footerHeight = 40;
+    var legendHeight = 40;
+	var margin = {top: 5, right: 5, bottom: 5, left: 5};
 
     var valueLabelWidth = 50; // space reserved for value labels (right)
     var barHeight = 26; // height of one bar
@@ -25,18 +26,21 @@ function smChart(chartType) {
 
     var labelField = "name";
     var valueField = "value";
+    var xvalueField = "xvalue";
     var dateFormat = "%Y"
 
     var title = "none";
     var subtitle = "none";
     var source = "none";
     var yAxisLabel = "none";
+    var xAxisLabel = "none";
     var unit = "guess";
     var titleLoc = "header";
     var divisor = 1;
+    var xDivisor = 1;
     var decimalPlaces = 2;
 
-
+	var color = d3.scale.category20c();
 	var parseDate = d3.time.format(dateFormat).parse;
 
 
@@ -44,7 +48,9 @@ function smChart(chartType) {
 	var getLabel = function(d) { return d[labelField]; };
 	var getDate  = function(d) { return parseDate(d[labelField]); };
 	var getValue = function(d) { return parseFloat(+d[valueField])/divisor; };
+	var getXValue = function(d) { return parseFloat(+d[xValueField])/xDivisor; };
 	var getWholeValue = function(d) { return parseFloat(+d[valueField]) };
+	var xAxisTransform = function(d) { return "rotate(-90)" };
 
 	function barChart(selection) { // barChart is adapted from code provided by d3-generator.com
 
@@ -61,7 +67,7 @@ function smChart(chartType) {
 			var height = gridLabelHeight + gridChartOffset * 2 + data.length * barHeight + margin.top + headerHeight + footerHeight + margin.bottom;
 
 			// svg container element
-			var svg = d3.select('#chart').append("svg") ////////////////////////////////////////////// #chart -> selection?
+			var svg = selection.append("svg")
 			  .attr('width', width)
 			  .attr('height', height);
 
@@ -161,7 +167,7 @@ function smChart(chartType) {
 			var plotHeight = height - margin.top - margin.bottom - headerHeight - footerHeight;
 
 		   data.forEach(function(d) {
-				d.date = getDate(d);
+			   	d.date = getDate(d);
 				d.value = getValue(d);
 			});
 
@@ -191,7 +197,7 @@ function smChart(chartType) {
 			    .y0(plotHeight)
 			    .y1(function(d) { return y(d.value); });
 
-			var svg = d3.select('#chart').append("svg") /////////////////////////////////////////////////////////////
+			var svg = selection.append("svg") /////////////////////////////////////////////////////////////
 			    .attr("width", "100%")
 			    .attr("height", height)
 					.attr("viewBox", "0 0 " + width + " " + height)
@@ -206,9 +212,7 @@ function smChart(chartType) {
 					  .style("text-anchor", "end")
 					  .attr("dx", "-.8em")
 					  .attr("dy", "-.25em")
-					  .attr("transform", function(d) {
-						  return "rotate(-90)"
-				});
+					  .attr("transform", xAxisTransform);
 
 			yaxisg = svg.append("g")
 			  .attr("class", "y axis")
@@ -262,12 +266,178 @@ function smChart(chartType) {
 		});
 	}
 
+	function scatterPlot(selection) {
+		builder = scatterPlot;
+		selection.each(function() {
+
+			builder.initSVG(selection);
+
+			builder.loadData();
+
+			var labelMap = {};
+			data.forEach(function(d) {
+				d.xvalue = +getXValue(d);
+				d.yvalue = +getValue(d);
+				});
+
+			builder.buildLabels();
+
+			xValueFunction = function(d) { return d.xvalue * 1.1; }
+			xScaleType = d3.scale.linear();
+			builder.buildXScale(xValueFunction, xScaleType);
+
+			yValueFunction = function(d) { return d.yvalue; }
+			yScaleType = d3.scale.linear();
+			builder.buildYScale(yValueFunction, yScaleType);
+
+
+			var xAxis = d3.svg.axis()
+			    .scale(x)
+			    .orient("bottom")
+			    .ticks(10);
+
+			var yAxis = d3.svg.axis()
+			    .scale(y)
+			    .orient("left");
+
+			xaxisg = svg.append("g")
+			  .attr("class", "x axis")
+			  .attr("transform", "translate(0," + plotHeight + ")")
+			  .call(xAxis)
+				.selectAll("text")
+					  .style("text-anchor", "end")
+					  .attr("dx", "-.8em")
+					  .attr("dy", "-.25em")
+					  .attr("transform", xAxisTransform);
+
+			yaxisg = svg.append("g")
+			  .attr("class", "y axis")
+			  .call(yAxis);
+
+			xAxisLabelTransform = "";
+			yAxisLabelTransform = "rotate(-90) translate(" + plotHeight * -1 + ",-34)";
+
+			svg.selectAll("circle")
+			   .data(data)
+			   .enter()
+			   .append("circle")
+			   .attr("cx", function(d) { return x(d.xvalue); })
+			   .attr("cy", function(d) { return y(d.yvalue); })
+			   .attr("r", 7)
+			   .style("fill", function(d) { return color(d.label); });;
+
+			titleLocationMap = {
+				"header":{
+					"x": 0,
+					"y": -1 * headerHeight,
+					"text-anchor": "start"
+				},
+				"topright":{
+					"x": (width),
+					"y": 0,
+					"text-anchor": "end"
+				},
+				"topleft":{
+					"x": 10,
+					"y": 0,
+					"text-anchor": "start"
+				},
+				"bottomright":{
+					"x": (width),
+					"y": (height - 58),
+					"text-anchor": "end"
+				},
+				"bottomleft":{
+					"x": 10,
+					"y": (height - 58),
+					"text-anchor": "start"
+				}
+			}
+			titleLocation = titleLocationMap[titleLoc];
+
+			header = svg.append("g")
+				.attr("class","header")
+				.attr("transform", "translate(0," + margin.top + ")");
+			sourceg = svg.append("g")
+				.attr("class","source")
+				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (plotHeight - 10) + ")");
+
+			builder.addTextElements();
+			builder.buildLegend();
+		});
+	}
+
+
 	var builder;
 	if (chartType == "barChart"){
 		builder = barChart;
 	} else if (chartType == "lineGraph"){
 		builder = lineGraph;
+	} else if (chartType == "scatterPlot"){
+		builder = scatterPlot;
 	}
+
+		// the following variables would be considered "protected",
+		// if such a concept existed in JavaScript
+	var svg;
+	var data;
+	var plotWidth;
+	var plotHeight;
+
+	builder.initSVG = function(selection){
+
+		if (subtitle == "none"){ // shrink the header if we don't need the space for title/subtitle
+			headerHeight = headerHeight - 15;
+			if (title == "none"){
+				headerHeight = 0;
+			}
+		}
+		if (typeof titleLoc != "undefined" && titleLoc != "header") {
+			headerHeight = 0;
+		}
+		plotWidth = width - margin.left - margin.right;
+		plotHeight = height - margin.top - margin.bottom - headerHeight - footerHeight - legendHeight;
+
+		svg = selection.append("svg")
+						.attr("width", "100%")
+						.attr("height", height)
+						.attr("viewBox", "0 0 " + width + " " + height)
+					  	.append("g")
+							.attr("transform", "translate(" + margin.left + "," + (margin.top + headerHeight) + ")");
+	}
+
+	var data;
+	builder.loadData = function(){
+		data = d3.csv.parse(d3.select(dataSelector).text());
+	}
+
+	var labelMap;
+	builder.buildLabels = function(){
+		labelMap = {};
+		data.forEach(function(d) {
+			d.label = getLabel(d);
+			labelMap[d.label] = {"label":d.label, "color":color(d.label)};
+		});
+	}
+
+	var x;
+	builder.buildXScale = function(domainFunction, dscale){
+		if (arguments.length == 1){
+			dscale = d3.scale.linear();
+		}
+		x = dscale.domain(d3.extent(data, domainFunction))
+						.range([0, plotWidth - 1]).nice();
+	}
+
+	var y;
+	builder.buildYScale = function(domainFunction, dscale){
+		if (arguments.length == 1){
+			dscale = d3.scale.linear();
+		}
+		y = dscale.domain([0, d3.max(data, domainFunction)])
+						.range([plotHeight, 0]).nice();
+	}
+
 	builder.addTextElements = function() {
 		if (title != "none"){
 			header.append("text")
@@ -290,13 +460,59 @@ function smChart(chartType) {
 				.attr("class", "source")
 				.text("Source: " + source);
 		}
-		if (yAxisLabel != "none"){
+		if (xAxisLabel != "none"){
+			xaxisg.append("text")
+			  .text(xAxisLabel.replace("$Unit",unit));
+		}
+
+		if (yAxisLabel != "none" && !(yAxisLabel == "$Unit" && unit == "guess")){
 			yaxisg.append("text")
 			  .attr("transform", yAxisLabelTransform)
 			  .style("text-anchor", "start")
 			  .style("padding-right","10px")
 			  .text(yAxisLabel.replace("$Unit",unit));
 		}
+	}
+
+	var	legendYSpace = 20;
+	var	legendXSpace = 100;
+	var	legendLabelGap = 12;
+	var	legendCircleRadius = 6;
+	var legend;
+
+	var legendPlotXOffset = 10;
+	var legendPlotYOffset = 50;
+
+	builder.buildLegend = function() {
+
+		legend = svg.append("g")
+			.attr("class", "legend")
+			.attr("transform", "translate(" + legendPlotXOffset + "," + (plotHeight + legendPlotYOffset) + ")");
+
+		getLegendItemY = function(d, i){
+			return (i * legendYSpace )% legendHeight;
+		}
+
+		getLegendItemX = function(d, i){
+			return parseInt((i * legendYSpace ) / legendHeight) * legendXSpace;
+		}
+
+		legend.selectAll('circle')
+			.data(Object.keys(labelMap))
+			.enter()
+			.append("circle")
+			.attr("cx", getLegendItemX)
+			.attr("cy", getLegendItemY)
+			.attr("r", legendCircleRadius)
+			.style("fill", function(d) {return labelMap[d]["color"]; });
+
+		legend.selectAll('text')
+			.data(Object.keys(labelMap))
+			.enter()
+			.append("text")
+			.attr("x", function(d,i) {return getLegendItemX(d,i) + legendLabelGap;})
+			.attr("y", function(d,i) {return getLegendItemY(d,i) + legendCircleRadius;})
+			.text(function(d) {return d;});
 	}
 
 	builder.unitGuess = function(data){ // this is a naive algorythm that doesn't do a great job
@@ -347,6 +563,12 @@ function smChart(chartType) {
     builder.divisor = function(v) {
         if (!arguments.length) { return divisor; }
         divisor = v;
+        return builder;
+    }
+
+    builder.headerHeight = function(v) {
+        if (!arguments.length) { return headerHeight; }
+        headerHeight = v;
         return builder;
     }
 
@@ -401,6 +623,24 @@ function smChart(chartType) {
     builder.width = function(v) {
         if (!arguments.length) { return width; }
         width = v;
+        return builder;
+    }
+
+    builder.xAxisLabel = function(v) {
+        if (!arguments.length) { return xAxisLabel; }
+        xAxisLabel = v;
+        return builder;
+    }
+
+    builder.xDivisor = function(v) {
+        if (!arguments.length) { return xDivisor; }
+        xDivisor = v;
+        return builder;
+    }
+
+    builder.xValueField = function(v) {
+        if (!arguments.length) { return xValueField; }
+        xValueField = v;
         return builder;
     }
 

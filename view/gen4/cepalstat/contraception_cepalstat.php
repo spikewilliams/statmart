@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv='content-type' content='text/html; charset=UTF-8'/>
 <title>Contraceptive use</title>
-<script type='text/javascript' src='http://localhost:81/js/d3.v3.min.js'></script>
+<script type='text/javascript' src='../../js/d3.v3.min.js'></script>
 <style><?php include('../../inc/style_basic.php'); ?></style></head>
 <body><script type='text/javascript'>//<![CDATA[
 //~metadata_iso3_map
@@ -162,12 +162,17 @@ if (typeof tloc != "undefined" && tloc != "header") {
         }
 
 //~svg_draw_source
+
+        source = seriesInfoMap[seriesName]["originalsource"];
+        if (source == null){
+            source = seriesInfoMap[seriesName]["proximatesource"]
+        }
         svg.append("g")
 		  .attr("transform", "translate(10," + (height - 15) + ")")
         .append("text")
 			.attr("class", "source")
 			.attr("dy","10px")
-			.text("Source: " + seriesInfoMap[seriesName]["originalsource"]);
+			.text("Source: " + source);
 
 //~js_d3_end_csv
     });
