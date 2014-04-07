@@ -1,0 +1,13 @@
+key,value
+name,Belize - Desalination plant capacity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,Plants are reverse osmosis 
+unit,Imp. Ga/day
+category,Water
+type,Desalination
+file,water-desal_blz_sidsrcm.csv
+filehash,ad522ca7360050e6a731eaeea6d4b9877a2aeb60
+columns,"description,value"

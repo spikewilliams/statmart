@@ -1,0 +1,13 @@
+key,value
+name,Grenada - Desalination plant capacity [SIDS RCM]
+originalsource,Grenada Strategic Program for Resilience (SPRC) March 2011
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,
+unit,Imp. Ga/day
+category,Water
+type,Desalination
+file,water-desal_grd_sidsrcm.csv
+filehash,27f34ffcf88a689f14ed4a03045d48c0f97a9c18
+columns,"description,value"

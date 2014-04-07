@@ -1,0 +1,13 @@
+key,value
+name,Antigua and Barbuda - Reservoir capcity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_atg_sidsrcm.csv
+filehash,83259ec84412b17822235718f2fe346a37017bde
+columns,"description,value"

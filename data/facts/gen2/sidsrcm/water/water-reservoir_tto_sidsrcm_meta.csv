@@ -1,0 +1,13 @@
+key,value
+name,Trinidad and Tobago - Reservoir capcity [SIDS RCM]
+originalsource,Public Education Centre Water & Sewerage Authority. 2012. Reservoirs in Trinidad & Tobago. Trinidad & Tobago: WASA.
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_tto_sidsrcm.csv
+filehash,dbdadc3060daf37091da9271f64a5ea052489e40
+columns,"description,value"

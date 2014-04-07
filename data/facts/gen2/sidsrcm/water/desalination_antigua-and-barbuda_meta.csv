@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water desalination plants,,,
+set-name,Set Name,Antigua and Barbuda,,,
+plant,Plant,,,,
+capacity,Capacity,Volume,Plants are reverse osmosis,"Water Division, Antigua Public Utilities Authority",Imp. Ga/day

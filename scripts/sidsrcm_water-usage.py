@@ -55,7 +55,7 @@ for name in sorted(country_dict.keys()):
         if len(df.columns) == 2:
             dataset.append((iso3, df, mf))
         
-dataset[2][1] # This is what the data looks like
+dataset[0][1] # This is what the data looks like
 
 # <codecell>
 

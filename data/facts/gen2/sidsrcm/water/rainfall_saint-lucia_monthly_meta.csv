@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Saint Lucia,,,
+george-f-l-charles-airport,George F L Charles Airport,Precipitation,,Saint Lucia eterology Office,mm
+hewanorra-international-airport,Hewanorra International Airport,Precipitation,,Saint Lucia eterology Office,mm

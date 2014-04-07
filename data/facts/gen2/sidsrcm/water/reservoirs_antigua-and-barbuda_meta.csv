@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Reservoirs,,,
+set-name,Set Name,Antigua and Barbuda,,,
+reservoirs,Reservoirs,Name,,,
+capacity,Capacity,Capacity ,,,MG

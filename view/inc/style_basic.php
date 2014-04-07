@@ -20,8 +20,12 @@ svg {
  	font-weight: 400;
  }
 
+ .yAxisLabel {
+ 	font-size: 16px;
+ }
+
  .source {
- 	font-size: 8px;
+ 	font-size: 10px;
  	fill:#aaa;
  }
 
@@ -29,13 +33,14 @@ svg {
  .axis line {
    fill:none;
    stroke: #000;
-   shape-rendering: crispEdges;
+   shape-rendering: geometricPrecision;
+   stroke-width:2px;
  }
 
  .line {
    fill: none;
    stroke: steelblue;
-   stroke-width: 1.5px;
+   stroke-width: 2px;
  }
 
  .area {

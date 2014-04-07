@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Dominica,,,
+canefield-airport,Canefield Airport,Precipitation,,,mm
+elville-hall-airport,elville Hall Airport,Precipitation,,,mm

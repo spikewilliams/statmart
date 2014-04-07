@@ -1,0 +1,13 @@
+key,value
+name,Grenada - Reservoir capcity [SIDS RCM]
+originalsource,The Caribbean Conservation Association. 1991. Available at: http://pdf.usaid.gov/pdf_docs/PNABH224.pdf
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,Figures recorded in 1991
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_grd_sidsrcm.csv
+filehash,add8375c8fa85cb4cb4205cc39a4689fc7c7c2e5
+columns,"description,value"

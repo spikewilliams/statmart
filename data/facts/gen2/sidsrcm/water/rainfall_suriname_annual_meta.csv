@@ -1,0 +1,10 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Suriname,,,
+cultuurtuin,Cultuurtuin,Precipitation,"Cultuurtuin, Zorg en Hoop and Nickerie are on the coastal zone",,mm
+zorg-en-hoop,Zorg en Hoop,Precipitation,,,mm
+nickerie,Nickerie,Precipitation,,,mm
+sipaliwini,Sipaliwini,Precipitation,,,mm
+stoelanseiland,Stoelanseiland,Precipitation,,,mm
+tafelberg,Tafelberg,Precipitation,,,mm
+kwaalasaoetoe,Kwaalasaoetoe,Precipitation,,,mm

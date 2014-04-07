@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water desalination plants,,,
+set-name,Set Name,Belize,,,
+plant,Plant,,,Belize Water Services Limited,
+capacity,Capacity,Volume,Plants are reverse osmosis ,,Imp. Ga/day

@@ -1,0 +1,13 @@
+key,value
+name,Suriname - Reservoir capcity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_sur_sidsrcm.csv
+filehash,75016f965728facd54ef29a6a01a1d7d50aa757d
+columns,"description,value"

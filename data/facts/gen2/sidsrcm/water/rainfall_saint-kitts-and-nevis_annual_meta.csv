@@ -1,0 +1,4 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Saint Kitts and Nevis,,,
+national,National,Precipitation,,"Statistics Division, Planning Unit, Saint Kitts and Nevis",mm

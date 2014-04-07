@@ -1,0 +1,13 @@
+key,value
+name,Jamaica - Reservoir capcity [SIDS RCM]
+originalsource,"Water Resources Authority, Jamaica. 2012."
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_jam_sidsrcm.csv
+filehash,946acc52ac87416046ef49c24ba8ff305d987fca
+columns,"description,value"

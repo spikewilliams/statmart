@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Reservoirs,,,
+set-name,Set Name,Jamaica,,,
+reservoirs,Reservoirs,,,,
+capacity,Capacity,Capacity ,,"Water Resources Authority, Jamaica. 2012.",MG

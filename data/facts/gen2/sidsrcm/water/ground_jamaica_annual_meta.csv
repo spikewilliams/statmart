@@ -1,0 +1,13 @@
+field,english,description,note,source,unit
+indicator,Indicator,Groundwater,,,
+set-name,Set Name,Jamaica,,,
+blue-mountain-south,Blue Mountain South,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990",mcm
+kingston,Kingston,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1991",mcm
+rio-cobre,Rio Cobre,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1992",mcm
+rio-minho,Rio Minho,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1993",mcm
+black-river,Black River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1994",mcm
+cabartta-river,Cabartta River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1995",mcm
+great-river,Great River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1996",mcm
+martha-brae-river,Martha Brae River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1997",mcm
+dry-harbour-mountain,Dry Harbour Mountain,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1998",mcm
+blue-mountain-north,Blue Mountain North,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1999",mcm

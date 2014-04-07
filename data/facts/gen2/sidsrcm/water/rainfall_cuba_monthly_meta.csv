@@ -1,0 +1,4 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Cuba,,,
+national,National,Precipitation,,Instituto de eteorología de Cuba: INSET (2011) LLuvias. (Cuban Institute of eteorology: CI (2011) Rainfall.),mm

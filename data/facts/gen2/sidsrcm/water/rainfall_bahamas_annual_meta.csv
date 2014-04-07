@@ -1,0 +1,4 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Bahamas,,,
+national,National,Precipitation,,,mm

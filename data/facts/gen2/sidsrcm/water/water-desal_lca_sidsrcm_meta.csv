@@ -1,0 +1,13 @@
+key,value
+name,Saint Lucia - Desalination plant capacity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,"TiKaye Plant is a brackish water reserve osmosis membrane unit | Desalination plants are used by at least 2 resorts, Sandals Grande St. Lucian Beach Resort and Spa on the Pigeon Island Causeway to make up for shortfall in supply by WASCO. Sandals, mixes the desalinated water with that supplied by WASCO, 50:50 using membranes at 6000 psi. They do not treat with chlorine, but they do use an anti-scalant and treat periodically with acid and alkaline solutions."
+unit,Imp. Ga/day
+category,Water
+type,Desalination
+file,water-desal_lca_sidsrcm.csv
+filehash,3d9401387b2c99d6ae0c74c2358b15ca6077da1a
+columns,"description,value"

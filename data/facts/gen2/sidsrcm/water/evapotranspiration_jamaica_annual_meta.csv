@@ -1,0 +1,13 @@
+field,english,description,note,source,unit
+indicator,Indicator,Evapotranspiration,,,
+set-name,Set Name,Jamaica,,,
+blue-mountain-south,Blue Mountain South,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2012",mcm
+kingston,Kingston,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2013",mcm
+rio-cobre,Rio Cobre,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2014",mcm
+rio-minho,Rio Minho,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2015",mcm
+black-river,Black River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2016",mcm
+cabartta-river,Cabartta River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2017",mcm
+great-river,Great River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2018",mcm
+martha-brae-river,Martha Brae River,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2019",mcm
+dry-harbour-mountain,Dry Harbour Mountain,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2020",mcm
+blue-mountain-north,Blue Mountain North,Volume,,"Water Resources Agency, Water Resources Master Plan of Jamaica, 1990 |  Water Resources Agency, Water Resources Draft Master Plan of Jamaica, 2021",mcm

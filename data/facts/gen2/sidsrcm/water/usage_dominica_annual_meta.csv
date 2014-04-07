@@ -1,0 +1,7 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water usage,,,
+set-name,Set Name,Dominica,,,
+domestic,Domestic,Volume,,Dominica Water & Sewerage Company,Imp. MG
+industrial,Industrial,Volume,,Dominica Water & Sewerage Company,Imp. MG
+commercial,Commercial,Volume,,Dominica Water & Sewerage Company,Imp. MG
+government,Government,Volume,,Dominica Water & Sewerage Company,Imp. MG

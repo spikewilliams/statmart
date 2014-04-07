@@ -1,0 +1,13 @@
+key,value
+name,Saint Vincent and The Grenadines - Desalination plant capacity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,Bequia Desalination Plant is a reverse osmosis plant
+unit,
+category,Water
+type,Desalination
+file,water-desal_vct_sidsrcm.csv
+filehash,cb65e42f6fff2c52b5a8e5ac908a6bd5d9b1c57d
+columns,"description,value"

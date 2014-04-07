@@ -1,0 +1,14 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Antigua and Barbuda,,,
+national,National,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+cades-bay,Cades Bay,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+christian-valley,Christian Valley,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+cobbs-cross,Cobbs Cross,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+cochrane,Cochrane,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+renfrew,Renfrew,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+dunbars,Dunbars,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+codrington,Codrington,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+coolidge,Coolidge,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+green-castle,Green Castle,Precipitation,,Antigua and Barbuda Meteorological Services,mm
+jolly-hill,Jolly Hill,Precipitation,,Antigua and Barbuda Meteorological Services,mm

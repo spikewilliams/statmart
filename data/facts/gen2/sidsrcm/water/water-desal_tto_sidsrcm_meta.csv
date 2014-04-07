@@ -1,0 +1,13 @@
+key,value
+name,Trinidad and Tobago - Desalination plant capacity [SIDS RCM]
+originalsource,Desalcott Trinidad & Tobago Ltd. 2012. <http://desalcott.com/about-us.html> Accessed June 3rd 2012 |Emmanuel-Rodriguez G. 2007. Water & Wastewater: Solving Trinidad & Tobago’s watersupply through establishment of additional desalination plants – practical solution? <http://www.ric.org.tt/OOCUR/papers/water_and_wastewater.pdf> Accessed June 3rd 2012
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,Plant is a reverse osmosis
+unit,
+category,Water
+type,Desalination
+file,water-desal_tto_sidsrcm.csv
+filehash,5dd83cbdda90d4758cc73e4da5a1c1269a4a11cb
+columns,"description,value"

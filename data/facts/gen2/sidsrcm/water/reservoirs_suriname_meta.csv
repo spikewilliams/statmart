@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Reservoirs,,,
+set-name,Set Name,Suriname,,,
+reservoirs,Reservoirs,,"The coastal area of Suriname, especially  the young Coastal plain, is low and flat with elevations of between the 0-10m. The “coastal belt” is about 5 km wide in the east and about 50 km wide in the west. Swamps cover about 60 percent of the coastal plain. In many areas, water is fresh during the wet seasons from precipitation falling directly on the swamps. During dry seasons, the swamps revert to brackish conditions. ",,Name
+capacity,Capacity,Capacity ,,,MG

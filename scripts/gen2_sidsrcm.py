@@ -24,9 +24,6 @@ import gen1_cepalstat
 
 # <codecell>
 
-
-# <codecell>
-
 def get_meta_map(mf):
     metamap = {}
     

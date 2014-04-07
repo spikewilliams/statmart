@@ -1,0 +1,13 @@
+key,value
+name,Belize - Reservoir capcity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_blz_sidsrcm.csv
+filehash,b7f9e835dc6daab36ce661da9480421145fd7188
+columns,"description,value"

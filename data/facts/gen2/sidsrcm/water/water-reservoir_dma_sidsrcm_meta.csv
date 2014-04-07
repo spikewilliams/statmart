@@ -1,0 +1,13 @@
+key,value
+name,Dominica - Reservoir capcity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Reservoir capcity
+description,Capacity of water reservoies and storage tanks
+note,
+unit,MG
+category,Water
+type,Reservoirs
+file,water-reservoir_dma_sidsrcm.csv
+filehash,f7ccf234337151db23efcb7b7bdf5c2195419b08
+columns,"description,value"

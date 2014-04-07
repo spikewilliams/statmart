@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water desalination plants,,,
+set-name,Set Name,Cuba,,,
+plant,Plant,,, Instituto Nacional de Recursos Hidráulicos INRH (2000). Plantas desalinizadoras. (National Institute of Hydraulic Resources NIHR (2000). Desalination Plants),
+capacity,Capacity,Volume,"Cayo Largo, Covarrubia and Jibacoa are for tourism supply. Manati Harbour and Guamo Pier are for household supply",,Imp. Ga/day

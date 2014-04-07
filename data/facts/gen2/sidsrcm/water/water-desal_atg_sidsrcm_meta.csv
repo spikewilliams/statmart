@@ -1,0 +1,13 @@
+key,value
+name,Antigua and Barbuda - Desalination plant capacity [SIDS RCM]
+originalsource,"Water Division, Antigua Public Utilities Authority"
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,Plants are reverse osmosis
+unit,Imp. Ga/day
+category,Water
+type,Desalination
+file,water-desal_atg_sidsrcm.csv
+filehash,0827f45e2921b0999c2eedc4b630bb10801c316e
+columns,"description,value"

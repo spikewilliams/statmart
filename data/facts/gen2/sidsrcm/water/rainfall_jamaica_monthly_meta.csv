@@ -1,0 +1,4 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Jamaica,,,
+national,National,Precipitation,," eteorological Services, Jaaica",mm

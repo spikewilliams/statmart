@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water desalination plants,,,
+set-name,Set Name,Trinidad and Tobago,,,
+plant,Plant,,,,
+capacity,Capacity,Volume,Plant is a reverse osmosis,Desalcott Trinidad & Tobago Ltd. 2012. <http://desalcott.com/about-us.html> Accessed June 3rd 2012 |Emmanuel-Rodriguez G. 2007. Water & Wastewater: Solving Trinidad & Tobago’s watersupply through establishment of additional desalination plants – practical solution? <http://www.ric.org.tt/OOCUR/papers/water_and_wastewater.pdf> Accessed June 3rd 2012,

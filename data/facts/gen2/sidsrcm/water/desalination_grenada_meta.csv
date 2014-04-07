@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water desalination plants,,,
+set-name,Set Name,Grenada,,,
+plant,Plant,,,,
+capacity,Capacity,Volume,,Grenada Strategic Program for Resilience (SPRC) March 2011,Imp. Ga/day

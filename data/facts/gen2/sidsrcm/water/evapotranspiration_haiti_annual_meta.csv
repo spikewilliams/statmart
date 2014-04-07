@@ -1,0 +1,10 @@
+field,english,description,note,source,unit
+indicator,Indicator,Evapotranspiration,,,
+set-name,Set Name,Haiti,,,
+west,West,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm
+north,North,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm
+south,South,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm
+southeast,SouthEast,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm
+northwest,Northwest,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm
+northeast,Northeast,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm
+central,Central,,,"Rainfed Agriculture In Haiti By George H. Hargreaves And Zohrab A. Samani (April, 1983)",mm

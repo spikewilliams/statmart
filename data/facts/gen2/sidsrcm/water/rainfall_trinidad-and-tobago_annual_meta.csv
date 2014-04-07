@@ -1,0 +1,6 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Trinidad and Tobago,,,
+east-belt,East Belt,Precipitation,,"Central Statistical Office, Trinidad and Tobago",mm
+west-belt,West Belt,Precipitation,,"Central Statistical Office, Trinidad and Tobago",mm
+tobago,Tobago,Precipitation,,"Central Statistical Office, Trinidad and Tobago",mm

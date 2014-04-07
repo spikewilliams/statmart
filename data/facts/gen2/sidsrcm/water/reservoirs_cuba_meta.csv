@@ -1,0 +1,6 @@
+field,english,description,note,source,unit
+indicator,Indicator,Reservoirs,,,
+set-name,Set Name,Cuba,,,
+region,Region,,,Instituto Nacional de Recursos Hidráulicos: INRH (2011) Boletín hirológico. Números: Diciembre 2004; Diciembre 2005; Diciembre 2006; Diciembre 2007; Diciembre 2008; Diciembre 2009; Diciembre 2010 (National Institute of Hydraulics Resources: NIHR: (2011) Hydrologic bulletin. Numbers: December 2004; December 2005; December 2006; December 2007; December 2008; December 2009; December 2010),
+number-of-reservoirs,Number of Reservoirs,Quantity,,,Count
+capacity,Capacity,Capacity ,"In 2010, there were 239 reservoirs in Cuba, but the last known capacity is in 2005",Instituto Nacional de Recursos Hidráulicos: INRH (2011) Reservas de agua en el país. (National Institute of Hydraulics Resources: NIHR: (2011) Reservoirs of water in the country.),MG

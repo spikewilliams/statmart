@@ -1,0 +1,13 @@
+key,value
+name,Cuba - Desalination plant capacity [SIDS RCM]
+originalsource,
+proximatesource,SIDS RCM
+dataset,Desalination plant capacity
+description,"Water desalination plants, and their processing capacity"
+note,"Cayo Largo, Covarrubia and Jibacoa are for tourism supply. Manati Harbour and Guamo Pier are for household supply"
+unit,Imp. Ga/day
+category,Water
+type,Desalination
+file,water-desal_cub_sidsrcm.csv
+filehash,f906f51a215305ac7fbe65721caad546c814d0e3
+columns,"description,value"

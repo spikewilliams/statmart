@@ -1,0 +1,5 @@
+field,english,description,note,source,unit
+indicator,Indicator,Water desalination plants,,,
+set-name,Set Name,Saint Lucia,,,
+plant,Plant,,,Caribbean Environmental Health Institute (CEHI). Report for the Study on The Evaluation of Desalination Plants in The Caribbean,
+capacity,Capacity,Volume,"TiKaye Plant is a brackish water reserve osmosis membrane unit | Desalination plants are used by at least 2 resorts, Sandals Grande St. Lucian Beach Resort and Spa on the Pigeon Island Causeway to make up for shortfall in supply by WASCO. Sandals, mixes the desalinated water with that supplied by WASCO, 50:50 using membranes at 6000 psi. They do not treat with chlorine, but they do use an anti-scalant and treat periodically with acid and alkaline solutions.",,Imp. Ga/day

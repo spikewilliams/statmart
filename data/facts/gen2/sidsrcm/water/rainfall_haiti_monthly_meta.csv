@@ -1,0 +1,14 @@
+field,english,description,note,source,unit
+indicator,Indicator,Rainfall,,,
+set-name,Set Name,Haiti,,,
+station-gonaïves,Station Gonaïves,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-juvénat-(p.v),Station Juvénat (P.V),Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-daien,Station Daien,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-delas,Station Delas,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-port-au-prince,Station Port-au-Prince,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-saint-arc,Station Saint-arc,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-cap-haitien,Station Cap-Haitien,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-ouanainthe,Station Ouanainthe,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-jacel,Station Jacel,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-la-vallée-de-jacel,Station La Vallée de Jacel,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm
+station-cayes,Station Cayes,Precipitation,,"ARNDR / CPSECE / DEAP / Service de Statistiques Agricoles, Haiti",mm

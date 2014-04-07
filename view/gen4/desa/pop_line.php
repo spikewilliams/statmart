@@ -50,8 +50,8 @@
 ?></script>
     <script>
 
-        d3.select("#chart")
-            .call(smChart("lineGraph")
+        var chart = d3.select("#chart")
+            .call(smChart("timeSeriesLineGraph")
                 .decimalPlaces(0)
                 .divisor(1000)
                 .labelField("year")
