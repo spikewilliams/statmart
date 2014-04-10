@@ -187,7 +187,7 @@ function smChart(chartType) {
 			    .y1(function(d) { return y(d.value); });
 
 			function drawLine(data) {
-				return svg.append("path")
+				return chartArea.append("path")
 				  .datum(data)
 				  .attr("class", "line")
 				  .attr("d", line);
@@ -206,8 +206,8 @@ function smChart(chartType) {
 
 			header = svg.append("g")
 				.attr("class","header")
-				.attr("transform", "translate(0," + margin.top + ")");
-			sourceg = svg.append("g")
+				.attr("transform", "translate(0," + titleLocation["y"] + ")");
+			sourceg = chartArea.append("g")
 				.attr("class","source")
 				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (plotHeight - 10) + ")");
 
@@ -305,9 +305,8 @@ function smChart(chartType) {
 		svg = selection.append("svg")
 						.attr("width", "100%")
 						.attr("height", height)
-						.attr("viewBox", "0 0 " + width + " " + height)
-					  	.append("g")
-							.attr("transform", "translate(" + margin.left + "," + (margin.top + headerHeight) + ")");
+						.attr("viewBox", "0 0 " + width + " " + height);
+		chartArea = svg.append("g").attr("transform", "translate(" + margin.left + "," + (margin.top + headerHeight) + ")");
 	}
 
 	var data;
@@ -364,7 +363,7 @@ function smChart(chartType) {
 			.orient("bottom")
 			.ticks(10);
 
-		xaxisg = svg.append("g")
+		xaxisg = chartArea.append("g")
 		  .attr("class", "x axis")
 		  .attr("transform", "translate(0," + plotHeight + ")")
 		  .call(xAxis)
@@ -382,7 +381,7 @@ function smChart(chartType) {
 			.scale(y)
 			.orient("left");
 
-		yaxisg = svg.append("g")
+		yaxisg = chartArea.append("g")
 		  .attr("class", "y axis")
 		  .call(yAxis);
 	}
@@ -401,7 +400,7 @@ function smChart(chartType) {
 	var titleLocationMap = {
 		"header":{
 			"x": 0,
-			"y": -1 * headerHeight,
+			"y": margin.top + headerHeight/5,
 			"text-anchor": "start"
 		},
 		"topright":{
@@ -416,12 +415,12 @@ function smChart(chartType) {
 		},
 		"bottomright":{
 			"x": (width),
-			"y": (height - 58),
+			"y": (height - headerHeight),
 			"text-anchor": "end"
 		},
 		"bottomleft":{
 			"x": 10,
-			"y": (height - 58),
+			"y": (height - headerHeight),
 			"text-anchor": "start"
 		}
 	}
@@ -443,9 +442,9 @@ function smChart(chartType) {
 		  	header.append("text")
 				.attr("class", "subtitle")
 				.attr("x", titleLocation["x"] + "px")
-				.attr("y", titleLocation["y"] + 27 + "px")
+				.attr("y", titleLocation["y"] + 20 + "px")
 				.style("text-anchor", titleLocation["text-anchor"])
-				.text(subtitle);
+				.text(subtitle + headerHeight + titleLocation["y"] );
 		}
 		if (source != "none"){
 			sourceg.append("text")
@@ -478,7 +477,7 @@ function smChart(chartType) {
 
 	builder.buildLegend = function() {
 
-		legend = svg.append("g")
+		legend = chartArea.append("g")
 			.attr("class", "legend")
 			.attr("transform", "translate(" + legendPlotXOffset + "," + (plotHeight + legendPlotYOffset) + ")");
 

@@ -8,13 +8,11 @@ svg {
  }
 
  .title {
- 	alignment-baseline: hanging;
  	font-size: 26px;
  	font-weight:400;
  }
 
  .subtitle {
- 	alignment-baseline: hanging;
  	stroke: none;
  	font-size: 16px;
  	font-weight: 400;
