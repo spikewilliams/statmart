@@ -167,7 +167,7 @@ SQLQUERY;
                 .source("Economic Commission for Latin America and the Caribbean (CEPALStat)")
                 .title(getParameterByName("title", "Contribution to GDP by sector"))
                 .titleLoc(getParameterByName("tloc","header"))
-                .yAxisLabel("$Unit of USD (2005 equivalent)")
+                .yAxisLabel("USD - $Unit (2005 equiv.)")
 		<?php
 			writeParamsJS($params);
 		?>

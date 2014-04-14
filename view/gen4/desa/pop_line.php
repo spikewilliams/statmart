@@ -53,6 +53,9 @@
                 .source(smGetParameterByName("source", source))
                 .title(smGetParameterByName("title", "Population"))
                 .yAxisLabel("$Unit")
+ 		<?php
+			writeParamsJS($params);
+		?>
             );
 
     </script>

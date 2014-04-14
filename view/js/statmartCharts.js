@@ -13,7 +13,7 @@ function smChart(chartType) {
     var headerHeight = 58;
     var footerHeight = 40;
     var legendHeight = 40;
-	var margin = {top: 5, right: 5, bottom: 5, left: 5};
+	var margin = {top: 10, right: 5, bottom: 5, left: 5};
 
     var valueLabelWidth = 50; // space reserved for value labels (right)
     var barHeight = 26; // height of one bar
