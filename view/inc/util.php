@@ -37,4 +37,47 @@
 			}
 		}
 	}
+
+	function writeParamsJS($params){
+		if (array_key_exists('dp',$params)){
+			print (".decimalPlaces(${params['dp']})");
+		}
+		if (array_key_exists('div',$params)){
+			print (".divisor(${params['div']})");
+		}
+		if (array_key_exists('h',$params)){
+			print (".height(${params['h']})");
+		}
+		if (array_key_exists('source',$params)){
+			print (".source('${params['source']}')");
+		}
+		if (array_key_exists('subtitle',$params)){
+			print (".subtitle('${params['subtitle']}')");
+		}
+		if (array_key_exists('title',$params)){
+			print (".title('${params['title']}')");
+		}
+		if (array_key_exists('tloc',$params)){
+			print (".titleLoc(${params['loc']})");
+		}
+		if (array_key_exists('unit',$params)){
+			print (".unit('${params['unit']}')");
+		}
+		if (array_key_exists('w',$params)){
+			print (".width(${params['w']})");
+		}
+		if (array_key_exists('xal',$params)){
+			print (".xAxisLabel('${params['xal']}')");
+		}
+		if (array_key_exists('xdiv',$params)){
+			print (".xdiv(${params['xdiv']})");
+		}
+		if (array_key_exists('yal',$params)){
+			print (".yAxisLabel('${params['yal']}')");
+		}
+		if (array_key_exists('yaloffset',$params)){
+			print (".yLabelOffset(${params['yaloffset']})");
+		}
+	}
+
 ?>

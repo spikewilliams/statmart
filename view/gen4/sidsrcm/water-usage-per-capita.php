@@ -88,6 +88,10 @@ SQLQUERY;
 			.titleLoc("header")
 			.unit("Gallons")
 			.yAxisLabel("none")
+		<?php
+			parse_str($_SERVER['QUERY_STRING'], $params);
+			writeParamsJS($params);
+		?>
 		);
     </script>
   </body>

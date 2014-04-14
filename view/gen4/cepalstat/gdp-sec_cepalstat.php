@@ -66,6 +66,11 @@ SQLQUERY;
 	var allSeriesLabels = [];
 	var seriesOrder = [];
 	var maxSeries = 16;
+	<?php
+		if (array_key_exists('maxseries',$params)){
+			print ("maxSeries = ${params['maxseries']};");
+		}	?>
+
 	var blockList = [];
 	data.forEach(function(d) {
 		if (exclude.indexOf(d.series) > -1){
@@ -163,6 +168,10 @@ SQLQUERY;
                 .title(getParameterByName("title", "Contribution to GDP by sector"))
                 .titleLoc(getParameterByName("tloc","header"))
                 .yAxisLabel("$Unit of USD (2005 equivalent)")
+		<?php
+			writeParamsJS($params);
+		?>
+
             );
     </script>
   </body>

@@ -81,6 +81,9 @@ include("../inc/series_csv_query.php");
 			.legendXSpace(180)
 			.seriesLabels(seriesLabels)
 			.seriesFilter(seriesFilter)
+		<?php
+			writeParamsJS($params);
+		?>
 		);
 	console.log(numLabels);
     </script>
