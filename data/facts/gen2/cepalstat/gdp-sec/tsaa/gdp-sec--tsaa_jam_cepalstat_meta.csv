@@ -7,5 +7,5 @@ description,Sectoral GDP: Transport and supporting and auxiliary activities
 category,Economic
 type,GDP
 file,gdp-sec--tsaa_jam_cepalstat.csv
-filehash,f84bcb6a0106240efcf78c687154592addbb97ab
+filehash,746611cc7506548112de72673205523e3f44b107
 columns,"year,value,source,notes"

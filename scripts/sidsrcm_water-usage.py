@@ -13,6 +13,7 @@ import pandas as pd
 from settings_statmart import *
 import utils_statmart as us
 
+import gen1_sidsrcm
 import gen3_utils
 import gen4_utils
 
@@ -37,9 +38,28 @@ config = {'gen_1_dir': statmart_facts_gen1 + 'sidsrcm/water/',
      'fileprefix': 'usage',
      'filesuffix': 'annual'}
 
+gen0_config = {
+    "description":config["indicator"],
+    "descriptor":"usage",
+    "fileName":"Water_5a_Waterusage.xlsx",
+    "generation":"0",
+    "path":"water/",
+    "timeseries":True
+}
+
 # <markdowncell>
 
-# Generation 1 - The xls source files this this data have been prepared by an external script. The file name is in the format desalination_country-name.xls. Each file has one worksheet of data, and a second with metadata. The names of these sheet are "data" and "metadata".
+# Generation 0 - Prepare the original xls file by converting it into a somewhat more standardized xls formation for use in Gen 1. Each outputted xls has one worksheet of data, and a second with metadata. The names of these sheet are "data" and "metadata".
+
+# <codecell>
+
+import imp
+imp.reload(gen1_sidsrcm)
+gen1_sidsrcm.process_gen0_xls(gen0_config)
+
+# <markdowncell>
+
+# Generation 1
 
 # <codecell>
 
@@ -52,14 +72,15 @@ for name in sorted(country_dict.keys()):
         df = xlfile.parse("data")
         mf = xlfile.parse("metadata")
         iso3 = country_dict[name]["iso3"]
-        if len(df.columns) == 2:
-            dataset.append((iso3, df, mf))
+        #if len(df.columns) == 2:
+        dataset.append((iso3, df, mf))
         
-dataset[0][1] # This is what the data looks like
+dataset[2][1] # This is what the data looks like
+print(dataset)
 
 # <codecell>
 
-dataset[2][2] # This is what the metadata looks like
+dataset[3][2] # This is what the metadata looks like
 
 # <markdowncell>
 
@@ -78,7 +99,11 @@ us.mkdirs(config["gen_2_dir"])
 for (iso3, df, mf) in dataset:
     us.log(iso3)
     try:
-        df.columns = ["year", "value"]
+        if len(df.columns) == 2:
+            df.columns = ["year", "value"]
+        else:
+            df.columns = ["year", "value", "notes"]
+        
     except Exception: # The data for St Kitts only has one column. We are excluding it for now.
         us.log(sys.exc_info())
         continue
@@ -87,14 +112,15 @@ for (iso3, df, mf) in dataset:
     filepath = config["gen_2_dir"] + filename
     df.to_csv(filepath, encoding="utf8", float_format='%.3f', index=False)
     
-    country = us.get_country_by_iso3(iso3)    
+    country = us.get_country_by_iso3(iso3)
     meta = [("name", "%s - %s [SIDS RCM]" % (country, config["indicator"])),
-        ("originalsource", mf.ix[keycol]["Source"]),
+      #  ("originalsource", mf.ix[keycol]["Source"]),
+        ("originalsource", "SIDS RCM"),
         ("proximatesource", "SIDS RCM"),
         ("dataset", config["indicator"]),
         ("description", config["description"]),
-        ("note", mf.ix[keycol]["Note"]),
-        ("unit", mf.ix[keycol]["Unit"]),
+      #  ("note", mf.ix[keycol]["Note"]),
+      #  ("unit", mf.ix[keycol]["Unit"]),
         ("category", config["indicator_category"]),
         ("type", config["indicator_type"]),
         ("file", filename),
@@ -102,8 +128,12 @@ for (iso3, df, mf) in dataset:
         ("columns", "description,value")
         ]
  
-    metafile = config["gen_2_dir"] + filestem + "_meta.csv"    
-    pd.DataFrame(meta,columns = ["key","value"]).to_csv(metafile, encoding="utf8", float_format='%.3f',index=False)
+    metafile = config["gen_2_dir"] + filestem + "_meta.csv"
+    try:
+        pd.DataFrame(meta,columns = ["key","value"]).to_csv(metafile, encoding="utf8", float_format='%.3f',index=False)
+    except Exception: 
+        pd.DataFrame(meta,columns = ["key","value","notes"]).to_csv(metafile, encoding="utf8", float_format='%.3f',index=False)
+       
     filelist.append(filestem)
     
 pd.DataFrame(filelist).to_csv(config["gen_2_dir"] + "_" + config["prefix"] + ".csv", encoding="utf8", index=False, header=False)
@@ -117,7 +147,7 @@ us.log("%i series saved to %s" % (len(filelist), config["gen_2_dir"]))
 
 data_list = gen3_utils.get_gen2_data(config)
 gen3_utils.standard_load_from_data_list(data_list)
-data_list
+data_list[0][1]
 
 # <markdowncell>
 

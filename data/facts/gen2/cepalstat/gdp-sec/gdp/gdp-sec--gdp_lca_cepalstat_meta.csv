@@ -7,5 +7,5 @@ description,Sectoral GDP: Gross domestic product (GDP)
 category,Economic
 type,GDP
 file,gdp-sec--gdp_lca_cepalstat.csv
-filehash,fa6b92dc44deb9b6d6e7708470f0ec6bbcede345
+filehash,d40e82458820c7b139b0bfb78c5a658b5e3eda19
 columns,"year,value,source,notes"

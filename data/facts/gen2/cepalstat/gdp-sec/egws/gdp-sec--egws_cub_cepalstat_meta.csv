@@ -7,5 +7,5 @@ description,"Sectoral GDP: Electricity, gas and water supply"
 category,Economic
 type,GDP
 file,gdp-sec--egws_cub_cepalstat.csv
-filehash,d00b523cc664c85c64e14a21386d0111b8063647
+filehash,f559ba3827dedeaccf5ab0c515b627c86fb8b65e
 columns,"year,value,source,notes"

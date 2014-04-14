@@ -7,5 +7,5 @@ description,Sectoral GDP: Construction
 category,Economic
 type,GDP
 file,gdp-sec--cstrn_kna_cepalstat.csv
-filehash,ba50f8db834b01b943c8b34a1d760dc0725f128f
+filehash,7824e142f4d68b2fda026e3e02b01ae048f5b8b0
 columns,"year,value,source,notes"

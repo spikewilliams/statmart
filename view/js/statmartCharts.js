@@ -1,15 +1,15 @@
 /*
-    This chart is built using the pattern described at
+    This library is built using the pattern described at
     http://bost.ocks.org/mike/chart/
 
 */
 
 function smChart(chartType) {
 
-    var dataSelector = "#csv";
+    var dataSelector = smGetParameterByName("dselect","#csv");
 
-	var width = 456;
-	var height = 362;
+	var width = smGetParameterByName("w",456);
+	var height = smGetParameterByName("h",362);
     var headerHeight = 58;
     var footerHeight = 40;
     var legendHeight = 40;
@@ -29,17 +29,17 @@ function smChart(chartType) {
     var xvalueField = "xvalue";
     var dateFormat = "%Y"
 
-    var title = "none";
-    var subtitle = "none";
-    var source = "none";
-    var yAxisLabel = "none";
-    var xAxisLabel = "none";
-    var yLabelOffset = "guess";
-    var unit = "guess";
-    var titleLoc = "header";
-    var divisor = 1;
-    var xDivisor = 1;
-    var decimalPlaces = 2;
+    var title = smGetParameterByName("title","none");
+    var subtitle = smGetParameterByName("subtitle","none");
+    var source = smGetParameterByName("source","none");
+    var yAxisLabel = smGetParameterByName("yal","none");
+    var xAxisLabel = smGetParameterByName("xal","none");
+    var yLabelOffset = smGetParameterByName("yaloffset","guess");
+    var unit = smGetParameterByName("unit","guess");
+    var titleLoc = smGetParameterByName("tloc","header");
+    var divisor = parseInt(smGetParameterByName("div","1"));
+    var xDivisor = parseInt(smGetParameterByName("xdiv","1"));
+    var decimalPlaces = parseInt(smGetParameterByName("dp","1"));
 
 	var color = d3.scale.category20();
 	var parseDate = d3.time.format(dateFormat).parse;
@@ -186,20 +186,61 @@ function smChart(chartType) {
 				.y0(plotHeight)
 			    .y1(function(d) { return y(d.value); });
 
-			function drawLine(data) {
+			function getSegments(data, maxGap){
+				console.log("seg");
+				if (data.length == 0){
+					return [data];
+				}
+				last = -1;
+				segments = [];
+				seg = [];
+				for (i = 0; i < data.length; i++){
+					d = data[i];
+					if (last == -1){
+						// pass
+					} else if (d.date - last > maxGap){
+						segments.push(seg);
+						seg = [];
+					}
+					seg.push(d)
+					last = d.date;
+				}
+				segments.push(seg);
+				return segments;
+			}
+
+			function drawSegment(data, s) {
+				if (data.length == 1) { // draw a dot if there is only one element
+					d = data[0];
+					return chartArea.append("circle")
+						.attr("cx", x(d.date))
+						.attr("cy", y(d.value))
+						.attr("r", 3)
+						.style("fill", color(s));
+				}
 				return chartArea.append("path")
 				  .datum(data)
 				  .attr("class", "line")
-				  .attr("d", line);
+				  .attr("d", line)
+				  .style("stroke", color(s));
 			}
+
+			function drawLine(data, s){
+				yrlength = 31536000000;
+				segments = getSegments(data, 3 * yrlength);
+				for (i = 0; i < segments.length; i++){
+					drawSegment(segments[i],s);
+				}
+			}
+
+
 			if (seriesLabels == null){
 				drawLine(data);
 			} else {
 				var serieses = builder.getSeriesOrder();
 				for (var i = 0; i < serieses.length; i++){
 					var s = serieses[i];
-					p = drawLine(seriesFilter(data, s));
-					p.style("stroke", color(s));
+					p = drawSegment(seriesFilter(data, s), s);
 				}
 			}
 			builder.setTitleLocation(titleLoc);
@@ -248,21 +289,21 @@ function smChart(chartType) {
 			xAxisLabelTransform = "";
 			yAxisLabelTransform = "rotate(-90) translate(" + plotHeight * -1 + "," + builder.getYLabelOffset() + ")";
 
-			svg.selectAll("circle")
+			chartArea.selectAll("circle")
 			   .data(data)
 			   .enter()
 			   .append("circle")
 			   .attr("cx", function(d) { return x(d.xvalue); })
 			   .attr("cy", function(d) { return y(d.yvalue); })
 			   .attr("r", 7)
-			   .style("fill", function(d) { return color(d.label); });;
+			   .style("fill", function(d) { return color(d.label); });
 
 			builder.setTitleLocation(titleLoc);
 
 			header = svg.append("g")
 				.attr("class","header")
 				.attr("transform", "translate(0," + margin.top + ")");
-			sourceg = svg.append("g")
+			sourceg = chartArea.append("g")
 				.attr("class","source")
 				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (plotHeight - 10) + ")");
 
@@ -444,7 +485,7 @@ function smChart(chartType) {
 				.attr("x", titleLocation["x"] + "px")
 				.attr("y", titleLocation["y"] + 20 + "px")
 				.style("text-anchor", titleLocation["text-anchor"])
-				.text(subtitle + headerHeight + titleLocation["y"] );
+				.text(subtitle);
 		}
 		if (source != "none"){
 			sourceg.append("text")
@@ -477,16 +518,18 @@ function smChart(chartType) {
 
 	builder.buildLegend = function() {
 
+		yBumps = 0;
+
 		legend = chartArea.append("g")
 			.attr("class", "legend")
 			.attr("transform", "translate(" + legendPlotXOffset + "," + (plotHeight + legendPlotYOffset) + ")");
 
 		getLegendItemY = function(d, i){
-			return (i * legendYSpace )% legendHeight;
+			return ((i + yBumps) * legendYSpace )% legendHeight;
 		}
 
 		getLegendItemX = function(d, i){
-			return parseInt((i * legendYSpace ) / legendHeight) * legendXSpace;
+			return parseInt(((i + yBumps) * legendYSpace ) / legendHeight) * legendXSpace;
 		}
 
 		legend.selectAll('circle')
@@ -594,6 +637,18 @@ function smChart(chartType) {
         return builder;
     }
 
+    builder.legendXSpace = function(v) {
+        if (!arguments.length) { return legendXSpace; }
+        legendXSpace = v;
+        return builder;
+    }
+
+    builder.legendYSpace = function(v) {
+        if (!arguments.length) { return legendYSpace; }
+        legendYSpace = v;
+        return builder;
+    }
+
     builder.margin = function(v) {
         if (!arguments.length) { return margin; }
         margin = v;
@@ -695,4 +750,12 @@ function smChart(chartType) {
 
 function smTranslation(text){
 	return text; // language translation not yet implemented
+}
+
+function smGetParameterByName(name, default_param) {
+	var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+	if (match) {
+		return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+	}
+	return default_param;
 }

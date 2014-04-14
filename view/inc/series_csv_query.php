@@ -17,6 +17,6 @@ foreach ($serieses as $series) {
     $types .= "s";
 }
 
-$query .= " ORDER BY D.year LIMIT 2000;";
+$query .= " ORDER BY D.year LIMIT 3000;";
 
 csvQuery($query, $serieses, $types);

@@ -7,5 +7,5 @@ description,Sectoral GDP: Taxes on products less subsidies on products
 category,Economic
 type,GDP
 file,gdp-sec--taxes_kna_cepalstat.csv
-filehash,0a08430798840f6b77f1ccfb7414999a85531c13
+filehash,3d6f11dffe869b9393650a421149c84958825fb5
 columns,"year,value,source,notes"

@@ -7,5 +7,5 @@ description,Sectoral GDP: Statistical discrepancy of GDP by economic activity
 category,Economic
 type,GDP
 file,gdp-sec--discrep_kna_cepalstat.csv
-filehash,1e7f51e9fb377d6a69616bf2ab152bded09bbe86
+filehash,5d9f7ca24c41e4fbb474c04cdfcb97f3f7b1957e
 columns,"year,value,source,notes"

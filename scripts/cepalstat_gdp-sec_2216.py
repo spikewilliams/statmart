@@ -87,7 +87,7 @@ sector_map = {'Agriculture, hunting and forestry':'aghufo',
  'Manufacturing':'mfg',
  'Mining and quarrying':'mq',
  'Post and telecommunications':'pt',
- 'Public administration, defence, compulsory social security, education, ' +
+ 'Public administration, defence; compulsory social security, education, ' +
      'health and social work, and other community, social and personal service activities': 'public',
  'Statistical discrepancy of GDP by economic activity': 'discrep',
  'Taxes on products less subsidies on products': 'taxes',
@@ -151,11 +151,11 @@ for config in configs:
 
 # <codecell>
 
-import imp
+"""import imp
 imp.reload(gen4_utils)
 for config in configs:
     config = gen4_utils.build_gen4_config(config, unit="Value in millions of USD (2013 equivalent)")
-    page = gen4_utils.build_d3_line_graph(config)
+    page = gen4_utils.build_d3_line_graph(config)"""
 
 # <codecell>
 

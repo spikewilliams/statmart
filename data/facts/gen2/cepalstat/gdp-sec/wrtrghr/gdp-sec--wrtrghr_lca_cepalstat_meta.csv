@@ -7,5 +7,5 @@ description,"Sectoral GDP: Wholesale and retail trade, repair of goods, and hote
 category,Economic
 type,GDP
 file,gdp-sec--wrtrghr_lca_cepalstat.csv
-filehash,367832ba7c5e0382829c3303efa13cc3c8504538
+filehash,4c6a99dfdd7fde3be6675ab9a7668e0f3ab8a655
 columns,"year,value,source,notes"

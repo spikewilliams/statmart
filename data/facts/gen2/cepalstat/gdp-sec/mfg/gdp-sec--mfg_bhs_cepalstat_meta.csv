@@ -7,5 +7,5 @@ description,Sectoral GDP: Manufacturing
 category,Economic
 type,GDP
 file,gdp-sec--mfg_bhs_cepalstat.csv
-filehash,243e30ef249565bdebb146b3c9ea34e8c58e260e
+filehash,454aae51b861f2c8da1c937342dcc71ecc17b8ba
 columns,"year,value,source,notes"

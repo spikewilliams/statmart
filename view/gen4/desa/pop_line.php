@@ -19,13 +19,7 @@
     <script src="../../js/d3.v3.min.js"></script>
     <script src="../../js/statmartCharts.js"></script>
     <script>
-		function getParameterByName(name, default_param) {
-			var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
-			if (match) {
-				return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-			}
-			return default_param;
-		}
+
 
 		var iso3 = "<?php print($iso3); ?>";
 
@@ -55,10 +49,9 @@
                 .decimalPlaces(0)
                 .divisor(1000)
                 .labelField("year")
-                .subtitle(getParameterByName("subtitle", countryName))
-                .source(getParameterByName("source", source))
-                .title(getParameterByName("title", "Population"))
-                .titleLoc(getParameterByName("tloc","header"))
+                .subtitle(smGetParameterByName("subtitle", countryName))
+                .source(smGetParameterByName("source", source))
+                .title(smGetParameterByName("title", "Population"))
                 .yAxisLabel("$Unit")
             );
 

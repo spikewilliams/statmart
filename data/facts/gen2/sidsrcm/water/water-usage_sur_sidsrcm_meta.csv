@@ -1,11 +1,9 @@
 key,value
 name,Suriname - Water usage [SIDS RCM]
-originalsource,Surinaamsche Waterleiding Maatschappij
+originalsource,SIDS RCM
 proximatesource,SIDS RCM
 dataset,Water usage
 description,Water usage
-note,
-unit,Imp. MG
 category,Water
 type,Reservoirs
 file,water-usage_sur_sidsrcm.csv

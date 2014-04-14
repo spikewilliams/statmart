@@ -7,5 +7,5 @@ description,Sectoral GDP: Mining and quarrying
 category,Economic
 type,GDP
 file,gdp-sec--mq_guy_cepalstat.csv
-filehash,b93a28054d88a878672f07f504d9e66652b28644
+filehash,055a8ee2e80d5f3c29f28ba5cf251b629b004701
 columns,"year,value,source,notes"

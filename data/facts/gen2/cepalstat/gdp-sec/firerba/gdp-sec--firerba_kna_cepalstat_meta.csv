@@ -7,5 +7,5 @@ description,"Sectoral GDP: Financial intermediation, real estate, renting and bu
 category,Economic
 type,GDP
 file,gdp-sec--firerba_kna_cepalstat.csv
-filehash,ca00c7247d8edfb1a4bac5381ae552cc0be755b0
+filehash,f46f42bc0c0c707469215216c685a8a504324880
 columns,"year,value,source,notes"

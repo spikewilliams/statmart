@@ -7,5 +7,5 @@ description,Sectoral GDP: Hotels and restaurants
 category,Economic
 type,GDP
 file,gdp-sec--hr_atg_cepalstat.csv
-filehash,857c66d380304ff7d2d0e7e2dcb8e293ea6e7bfd
+filehash,20b52c7ed6706df6d9aed176117e67ee050830dc
 columns,"year,value,source,notes"

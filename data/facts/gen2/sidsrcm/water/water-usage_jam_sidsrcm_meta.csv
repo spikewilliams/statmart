@@ -1,11 +1,9 @@
 key,value
 name,Jamaica - Water usage [SIDS RCM]
-originalsource,Economic and Social Survey of Jamaica
+originalsource,SIDS RCM
 proximatesource,SIDS RCM
 dataset,Water usage
 description,Water usage
-note,
-unit,Imp. MG
 category,Water
 type,Reservoirs
 file,water-usage_jam_sidsrcm.csv

@@ -7,5 +7,5 @@ description,Sectoral GDP: Total value added
 category,Economic
 type,GDP
 file,gdp-sec--tva_vct_cepalstat.csv
-filehash,e927ecca3622c930efd1017d8407a87284c675ea
+filehash,501d1c546256411837e23c035a952c3e19b3891a
 columns,"year,value,source,notes"

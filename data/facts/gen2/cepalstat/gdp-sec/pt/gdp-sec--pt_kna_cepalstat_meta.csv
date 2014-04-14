@@ -7,5 +7,5 @@ description,Sectoral GDP: Post and telecommunications
 category,Economic
 type,GDP
 file,gdp-sec--pt_kna_cepalstat.csv
-filehash,c7872b5882094dc328f63dcca0467959c08af9a2
+filehash,8f49fb66773ff3c40bbaca36f68e741c3bc0b535
 columns,"year,value,source,notes"

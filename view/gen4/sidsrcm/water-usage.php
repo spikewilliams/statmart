@@ -71,13 +71,13 @@ include("../../inc/series_csv_query.php");
 		.call(smChart("timeSeriesLineGraph")
 			.dataSelector("#waterUsageData")
 			.decimalPlaces(0)
-			.divisor(1000)
+			.divisor(1)
 			.labelField("year")
 			.subtitle(getParameterByName("subtitle", countryName))
 			.source(getParameterByName("source", source))
 			.title(getParameterByName("title", "Total water usage"))
 			.titleLoc(getParameterByName("tloc","header"))
-		//	.unit("Imperial mega gallons")
+			.unit("Imperial mega gallons")
 			.yAxisLabel("$Unit")
 		);
     </script>

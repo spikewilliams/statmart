@@ -39,14 +39,16 @@ water = [{
     "generation":"0",
     "path":"water/",
     "timeseries":True
-},{
-    "description":"Households connected",
-    "descriptor":"households-connected",
-    "fileName":"Water_5d_HouseholdsConnected.xlsx",
-    "generation":"0",
-    "path":"water/",
-    "timeseries":True
-},{
+},
+         #{
+    #"description":"Households connected",
+   # "descriptor":"households-connected",
+    #"fileName":"Water_5d_HouseholdsConnected.xlsx",
+    #"generation":"0",
+    #"path":"water/",
+    #"timeseries":True
+#},
+{
     "description":"Sectoral demand",
     "descriptor":"sectoral-demand",
     "fileName":"Water_5b_SectoralDemand.xlsx",
