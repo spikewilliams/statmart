@@ -43,7 +43,10 @@
 	include("../../inc/series_csv_query.php");
 ?></script>
     <script>
-
+    <?php
+    if ($rowcount == 0){
+    	print "//XXX_NO_DATA_XXX";
+    } else { ?>
         var chart = d3.select("#chart")
             .call(smChart("timeSeriesLineGraph")
                 .decimalPlaces(0)
@@ -57,6 +60,7 @@
 			writeParamsJS($params);
 		?>
             );
+<?php } ?>
 
     </script>
   </body>

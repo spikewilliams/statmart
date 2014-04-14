@@ -19,4 +19,4 @@ foreach ($serieses as $series) {
 
 $query .= " ORDER BY D.year LIMIT 3000;";
 
-csvQuery($query, $serieses, $types);
+$rowcount = csvQuery($query, $serieses, $types);

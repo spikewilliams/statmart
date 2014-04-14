@@ -13,6 +13,7 @@
 
 	function csvQuery($query, $params=False, $types=False){
 		global $db_connection;
+		$rowcount = 0;
 		if ($stmt = mysqli_prepare($db_connection, $query)) {
 			if ($params){
 				call_user_func_array('mysqli_stmt_bind_param', array_merge (array($stmt, $types), makeValuesReferenced($params)));
@@ -32,10 +33,12 @@
 				$out = fopen('php://output', 'w');
 				while ($row = $result->fetch_array(MYSQLI_NUM)) {
 					fputcsv($out, array_values($row));
+					$rowcount++;
 				}
 				fclose($out);
 			}
 		}
+		return $rowcount;
 	}
 
 	function writeParamsJS($params){

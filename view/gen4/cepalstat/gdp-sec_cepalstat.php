@@ -138,7 +138,7 @@ SQLQUERY;
 		WHERE O.series LIKE  ?
 SQLQUERY;
 
-	csvQuery($query, $serieses, $types);
+	$rowcount = csvQuery($query, $serieses, $types);
 ?></script>
 
     <script>
@@ -149,6 +149,10 @@ SQLQUERY;
     	for (var i = 0; i < seriesAbrevs.length; i++){
     		color(srs(seriesAbrevs[i]));
     	}
+    <?php
+    if ($rowcount == 0){
+    	print "//XXX_NO_DATA_XXX";
+    } else { ?>
 
         var chart = d3.select("#gdpSecChart")
             .call(smChart("timeSeriesLineGraph")
@@ -171,8 +175,8 @@ SQLQUERY;
 		<?php
 			writeParamsJS($params);
 		?>
-
             );
+        <?php } ?>
     </script>
   </body>
 </html>

@@ -72,6 +72,10 @@ include("../inc/series_csv_query.php");
 	var seriesFilter = function(data, series){
 		return data.filter(function(d){ return d.series == series; });
 	}
+    <?php
+    if ($rowcount == 0){
+    	print "//XXX_NO_DATA_XXX";
+    } else { ?>
 
 	var chart = d3.select("#<?php print $chartName; ?>")
 		.call(smChart("timeSeriesLineGraph")
@@ -85,7 +89,8 @@ include("../inc/series_csv_query.php");
 			writeParamsJS($params);
 		?>
 		);
-	console.log(numLabels);
+
+	<?php } ?>
     </script>
   </body>
 </html>

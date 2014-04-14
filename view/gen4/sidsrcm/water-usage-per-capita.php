@@ -68,10 +68,14 @@ SQLQUERY;
 		WHERE O.series like "water-usage_%_sidsrcm"
 SQLQUERY;
 
-	csvQuery($query);
+	$rowcount = csvQuery($query);
 ?></script>
 
     <script>
+    <?php
+    if ($rowcount == 0){
+    	print "//XXX_NO_DATA_XXX";
+    } else { ?>
 	var chart = d3.select("#waterUsageChart")
 		.call(smChart("timeSeriesLineGraph")
 			.dataFilter(dFilter)
@@ -93,6 +97,7 @@ SQLQUERY;
 			writeParamsJS($params);
 		?>
 		);
+	<?php } ?>
     </script>
   </body>
 </html>
