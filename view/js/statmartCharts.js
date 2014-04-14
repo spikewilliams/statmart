@@ -40,6 +40,8 @@ function smChart(chartType) {
     var divisor = parseInt(smGetParameterByName("div","1"));
     var xDivisor = parseInt(smGetParameterByName("xdiv","1"));
     var decimalPlaces = parseInt(smGetParameterByName("dp","1"));
+	var lineClass = smGetParameterByName("lineClass","line");
+	var sourceClass = smGetParameterByName("sourceClass","source");
 
 	var color = d3.scale.category20();
 	var parseDate = d3.time.format(dateFormat).parse;
@@ -217,6 +219,12 @@ function smChart(chartType) {
 						.attr("cy", y(d.value))
 						.attr("r", 3)
 						.style("fill", color(s));
+				}
+				if (lineClass == "area"){
+					return chartArea.append("path")
+					  .datum(data)
+					  .attr("class", "area")
+					  .attr("d", area);
 				}
 				return chartArea.append("path")
 				  .datum(data)
@@ -649,6 +657,12 @@ function smChart(chartType) {
         return builder;
     }
 
+	builder.lineClass = function(v) {
+		if (!arguments.length) { return lineClass; }
+		lineClass = v;
+		return builder;
+    }
+
     builder.margin = function(v) {
         if (!arguments.length) { return margin; }
         margin = v;
@@ -677,6 +691,12 @@ function smChart(chartType) {
         if (!arguments.length) { return source; }
         source = v;
         return builder;
+    }
+
+	builder.sourceClass = function(v) {
+		if (!arguments.length) { return sourceClass; }
+		sourceClass = v;
+		return builder;
     }
 
     builder.subtitle = function(v) {

@@ -52,6 +52,7 @@
                 .decimalPlaces(0)
                 .divisor(1000)
                 .labelField("year")
+                .lineClass("area")
                 .subtitle(smGetParameterByName("subtitle", countryName))
                 .source(smGetParameterByName("source", source))
                 .title(smGetParameterByName("title", "Population"))
