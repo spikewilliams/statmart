@@ -7,5 +7,5 @@ description,"Sectoral GDP: Transport, storage and communications"
 category,Economic
 type,GDP
 file,gdp-sec--tsc_lca_cepalstat.csv
-filehash,7164265d1fdaf90b73c91884d3761af76c4e2287
+filehash,4bc34ade1d8856a3f40bc3f3c0de92161bf0d9d2
 columns,"year,value,source,notes"

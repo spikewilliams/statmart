@@ -27,6 +27,7 @@
 			.divisor(0.01)
 			.height(400)
 			.labelField("iso3")
+			.legendXSpace(100)
 			.valueField("contraceptive")
 			.subtitle("12 Caribbean countries - 1990 to 2009")
 			.source("CEPALStat and UN DESA")

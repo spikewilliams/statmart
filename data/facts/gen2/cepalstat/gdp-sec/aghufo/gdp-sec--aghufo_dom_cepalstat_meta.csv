@@ -7,5 +7,5 @@ description,"Sectoral GDP: Agriculture, hunting and forestry"
 category,Economic
 type,GDP
 file,gdp-sec--aghufo_dom_cepalstat.csv
-filehash,41ddc33d8d4413c28db57bd929337f98523f3529
+filehash,fd7abe821c77e200a4112fb580fc4053faaea81c
 columns,"year,value,source,notes"

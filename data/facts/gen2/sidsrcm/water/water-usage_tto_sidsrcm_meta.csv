@@ -1,11 +1,9 @@
 key,value
 name,Trinidad and Tobago - Water usage [SIDS RCM]
-originalsource,
+originalsource,SIDS RCM
 proximatesource,SIDS RCM
 dataset,Water usage
 description,Water usage
-note,National water demand
-unit,Imp. MG
 category,Water
 type,Reservoirs
 file,water-usage_tto_sidsrcm.csv

@@ -7,5 +7,5 @@ description,Sectoral GDP: Fishing
 category,Economic
 type,GDP
 file,gdp-sec--fish_kna_cepalstat.csv
-filehash,9c8e20763de25523047532886a006b15f307e353
+filehash,a6ff150a4ac3612f080338a102c257592322c252
 columns,"year,value,source,notes"

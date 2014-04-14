@@ -1,13 +1,11 @@
 key,value
 name,Antigua and Barbuda - Water usage [SIDS RCM]
-originalsource,
+originalsource,SIDS RCM
 proximatesource,SIDS RCM
 dataset,Water usage
 description,Water usage
-note,National water demand
-unit,Imp. MG
 category,Water
 type,Reservoirs
 file,water-usage_atg_sidsrcm.csv
-filehash,0989c4c6bd7b0c9e4ed8e0d902277b8e4c5f8445
+filehash,d73ead23e4ae645619c5713e78ccdf0eba7a940e
 columns,"description,value"

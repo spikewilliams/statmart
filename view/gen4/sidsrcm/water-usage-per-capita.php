@@ -19,7 +19,7 @@
 		SELECT DISTINCT L.iso3, L.countryname, O.series, S.originalsource, S.proximatesource
 		FROM observation AS O
 		INNER JOIN location AS L ON O.locationid = L.id
-		INNER JOIN Series AS S ON O.series = S.identifier
+		INNER JOIN series AS S ON O.series = S.identifier
 		WHERE O.series LIKE  "water-usage_%_sidsrcm";
 SQLQUERY;
 
@@ -31,18 +31,18 @@ SQLQUERY;
 		return "water-usage_" + iso3 + "_sidsrcm";
 	}
 
-	var exclude = [srs("cub"),srs("tto")];
+	var exclude = [srs("cub"),srs("tto"),srs("kna")];
 
 	var data = d3.csv.parse(d3.select("#waterUsageCountries").text());
 	var seriesLabels = [];
 	data.forEach(function(d) {
-		console.log(d.series);
 		if (exclude.indexOf(d.series) > -1){
 			return;
 		}
 		seriesLabels[d.series] = d.countryname;
 	});
 
+	var numLabels = seriesLabels.length;
 	var dFilter = function(d) {
 		return (d.series in seriesLabels);
 	}
@@ -79,7 +79,7 @@ SQLQUERY;
 			.decimalPlaces(0)
 			.divisor(1)
 			.labelField("year")
-			.legendHeight(80)
+			.legendHeight(120)
             .seriesFilter(seriesFilter)
             .seriesLabels(seriesLabels)
 			.subtitle("Imperial gallons per person per year")

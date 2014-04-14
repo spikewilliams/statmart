@@ -7,5 +7,5 @@ description,"Sectoral GDP: Public administration, defence, compulsory social sec
 category,Economic
 type,GDP
 file,gdp-sec--public_kna_cepalstat.csv
-filehash,a5e6cee98dec38efcb4d5d8a9d74a95a008caa90
+filehash,5893a2ae3c2a3b25c1da92467f550dda88f19c13
 columns,"year,value,source,notes"

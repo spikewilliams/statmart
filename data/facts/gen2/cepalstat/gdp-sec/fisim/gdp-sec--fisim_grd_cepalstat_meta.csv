@@ -7,5 +7,5 @@ description,Sectoral GDP: Financial intermediation services indirectly measured 
 category,Economic
 type,GDP
 file,gdp-sec--fisim_grd_cepalstat.csv
-filehash,e970f6d3576dbf276385c47292b34dcc18f42300
+filehash,b7476b4f69df23275fc3a4cfa77dab9d41b34a02
 columns,"year,value,source,notes"

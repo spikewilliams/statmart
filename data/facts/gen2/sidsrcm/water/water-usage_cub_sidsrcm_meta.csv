@@ -1,13 +1,11 @@
 key,value
 name,Cuba - Water usage [SIDS RCM]
-originalsource,
+originalsource,SIDS RCM
 proximatesource,SIDS RCM
 dataset,Water usage
 description,Water usage
-note,National water demand
-unit,Imp. MG
 category,Water
 type,Reservoirs
 file,water-usage_cub_sidsrcm.csv
-filehash,b4558a4e51ecb48c33018fa7401ecab275742780
+filehash,95c7bc967e25f6132414a8af57fd8f06b361d67e
 columns,"description,value"
