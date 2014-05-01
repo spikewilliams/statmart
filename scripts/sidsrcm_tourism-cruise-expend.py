@@ -3,7 +3,7 @@
 
 # <headingcell level=1>
 
-# Build script for Caribbean SIDS RCM tourism data: Airplane arrivals
+# Build script for Caribbean SIDS RCM tourism data: Cruise visitor expenditures
 
 # <codecell>
 
@@ -28,20 +28,20 @@ us.verbose = True
 config = {'gen_1_dir': statmart_facts_gen1 + 'sidsrcm/tourism/',
      'gen_2_dir': statmart_facts_gen2 + 'sidsrcm/tourism/',
      'gen_4_dir': statmart_view_gen4 + 'sidsrcm/',
-     'description': 'Number of airplanes landing at airport',
-     'indicator': 'Number of airplanes landing at airport',
+     'description': 'Cruise-ship visitor expenditure per day',
+     'indicator': 'Cruise-ship visitor expenditure per day',
      'indicator_category': 'Tourism',
-     'indicator_type': 'Airplane landings',
+     'indicator_type': 'Cruise visitor expenditure',
      'multiplier': 1,
-     'prefix': 'tourism-airplanes',
+     'prefix': 'tourism-cruise-expend',
      'suffix': 'sidsrcm',
-     'fileprefix': 'airplanes',
+     'fileprefix': 'cruise-expend',
      'filesuffix': 'annual'}
 
 gen0_config = {
     "description":config["indicator"],
-    "descriptor":"airplanes",
-    "fileName":"Tourism_3g_NumberOfPlanes.xlsx",
+    "descriptor":"cruise-expend",
+    "fileName":"Tourism_1c_CruiseVisitorExpen.xlsx",
     "generation":"0",
     "path":"tourism/",
     "timeseries":True
@@ -155,10 +155,6 @@ data_list[0][1]
 # <codecell>
 
 filelist
-
-# <markdowncell>
-
-# Generation 4 - Build a portion of query string that can be used to access a graph of this data.
 
 # <codecell>
 

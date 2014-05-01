@@ -8,12 +8,12 @@ function smChart(chartType) {
 
     var dataSelector = smGetParameterByName("dselect","#csv");
 
-	var width = smGetParameterByName("w",456);
-	var height = smGetParameterByName("h",362);
+	var outerWidth = smGetParameterByName("w",800);
+	var outerHeight = smGetParameterByName("h",400);
     var headerHeight = 58;
     var footerHeight = 40;
     var legendHeight = 40;
-	var margin = {top: 10, right: 5, bottom: 5, left: 5};
+	var margin = {top: 10, right: 10, bottom: 10, left: 70};
 
     var valueLabelWidth = 50; // space reserved for value labels (right)
     var barHeight = 26; // height of one bar
@@ -133,15 +133,13 @@ function smChart(chartType) {
 
 			titleLocationMap = {
 				"header":{
-					"x": barLabelWidth,
-					"y": 0,
+					"x": margin.left + barLabelWidth,
+					"y": margin.top,
 					"text-anchor": "start"
 				}
 			}
 			titleLocation = titleLocationMap[titleLoc];
 
-			header = svg.append("g")
-				.attr("transform", "translate(0," + margin.top + ")");
 			sourceg = svg.append("g")
 				.attr("transform", "translate(" + titleLocation["x"] + "," + (height - footerHeight - margin.bottom + 10) + ")");
 
@@ -177,15 +175,13 @@ function smChart(chartType) {
 			yScaleType = d3.scale.linear();
 			builder.buildYScale(yScaleType, yValueFunction);
 
-			builder.buildXAxis();
-			builder.buildYAxis();
 			var line = d3.svg.line()
 				.x(function(d) { return x(d.date); })
 				.y(function(d) { return y(d.value); });
 
 			var area = d3.svg.area()
 				.x(function(d) { return x(d.date); })
-				.y0(plotHeight)
+				.y0(height)
 			    .y1(function(d) { return y(d.value); });
 
 			function getSegments(data, maxGap){
@@ -214,19 +210,19 @@ function smChart(chartType) {
 			function drawSegment(data, s) {
 				if (data.length == 1) { // draw a dot if there is only one element
 					d = data[0];
-					return chartArea.append("circle")
+					return plotArea.append("circle")
 						.attr("cx", x(d.date))
 						.attr("cy", y(d.value))
 						.attr("r", 3)
 						.style("fill", color(s));
 				}
 				if (lineClass == "area"){
-					return chartArea.append("path")
+					return plotArea.append("path")
 					  .datum(data)
 					  .attr("class", "area")
 					  .attr("d", area);
 				}
-				return chartArea.append("path")
+				return plotArea.append("path")
 				  .datum(data)
 				  .attr("class", "line")
 				  .attr("d", line)
@@ -241,7 +237,6 @@ function smChart(chartType) {
 				}
 			}
 
-
 			if (seriesLabels == null){
 				drawLine(data);
 			} else {
@@ -253,15 +248,15 @@ function smChart(chartType) {
 			}
 			builder.setTitleLocation(titleLoc);
 
-			header = svg.append("g")
-				.attr("class","header")
-				.attr("transform", "translate(0," + titleLocation["y"] + ")");
-			sourceg = chartArea.append("g")
+			sourceg = plotArea.append("g")
 				.attr("class","source")
-				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (plotHeight - 10) + ")");
+				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (height - 10) + ")");
 
 			xAxisLabelTransform = "";
-			yAxisLabelTransform = "rotate(-90) translate(" + plotHeight * -1 + "," + builder.getYLabelOffset() + ")";
+			yAxisLabelTransform = "rotate(-90) translate(" + height * -1 + "," + builder.getYLabelOffset() + ")";
+
+			builder.buildXAxis();
+			builder.buildYAxis();
 
 			builder.addTextElements();
 			if (seriesLabels != null){
@@ -291,13 +286,7 @@ function smChart(chartType) {
 			yScaleType = d3.scale.linear();
 			builder.buildYScale(yScaleType, yValueFunction);
 
-			builder.buildXAxis();
-			builder.buildYAxis();
-
-			xAxisLabelTransform = "";
-			yAxisLabelTransform = "rotate(-90) translate(" + plotHeight * -1 + "," + builder.getYLabelOffset() + ")";
-
-			chartArea.selectAll("circle")
+			plotArea.selectAll("circle")
 			   .data(data)
 			   .enter()
 			   .append("circle")
@@ -306,14 +295,18 @@ function smChart(chartType) {
 			   .attr("r", 7)
 			   .style("fill", function(d) { return color(d.label); });
 
-			builder.setTitleLocation(titleLoc);
 
-			header = svg.append("g")
-				.attr("class","header")
-				.attr("transform", "translate(0," + margin.top + ")");
-			sourceg = chartArea.append("g")
+			builder.buildXAxis();
+			builder.buildYAxis();
+
+			xAxisLabelTransform = "";
+			yAxisLabelTransform = "rotate(-90) translate(" + height * -1 + "," + builder.getYLabelOffset() + ")";
+
+
+			builder.setTitleLocation(titleLoc);
+			sourceg = plotArea.append("g")
 				.attr("class","source")
-				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (plotHeight - 10) + ")");
+				.attr("transform", "translate(" + (titleLocation["x"] + 10) + "," + (height - 10) + ")");
 
 			builder.addTextElements();
 			builder.buildLegend();
@@ -330,12 +323,16 @@ function smChart(chartType) {
 		builder = scatterPlot;
 	}
 
-		// the following variables would be considered "protected",
-		// if such a concept existed in JavaScript
 	var svg;
-	var data;
-	var plotWidth;
-	var plotHeight;
+	var width;  // width and height vars refer to the plot area only, as to enable some compatability with
+	var height; // the Margin Convention described at http://bl.ocks.org/mbostock/3019563
+				// However, we are not entirely in accordance with this Convention, because our svg is split up into several
+				// sections, to support the header, footer, and legend, as well as the plot area
+
+	var headerArea;
+	var plotArea;
+	var legendArea;
+	var footerArea;
 
 	builder.initSVG = function(selection){
 
@@ -348,14 +345,22 @@ function smChart(chartType) {
 		if (typeof titleLoc != "undefined" && titleLoc != "header") {
 			headerHeight = 0;
 		}
-		plotWidth = width - margin.left - margin.right;
-		plotHeight = height - margin.top - margin.bottom - headerHeight - footerHeight - legendHeight;
+		width = outerWidth - margin.left - margin.right;
+		height = outerHeight - margin.top - margin.bottom - headerHeight - footerHeight - legendHeight;
 
 		svg = selection.append("svg")
-						.attr("width", "100%")
-						.attr("height", height)
-						.attr("viewBox", "0 0 " + width + " " + height);
-		chartArea = svg.append("g").attr("transform", "translate(" + margin.left + "," + (margin.top + headerHeight) + ")");
+						.attr("width", outerWidth)
+						.attr("height", outerHeight)
+						.attr("viewBox", "0 0 " + outerWidth + " " + outerHeight)
+
+		headerArea = 	svg.append("g").attr("transform", "translate(" + margin.left + "," + (margin.top) + ")")
+							.attr("class", "sm-header");
+		plotArea = 		svg.append("g").attr("transform", "translate(" + margin.left + "," + (margin.top + headerHeight) + ")")
+							.attr("class", "sm-plot");
+		legendArea = 	svg.append("g").attr("transform", "translate(" +(margin.left +  legendXOffset) + "," + (margin.top + headerHeight + height + legendYOffset) + ")")
+							.attr("class", "sm-legend");
+		footerArea = 	svg.append("g").attr("transform", "translate(" + margin.left + "," + (margin.top + headerHeight + height + legendYOffset + legendHeight) + ")")
+							.attr("class", "sm-footer");
 	}
 
 	var data;
@@ -393,7 +398,7 @@ function smChart(chartType) {
 	var x;
 	builder.buildXScale = function(dscale, domainFunction){
 		x = dscale.domain(d3.extent(data, domainFunction))
-						.range([0, plotWidth - 1]).nice();
+						.range([0, width - 1]).nice();
 	}
 
 	var y;
@@ -401,7 +406,7 @@ function smChart(chartType) {
 	builder.buildYScale = function(dscale, domainFunction){
 		yMax = d3.max(data, domainFunction);
 		y = dscale.domain([0, yMax])
-						.range([plotHeight, 0]).nice();
+						.range([height, 0]).nice();
 	}
 
 	var xAxis;
@@ -412,9 +417,9 @@ function smChart(chartType) {
 			.orient("bottom")
 			.ticks(10);
 
-		xaxisg = chartArea.append("g")
+		xaxisg = plotArea.append("g")
 		  .attr("class", "x axis")
-		  .attr("transform", "translate(0," + plotHeight + ")")
+		  .attr("transform", "translate(0," + height + ")")
 		  .call(xAxis)
 			.selectAll("text")
 				  .style("text-anchor", "end")
@@ -430,7 +435,7 @@ function smChart(chartType) {
 			.scale(y)
 			.orient("left");
 
-		yaxisg = chartArea.append("g")
+		yaxisg = plotArea.append("g")
 		  .attr("class", "y axis")
 		  .call(yAxis);
 	}
@@ -449,27 +454,27 @@ function smChart(chartType) {
 	var titleLocationMap = {
 		"header":{
 			"x": 0,
-			"y": margin.top + headerHeight/5,
+			"y": 0,
 			"text-anchor": "start"
 		},
 		"topright":{
-			"x": (width),
-			"y": 0,
+			"x": width,
+			"y": headerHeight,
 			"text-anchor": "end"
 		},
 		"topleft":{
 			"x": 10,
-			"y": 0,
+			"y": headerHeight,
 			"text-anchor": "start"
 		},
 		"bottomright":{
-			"x": (width),
-			"y": (height - headerHeight),
+			"x": width,
+			"y": height,
 			"text-anchor": "end"
 		},
 		"bottomleft":{
 			"x": 10,
-			"y": (height - headerHeight),
+			"y": height,
 			"text-anchor": "start"
 		}
 	}
@@ -480,18 +485,18 @@ function smChart(chartType) {
 
 	builder.addTextElements = function() {
 		if (title != "none"){
-			header.append("text")
+			headerArea.append("text")
 				.attr("class", "title")
 				.attr("x", titleLocation["x"] + "px")
-				.attr("y", titleLocation["y"] + "px")
+				.attr("y", (titleLocation["y"] + headerHeight * .3)  + "px")
 				.style("text-anchor", titleLocation["text-anchor"])
 				.text(title);
 		}
 		if (subtitle != "none"){
-		  	header.append("text")
+		  	headerArea.append("text")
 				.attr("class", "subtitle")
 				.attr("x", titleLocation["x"] + "px")
-				.attr("y", titleLocation["y"] + 20 + "px")
+				.attr("y", (titleLocation["y"] + headerHeight * .7)  + "px")
 				.style("text-anchor", titleLocation["text-anchor"])
 				.text(subtitle);
 		}
@@ -521,16 +526,12 @@ function smChart(chartType) {
 	var	legendCircleRadius = 6;
 	var legend;
 
-	var legendPlotXOffset = 10;
-	var legendPlotYOffset = 55;
+	var legendXOffset = 10;
+	var legendYOffset = 55; // this is needed so that the legend area doesn't overlap with the x-axis
 
 	builder.buildLegend = function() {
 
 		yBumps = 0;
-
-		legend = chartArea.append("g")
-			.attr("class", "legend")
-			.attr("transform", "translate(" + legendPlotXOffset + "," + (plotHeight + legendPlotYOffset) + ")");
 
 		getLegendItemY = function(d, i){
 			return ((i + yBumps) * legendYSpace )% legendHeight;
@@ -584,6 +585,8 @@ function smChart(chartType) {
 		return {"unit":unit, "divisor": ufactor}
 	}
 
+
+	// boilerplate starts here
     builder.color = function(v) {
         if (!arguments.length) { return color; }
         color = v;
@@ -627,12 +630,6 @@ function smChart(chartType) {
         return builder;
     }
 
-    builder.height = function(v) {
-        if (!arguments.length) { return height; }
-        height = v;
-        return builder;
-    }
-
     builder.labelField = function(v) {
         if (!arguments.length) { return labelField; }
         labelField = v;
@@ -666,6 +663,18 @@ function smChart(chartType) {
     builder.margin = function(v) {
         if (!arguments.length) { return margin; }
         margin = v;
+        return builder;
+    }
+
+    builder.outerHeight = function(v) {
+        if (!arguments.length) { return outerHeight; }
+        outerHeight = v;
+        return builder;
+    }
+
+    builder.outerWidth = function(v) {
+        if (!arguments.length) { return outerWidth; }
+        outerWidth = v;
         return builder;
     }
 
@@ -729,12 +738,6 @@ function smChart(chartType) {
         return builder;
     }
 
-    builder.width = function(v) {
-        if (!arguments.length) { return width; }
-        width = v;
-        return builder;
-    }
-
     builder.xAxisLabel = function(v) {
         if (!arguments.length) { return xAxisLabel; }
         xAxisLabel = v;
@@ -764,6 +767,7 @@ function smChart(chartType) {
         yLabelOffset = v;
         return builder;
     }
+	// end boilerplate
 
     return builder;
 }
